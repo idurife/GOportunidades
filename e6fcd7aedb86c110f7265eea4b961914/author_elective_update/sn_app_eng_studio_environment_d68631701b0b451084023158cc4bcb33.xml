@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_app_eng_studio_environment">
+    <sn_app_eng_studio_environment action="DELETE">
+        <instance_credential display_value="x_issas_gesti_n_0.MAQUINA_DEV_SERGITO">e8d635701b0b451084023158cc4bcb43</instance_credential>
+        <instance_url>https://dev80724.service-now.com</instance_url>
+        <name>TEST</name>
+        <sys_class_name>sn_app_eng_studio_environment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-21 15:31:36</sys_created_on>
+        <sys_id>d68631701b0b451084023158cc4bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEST</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sn_app_eng_studio_environment_d68631701b0b451084023158cc4bcb33</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 15:31:36</sys_updated_on>
+    </sn_app_eng_studio_environment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sn_app_eng_studio_environment_d68631701b0b451084023158cc4bcb33</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_app_eng_studio_environment"><sn_app_eng_studio_environment action="INSERT_OR_UPDATE"><instance_credential display_value="x_issas_gesti_n_0.MAQUINA_DEV_SERGITO">e8d635701b0b451084023158cc4bcb43</instance_credential><instance_url>https://dev80724.service-now.com</instance_url><name>TEST</name><sys_class_name>sn_app_eng_studio_environment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-04-21 15:31:36</sys_created_on><sys_id>d68631701b0b451084023158cc4bcb33</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TEST</sys_name><sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package><sys_policy/><sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope><sys_update_name>sn_app_eng_studio_environment_d68631701b0b451084023158cc4bcb33</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-04-21 15:31:36</sys_updated_on></sn_app_eng_studio_environment></record_update>]]></payload>
+        <payload_hash>2030717742</payload_hash>
+        <record_name>TEST</record_name>
+        <reverted_from/>
+        <source>1a7679301b0b451084023158cc4bcb3f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-21 15:31:36</sys_created_on>
+        <sys_id>1e1835b01b0b451084023158cc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1804cc00c3a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 15:31:36</sys_updated_on>
+        <type>Environment</type>
+        <update_guid>161835b0d40b45101b459eedd959ff9d</update_guid>
+        <update_guid_history>161835b0d40b45101b459eedd959ff9d:2030717742</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="TEST">818ff1781b0b451084023158cc4bcba3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-21 16:04:01</sys_created_on>
+        <sys_db_object display_value="" name="sn_app_eng_studio_environment">sn_app_eng_studio_environment</sys_db_object>
+        <sys_id>1c4315231c424f1fa6943189cd865b89</sys_id>
+        <sys_metadata>d68631701b0b451084023158cc4bcb33</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEST</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sn_app_eng_studio_environment_d68631701b0b451084023158cc4bcb33</sys_update_name>
+        <sys_update_version display_value="sn_app_eng_studio_environment_d68631701b0b451084023158cc4bcb33">1e1835b01b0b451084023158cc4bcb9d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:04:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

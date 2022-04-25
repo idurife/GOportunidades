@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_issas_gesti_n_0_adjunto_referencia" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_issas_gesti_n_0_adjunto_referencia" element="NULL" name="x_issas_gesti_n_0_adjunto_referencia" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">295a1ecfdb4e0510f7265eea4b9619d2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>idramirez</sys_created_by>
+            <sys_created_on>2022-03-10 00:44:43</sys_created_on>
+            <sys_id>e55a1ecfdb4e0510f7265eea4b9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>idramirez</sys_updated_by>
+            <sys_updated_on>2022-03-10 00:44:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>area_funcional</element>
+            <list_id display_value="x_issas_gesti_n_0_adjunto_referencia" element="NULL" name="x_issas_gesti_n_0_adjunto_referencia" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">295a1ecfdb4e0510f7265eea4b9619d2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>idramirez</sys_created_by>
+            <sys_created_on>2022-03-10 00:44:43</sys_created_on>
+            <sys_id>6d5a1ecfdb4e0510f7265eea4b9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>idramirez</sys_updated_by>
+            <sys_updated_on>2022-03-10 00:44:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>descripcion</element>
+            <list_id display_value="x_issas_gesti_n_0_adjunto_referencia" element="NULL" name="x_issas_gesti_n_0_adjunto_referencia" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">295a1ecfdb4e0510f7265eea4b9619d2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>idramirez</sys_created_by>
+            <sys_created_on>2022-03-10 00:44:43</sys_created_on>
+            <sys_id>ed5a1ecfdb4e0510f7265eea4b9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>idramirez</sys_updated_by>
+            <sys_updated_on>2022-03-10 00:44:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>estado</element>
+            <list_id display_value="x_issas_gesti_n_0_adjunto_referencia" element="NULL" name="x_issas_gesti_n_0_adjunto_referencia" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">295a1ecfdb4e0510f7265eea4b9619d2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>idramirez</sys_created_by>
+            <sys_created_on>2022-03-10 00:44:43</sys_created_on>
+            <sys_id>615a1ecfdb4e0510f7265eea4b9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>idramirez</sys_updated_by>
+            <sys_updated_on>2022-03-10 00:44:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>herramienta</element>
+            <list_id display_value="x_issas_gesti_n_0_adjunto_referencia" element="NULL" name="x_issas_gesti_n_0_adjunto_referencia" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">295a1ecfdb4e0510f7265eea4b9619d2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>idramirez</sys_created_by>
+            <sys_created_on>2022-03-10 00:44:43</sys_created_on>
+            <sys_id>e15a1ecfdb4e0510f7265eea4b9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>idramirez</sys_updated_by>
+            <sys_updated_on>2022-03-10 00:44:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>oferta</element>
+            <list_id display_value="x_issas_gesti_n_0_adjunto_referencia" element="NULL" name="x_issas_gesti_n_0_adjunto_referencia" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">295a1ecfdb4e0510f7265eea4b9619d2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>idramirez</sys_created_by>
+            <sys_created_on>2022-03-10 00:44:43</sys_created_on>
+            <sys_id>655a1ecfdb4e0510f7265eea4b9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>idramirez</sys_updated_by>
+            <sys_updated_on>2022-03-10 00:44:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_issas_gesti_n_0_adjunto_referencia</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>idramirez</sys_created_by>
+            <sys_created_on>2022-03-10 00:44:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>295a1ecfdb4e0510f7265eea4b9619d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_issas_gesti_n_0_adjunto_referencia</sys_name>
+            <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+            <sys_update_name>sys_ui_list_x_issas_gesti_n_0_adjunto_referencia_null</sys_update_name>
+            <sys_updated_by>idramirez</sys_updated_by>
+            <sys_updated_on>2022-03-10 00:44:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

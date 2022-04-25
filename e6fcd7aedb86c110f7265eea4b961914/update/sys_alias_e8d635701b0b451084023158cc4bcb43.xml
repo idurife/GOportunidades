@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_issas_gesti_n_0.MAQUINA_DEV_SERGITO</id>
+        <multiple_connections>false</multiple_connections>
+        <name>MAQUINA DEV SERGITO</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-21 15:26:38</sys_created_on>
+        <sys_id>e8d635701b0b451084023158cc4bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_issas_gesti_n_0.MAQUINA_DEV_SERGITO</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_alias_e8d635701b0b451084023158cc4bcb43</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 15:26:38</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+</record_update>

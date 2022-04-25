@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>go_getParametros</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+    var children=[];
+    var cliente={};
+var record = new GlideRecord('x_issas_gesti_n_0_cliente');
+if (!record.isValid()) {
+    response.setError(new sn_ws_err.BadRequestError('Table is invalid'));
+    return;
+}
+record.query();
+while (record.next()) {
+    var row = {};
+    row.id=record.sys_id.getDisplayValue();
+    row.label=record.nombre.toString();
+    children.push(row);
+}
+cliente.id='go_cliente';
+cliente.label="Clientes";
+cliente.children=children;
+response.setBody(cliente);
+response.setStatus(200);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_issas_gesti_n_0/gestion_oportunidades_api/go_getParametros</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/go_getParametros</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 02:36:50</sys_created_on>
+        <sys_id>92c324bcdb5e0510f7265eea4b96198d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>go_getParametros</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ws_operation_92c324bcdb5e0510f7265eea4b96198d</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 17:15:37</sys_updated_on>
+        <web_service_definition display_value="Gestion Oportunidades API">3963ac7cdb5e0510f7265eea4b96197c</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

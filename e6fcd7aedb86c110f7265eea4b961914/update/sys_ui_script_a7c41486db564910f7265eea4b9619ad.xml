@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description/>
+        <global>false</global>
+        <name>x_issas_gesti_n_0.DisablesReferencesOfer</name>
+        <script><![CDATA[(function() {
+
+
+  addAfterPageLoadedEvent(function () {
+
+
+  if((window.location.href.indexOf('x_issas_gesti_n_0_oferta') !==-1)){
+
+
+  hideRefIcons();
+
+
+  }
+
+
+  });
+
+
+})();
+
+function hideRefIcons(){
+
+
+  $j('a[class="btn btn-icon table-btn-lg icon-info list_popup"').each(function() {
+
+
+  $j(this).css("display", "none");
+
+
+  });
+
+
+  }
+
+]]></script>
+        <script_name>DisablesReferencesOfertas</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-18 22:43:20</sys_created_on>
+        <sys_id>a7c41486db564910f7265eea4b9619ad</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_issas_gesti_n_0.DisablesReferencesOfer</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ui_script_a7c41486db564910f7265eea4b9619ad</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-18 23:07:08</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>

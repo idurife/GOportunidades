@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>adjunto</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>prueba</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    debugger;
+    try {
+		//var obddd= $j('#sn-heading');
+      $j(this)('.sn-heading').css("font-size", "1rem");
+		// var ctrl = $(".sn-heading");
+		var a="";
+			var formActionContainerwe = document.getElementById("sn-heading");
+		var formActionContainer = document.getElementsByClassName(".sn-heading");
+    } catch (e) {
+        console.log(e)
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-20 22:12:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>410a0628dbcbc910f7265eea4b961924</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>prueba</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_script_client_410a0628dbcbc910f7265eea4b961924</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 00:39:31</sys_updated_on>
+        <table>x_issas_gesti_n_0_oferta</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_script_client_410a0628dbcbc910f7265eea4b961924</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;adjunto&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;prueba&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    debugger;
+    try {
+		//var obddd= $j('#sn-heading');
+      $j(this)('.sn-heading').css("font-size", "1rem");
+		// var ctrl = $(".sn-heading");
+		var a="";
+			var formActionContainerwe = document.getElementById("sn-heading");
+		var formActionContainer = document.getElementsByClassName(".sn-heading");
+    } catch (e) {
+        console.log(e)
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;idramirez&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-20 22:12:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;410a0628dbcbc910f7265eea4b961924&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_name&gt;prueba&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gestión de Oportunidades"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_410a0628dbcbc910f7265eea4b961924&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;idramirez&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-21 00:39:31&lt;/sys_updated_on&gt;&lt;table&gt;x_issas_gesti_n_0_oferta&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1406408116</payload_hash>
+        <record_name>prueba</record_name>
+        <reverted_from/>
+        <source>1fb4f97c1bc7451084023158cc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-21 00:39:31</sys_created_on>
+        <sys_id>26ebe628db4fc910f7265eea4b96191b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>180498f528a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 15:16:57</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>eaebe628ef4fc91093011445117ba41a</update_guid>
+        <update_guid_history>eaebe628ef4fc91093011445117ba41a:1406408116,316adae4550fc91028e7c3a5b5e718c6:1319376999,740a56e4580fc9102d16fb88a9304a81:-1946164857,5f591aa4bc0fc910d48182adede13890:740132515,e8389664570fc91073b1e864e219c25a:1630566208,46f79264090fc9107e9d77442eb291ee:-71117431,e6759e60f60fc910877090fc14d45830:798337824,1365dea0160fc910e53824497a1278e1:-1086154670,bf231aec5dcbc9103fdac432d33e6054:-951376539,0713deeca2cbc91070380e438cf49990:1776080193,023196ace0cbc910aeea51d1a0d09dc9:-919741691,b69056ac74cbc910e78ccd692b9bda06:2110213067,868092ac48cbc9106cf38d70810173aa:-690335739,972f4ee8c4cbc91082705dbe46c18a8f:1607458552,a97e862cbacbc9100439e393d7543306:366147951,4d7b4a68e2cbc910052fc3da7c41fbb1:-1028265515,bd6b4a68fbcbc910ad169cbcc518eda9:1660219177,1d4bc668abcbc910acb1fd6b9bf3a26d:-653302861,acaa4e28c7cbc910d549e5abe5a78c6e:-280403730,a97a8a2868cbc910d87f90a05f0ac24c:1802174215,626a0a28edcbc910b0bff3877b98a686:-280403730,2e3ac62811cbc910810399ad9b8bcf0d:-1723355949</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-21 16:46:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>93e65672cefa4282b095d7b6b90354a4</sys_id>
+        <sys_metadata>410a0628dbcbc910f7265eea4b961924</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>prueba</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent display_value="Oferta">f73adcba1b42811084023158cc4bcbc7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_script_client_410a0628dbcbc910f7265eea4b961924</sys_update_name>
+        <sys_update_version display_value="sys_script_client_410a0628dbcbc910f7265eea4b961924">26ebe628db4fc910f7265eea4b96191b</sys_update_version>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:46:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

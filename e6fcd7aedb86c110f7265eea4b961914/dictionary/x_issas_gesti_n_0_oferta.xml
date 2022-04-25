@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Oferta" max_length="40" name="x_issas_gesti_n_0_oferta" sizeclass="607" type="collection">
+        <element choice="1" default="0" label="Adjunto" max_length="40" name="adjunto" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SI" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="NO" sequence="20" value="0"/>
+            </choice>
+        </element>
+        <element label="Alcance" max_length="2000" name="alcance" type="string"/>
+        <element label="Año Oferta" max_length="4" name="anio_oferta" type="string"/>
+        <element choice="1" label="Area Funcional" max_length="40" name="area_funcional" reference="x_issas_gesti_n_0_area_funcional" type="glide_list">
+            <choice/>
+        </element>
+        <element label="Cliente" mandatory="true" max_length="40" name="cliente" reference="x_issas_gesti_n_0_cliente" type="reference"/>
+        <element label="Comentario" max_length="500" name="comentario" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;debugger;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;current.contactos_ds_ttaa_ga=&quot;isaccc&quot;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" function_definition="glidefunction:concat(x_issas_gesti_n_0_profesional.nombre, ',' x_issas_gesti_n_0_profesional.apellidos)" label="Contactos DS/TTAA/GA" max_length="32" name="contactos_ds_ttaa_ga" reference="x_issas_gesti_n_0_profesional" reference_qual="tipoNOT INdeals,market,technician^EQ" reference_qual_condition="tipoNOT INdeals,market,technician^EQ" type="glide_list">
+            <choice/>
+        </element>
+        <element choice="1" label="Contactos Mercado" max_length="32" name="contactos_mercado" reference="x_issas_gesti_n_0_profesional" reference_qual="tipo=market^EQ" reference_qual_condition="tipo=market^EQ" type="glide_list">
+            <choice/>
+        </element>
+        <element choice="1" label="Contactos Tecnicos" max_length="40" name="contactos_tecnicos" reference="x_issas_gesti_n_0_profesional" reference_qual="tipo=technician^EQ" reference_qual_condition="tipo=technician^EQ" type="glide_list">
+            <choice/>
+        </element>
+        <element label="Descripcion detallada" max_length="1000" name="descripcion_detallada" type="string"/>
+        <element label="Diario" max_length="40" name="diario" reference="x_issas_gesti_n_0_diario" type="glide_list"/>
+        <element choice="1" label="Estado" mandatory="true" max_length="40" name="estado" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Recepcionado" sequence="0" value="recepcionado"/>
+                <element inactive_on_update="false" label="En Espera" sequence="1" value="en espera"/>
+                <element inactive_on_update="false" label="En Curso" sequence="2" value="en curso"/>
+                <element inactive_on_update="false" label="Entregado" sequence="3" value="entregado"/>
+                <element inactive_on_update="false" label="No Go" sequence="4" value="no go"/>
+                <element inactive_on_update="false" label="Ganada" sequence="5" value="ganada"/>
+                <element inactive_on_update="false" label="Perdida" sequence="6" value="perdida"/>
+            </choice>
+        </element>
+        <element label="Facturación" max_length="500" name="facturacion" type="string"/>
+        <element label="Facturacion Maxima" max_length="20" name="facturacion_maxima" type="decimal"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.estado&#13;&#10;&#9;&#13;&#10;&#13;&#10;})(current);" choice="3" choice_field="estado" label="Fase" max_length="40" name="fase" type="choice" virtual="true">
+            <choice/>
+        </element>
+        <element label="Fecha de Alta" mandatory="true" max_length="40" name="fecha_de_alta" type="glide_date"/>
+        <element label="Fecha de fin" max_length="40" name="fecha_de_fin" type="glide_date"/>
+        <element label="FTEs y Dedicación" max_length="500" name="ftes_y_dedicacion" type="string"/>
+        <element attributes="encode_utf8=false,ref_ac_columns=nombre;fabricante,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter" label="Herramienta" max_length="32" name="herramienta" reference="x_issas_gesti_n_0_herramienta" type="reference"/>
+        <element label="Margen" max_length="20" name="margen" type="decimal"/>
+        <element label="Mercado" mandatory="true" max_length="40" name="mercado" reference="x_issas_gesti_n_0_mercado" type="reference"/>
+        <element label="Metodología" max_length="4000" name="metodologia" type="glide_list"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Pais" mandatory="true" max_length="32" name="pais" reference="core_country" type="glide_list">
+            <choice/>
+        </element>
+        <element label="Responsable" max_length="40" name="responsable" reference="x_issas_gesti_n_0_profesional" reference_qual="tipo=deals^EQ" reference_qual_condition="tipo=deals^EQ" type="reference"/>
+        <element label="Situacion Previa y Necesidades" max_length="40" name="situacion_previa_y_necesidades" type="string"/>
+        <element choice="3" default="oferta" label="Tipo" max_length="40" name="tipo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Oferta" sequence="0" value="oferta"/>
+                <element inactive_on_update="false" label="Oportunidad" sequence="1" value="oportunidad"/>
+            </choice>
+        </element>
+        <element label="Titulo" mandatory="true" max_length="200" name="titulo" type="string"/>
+        <element label="Volumetría" max_length="40" name="volumetria" type="string"/>
+    </element>
+</database>

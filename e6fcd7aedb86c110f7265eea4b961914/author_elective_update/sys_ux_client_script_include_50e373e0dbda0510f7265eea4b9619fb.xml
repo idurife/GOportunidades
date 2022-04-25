@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script_include">
+    <sys_ux_client_script_include action="DELETE">
+        <access>package_private</access>
+        <api_name>x_issas_gesti_n_0.Obtener  Filtros Include</api_name>
+        <includes/>
+        <name>Obtener  Filtros Include</name>
+        <required_translations/>
+        <script><![CDATA[
+function include({imports}) { 
+    getFiltro: () =>{
+          var now = new Date();
+          var start = new Date(now.getFullYear(), 0, 0);
+          var diff = (now - start) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000);
+          var oneDay = 1000 * 60 * 60 * 24;
+          var day = Math.floor(diff / oneDay);
+          return day;
+  
+      };
+      return ({
+        getFiltro
+    });
+  }]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script_include</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-14 23:07:13</sys_created_on>
+        <sys_id>50e373e0dbda0510f7265eea4b9619fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Obtener  Filtros Include</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_client_script_include_50e373e0dbda0510f7265eea4b9619fb</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-14 23:12:47</sys_updated_on>
+    </sys_ux_client_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_ux_client_script_include_50e373e0dbda0510f7265eea4b9619fb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script_include"&gt;&lt;sys_ux_client_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;api_name&gt;x_issas_gesti_n_0.Obtener  Filtros Include&lt;/api_name&gt;&lt;includes/&gt;&lt;name&gt;Obtener  Filtros Include&lt;/name&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[
+function include({imports}) { 
+    getFiltro: () =&gt;{
+          var now = new Date();
+          var start = new Date(now.getFullYear(), 0, 0);
+          var diff = (now - start) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000);
+          var oneDay = 1000 * 60 * 60 * 24;
+          var day = Math.floor(diff / oneDay);
+          return day;
+  
+      };
+      return ({
+        getFiltro
+    });
+  }]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;idramirez&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-14 23:07:13&lt;/sys_created_on&gt;&lt;sys_id&gt;50e373e0dbda0510f7265eea4b9619fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Obtener  Filtros Include&lt;/sys_name&gt;&lt;sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gestión de Oportunidades"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_include_50e373e0dbda0510f7265eea4b9619fb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;idramirez&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-14 23:12:47&lt;/sys_updated_on&gt;&lt;/sys_ux_client_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>809334273</payload_hash>
+        <record_name>Obtener  Filtros Include</record_name>
+        <reverted_from/>
+        <source>1fb4f97c1bc7451084023158cc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-14 23:12:47</sys_created_on>
+        <sys_id>ab353b20dbda0510f7265eea4b961940</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>17f8ab49f890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 15:17:56</sys_updated_on>
+        <type>UX Client Script Include</type>
+        <update_guid>e3353b2066da051092bba636f878e640</update_guid>
+        <update_guid_history>e3353b2066da051092bba636f878e640:809334273,4ef3b7e0d4da0510293018ad623c5622:-518468599</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-21 16:49:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script_include">sys_ux_client_script_include</sys_db_object>
+        <sys_id>0a35f5b24dcd4c48814a9c994ee95731</sys_id>
+        <sys_metadata>50e373e0dbda0510f7265eea4b9619fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Obtener  Filtros Include</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_include_50e373e0dbda0510f7265eea4b9619fb</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_include_50e373e0dbda0510f7265eea4b9619fb">ab353b20dbda0510f7265eea4b961940</sys_update_version>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:49:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Mercado" max_length="40" name="x_issas_gesti_n_0_mercado" sizeclass="2" type="collection">
+        <element display="true" label="Nombre" max_length="100" name="nombre" type="string"/>
+    </element>
+</database>

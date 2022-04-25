@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_issas_gesti_n_0.glide.script.block.client.globals</name>
+        <read_roles/>
+        <suffix>glide.script.block.client.globals</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-18 21:40:55</sys_created_on>
+        <sys_id>1776804adb164910f7265eea4b96190d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_issas_gesti_n_0.glide.script.block.client.globals</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_properties_1776804adb164910f7265eea4b96190d</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-18 21:50:41</sys_updated_on>
+        <type>boolean</type>
+        <value>false</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=1776804adb164910f7265eea4b96190d"/>
+</record_update>

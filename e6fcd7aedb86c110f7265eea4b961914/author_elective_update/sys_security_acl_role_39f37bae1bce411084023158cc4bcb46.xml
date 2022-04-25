@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>ecsunahata</sys_created_by>
+        <sys_created_on>2022-03-08 17:59:21</sys_created_on>
+        <sys_id>39f37bae1bce411084023158cc4bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_issas_gesti_n_0_profesionales.x_issas_gesti_n_0.profesionales_user</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_security_acl display_value="x_issas_gesti_n_0_profesionales">b9f37bae1bce411084023158cc4bcb42</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_39f37bae1bce411084023158cc4bcb46</sys_update_name>
+        <sys_updated_by>ecsunahata</sys_updated_by>
+        <sys_updated_on>2022-03-08 17:59:21</sys_updated_on>
+        <sys_user_role display_value="x_issas_gesti_n_0.profesionales_user" name="x_issas_gesti_n_0.profesionales_user">d5f377ae1bce411084023158cc4bcbc4</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_security_acl_role_39f37bae1bce411084023158cc4bcb46</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>ecsunahata</sys_created_by><sys_created_on>2022-03-08 17:59:21</sys_created_on><sys_id>39f37bae1bce411084023158cc4bcb46</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_issas_gesti_n_0_profesionales.x_issas_gesti_n_0.profesionales_user</sys_name><sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package><sys_policy/><sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope><sys_security_acl display_value="x_issas_gesti_n_0_profesionales">b9f37bae1bce411084023158cc4bcb42</sys_security_acl><sys_update_name>sys_security_acl_role_39f37bae1bce411084023158cc4bcb46</sys_update_name><sys_updated_by>ecsunahata</sys_updated_by><sys_updated_on>2022-03-08 17:59:21</sys_updated_on><sys_user_role display_value="x_issas_gesti_n_0.profesionales_user" name="x_issas_gesti_n_0.profesionales_user">d5f377ae1bce411084023158cc4bcbc4</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1020681511</payload_hash>
+        <record_name>x_issas_gesti_n_0_profesionales.x_issas_gesti_n_0.profesionales_user</record_name>
+        <reverted_from/>
+        <source>1fb4f97c1bc7451084023158cc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ecsunahata</sys_created_by>
+        <sys_created_on>2022-03-08 17:59:21</sys_created_on>
+        <sys_id>bdf37bae1bce411084023158cc4bcb49</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>17f6aaf834d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 15:18:09</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>f5f37bae26ce411062f6a38703785249</update_guid>
+        <update_guid_history>f5f37bae26ce411062f6a38703785249:-1020681511</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_issas_gesti_n_0_profesionales.x_issas_gesti_n_0.profesionales_user">434798f61b42811084023158cc4bcb83</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ecsunahata</sys_created_by>
+        <sys_created_on>2022-03-08 20:33:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>5cb7d7e836134140b3100acca4f3b840</sys_id>
+        <sys_metadata>39f37bae1bce411084023158cc4bcb46</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_issas_gesti_n_0_profesionales.x_issas_gesti_n_0.profesionales_user</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent display_value="">b9f37bae1bce411084023158cc4bcb42</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_39f37bae1bce411084023158cc4bcb46</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_39f37bae1bce411084023158cc4bcb46">bdf37bae1bce411084023158cc4bcb49</sys_update_version>
+        <sys_updated_by>ecsunahata</sys_updated_by>
+        <sys_updated_on>2022-03-08 20:33:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

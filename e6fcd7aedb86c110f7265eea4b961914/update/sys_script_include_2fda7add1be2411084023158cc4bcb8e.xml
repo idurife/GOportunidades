@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_issas_gesti_n_0.ObtenerFiltrosContentTreeComponent</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ObtenerFiltrosContentTreeComponent</name>
+        <script><![CDATA[var ObtenerFiltrosContentTreeComponent = Class.create();
+ObtenerFiltrosContentTreeComponent.prototype = {
+	getTipoPrimerFiltro: function(payload) {
+		for (var i = 0; i < payload.value.length; i++) {
+			return payload.value[i][1];
+		}
+		return "";
+	},
+	getFiltrosByTipo: function(payload, tipo) {
+		var idsCliente = "";
+		var inicio = false;
+		for (var i = 0; i < payload.value.length; i++) {
+			if (payload.value[i][1] == tipo) {
+				if (payload.value[i][2]) {
+					if (inicio == true) {
+						idsCliente += ",";
+					}
+					idsCliente += payload.value[i][2];
+					inicio = true;
+				}
+			}
+		}
+		return idsCliente;
+	}
+};
+	]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>semartinez</sys_created_by>
+        <sys_created_on>2022-03-29 13:12:09</sys_created_on>
+        <sys_id>2fda7add1be2411084023158cc4bcb8e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>ObtenerFiltrosContentTreeComponent</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_script_include_2fda7add1be2411084023158cc4bcb8e</sys_update_name>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-03-30 23:11:36</sys_updated_on>
+    </sys_script_include>
+</record_update>

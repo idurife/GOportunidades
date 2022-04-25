@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Simple List">0321db2fdb024110f7265eea4b9619e7</macroponent>
+        <name>Filtros navigation</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+   
+const {
+        context,
+        data,
+        state,
+        setState,
+        emit
+    } = api;
+const {
+        snHttp
+    } = helpers;
+   // let dataFiltro=data.look_up_records_1.results;
+ snHttp('/api/x_issas_gesti_n_0/gestion_oportunidades_api/go_getParametros',{
+     method:"GET",
+     batch:false,
+ }).then(response=>{
+ }).catch(error => {
+        console.log('Error:' + error);
+        const message = `Error: ${error.data.error.message}`;
+        api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+            id: 'alert5',
+            status: 'high',
+            icon: 'info-circle-outline',
+            content: message,
+            action: {
+                type: 'dismiss'
+            }
+        });
+    });
+    // const {
+    //     getFiltro
+    // } = imports["x_issas_gesti_n_0.ObtenerFiltrosInclude"]();
+
+    // const defaultRoutePayload = getFiltro();
+
+    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-14 18:00:23</sys_created_on>
+        <sys_id>1bbd2ae0dbd60510f7265eea4b9619be</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Filtros navigation</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_client_script_1bbd2ae0dbd60510f7265eea4b9619be</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 17:22:53</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

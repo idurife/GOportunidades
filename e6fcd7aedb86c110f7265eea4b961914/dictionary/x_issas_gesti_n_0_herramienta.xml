@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Herramienta" max_length="40" name="x_issas_gesti_n_0_herramienta" sizeclass="2" type="collection">
+        <element label="Fabricante" max_length="40" name="fabricante" reference="core_company" reference_qual="manufacturer=true^ORvendor=true^EQ" reference_qual_condition="manufacturer=true^ORvendor=true^EQ" type="reference"/>
+        <element display="true" label="Nombre" max_length="100" name="nombre" type="string"/>
+    </element>
+</database>

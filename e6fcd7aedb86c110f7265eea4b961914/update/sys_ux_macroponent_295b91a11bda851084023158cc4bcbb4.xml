@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "record_header_1",
+      "elementLabel" : "Record Header 1",
+      "propertyValues" : {
+        "table" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "table" ],
+            "category" : "props"
+          }
+        },
+        "sysId" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "sysId" ],
+            "category" : "props"
+          }
+        },
+        "workspaceConfigId" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "primaryValue" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "glide_form_1", "nowRecordCommonHeader", "primaryValue" ]
+          }
+        },
+        "subHeadingValue" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "secondaryItems" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "glide_form_1", "nowRecordCommonHeader", "secondaryItems" ]
+          }
+        },
+        "headerImageItem" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "hideTagsValue" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "4d537db98a05adaf55f9e219c50d1358",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "padding" : "2%"
+      }
+    }, {
+      "elementId" : "action_bar_1",
+      "elementLabel" : "Action bar 1",
+      "propertyValues" : {
+        "actionNodes" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "glide_form_1", "nowRecordCommonUiactionbar", "actionNodes" ]
+          }
+        },
+        "daModel" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "glide_form_1", "nowRecordCommonUiactionbar", "daModel" ]
+          }
+        },
+        "daClientActionContract" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "glide_form_1", "nowRecordCommonUiactionbar", "daClientActionContract" ]
+          }
+        },
+        "fixedButtonNumber" : {
+          "type" : "JSON_LITERAL",
+          "value" : 0
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "6759357892ba1957c0a25d74e5d2a4a4",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "padding" : "2%"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"grid","grid-auto-columns":"1fr","grid-auto-flow":"column"}}],
+        "root" : null,
+        "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "2.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "container_2",
+  "elementLabel" : "Container 2",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "resizable_panes_1",
+      "elementLabel" : "Resizable Panes 1",
+      "propertyValues" : {
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "actionBar" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "actionBarConfig" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "leftIcon" : {
+              "type" : "JSON_LITERAL",
+              "value" : "record-activity-details-fill"
+            },
+            "middleIcon" : {
+              "type" : "JSON_LITERAL",
+              "value" : "record-activity-stream-outline"
+            },
+            "rightIcon" : {
+              "type" : "JSON_LITERAL",
+              "value" : "record-activity-outline"
+            }
+          }
+        },
+        "defaultDividerPosition" : {
+          "type" : "JSON_LITERAL",
+          "value" : "50"
+        },
+        "dividerStyles" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "defaultDisplayedPane" : {
+          "type" : "JSON_LITERAL",
+          "value" : "both"
+        },
+        "bare" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "leftPaneConstraints" : {
+          "type" : "JSON_LITERAL",
+          "value" : "{\"minRatio\": 20, \"minPixels\": 100}"
+        },
+        "rightPaneConstraints" : {
+          "type" : "JSON_LITERAL",
+          "value" : "{\"minRatio\": 20, \"minPixels\": 100}"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "07b0bb09419d26f0af681796bc548f19",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "record_tabs_1",
+          "elementLabel" : "Record Tabs SM",
+          "propertyValues" : {
+            "tabRoutes" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "glide_form_1", "nowRecordFormBlob", "tabRoutes" ]
+              }
+            },
+            "detailsProps" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "glide_form_1", "nowRecordFormBlob", "detailsProps" ]
+              }
+            },
+            "selectedTabIndex" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "isInitialPageLoad" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "relatedListRefreshRequests" : {
+              "type" : "JSON_LITERAL",
+              "value" : { }
+            },
+            "table" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "table" ],
+                "category" : "props"
+              }
+            },
+            "sysId" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "sysId" ],
+                "category" : "props"
+              }
+            },
+            "userSession" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "formMessages" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "query" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "views" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "extraParams" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "left",
+          "definition" : {
+            "id" : "a04c00820f901010a326b6ade7767ef9",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "viewport_xev",
+          "elementLabel" : "Contextual sidebar 1",
+          "propertyValues" : {
+            "defaultRoute" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "viewportConfiguration" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "validation" : {
+                  "name" : {
+                    "required" : true
+                  },
+                  "order" : {
+                    "required" : false
+                  },
+                  "icon" : {
+                    "required" : true
+                  }
+                },
+                "enableDataDrivenTabs" : false
+              }
+            },
+            "collapsable" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "defaultCollapsed" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "dynamicTabData" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "right",
+          "definition" : {
+            "id" : "5eaab08d6314088e41409c303674622a",
+            "type" : "MACROPONENT_VIEWPORT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        } ],
+        "layout" : null
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "dc6e87a5232200100e4bc50947bf654b",
+    "type" : "CLIENT_STATE"
+  },
+  "elementId" : "glide_form_1",
+  "elementLabel" : "Glide Form 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "table" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "table" ],
+        "category" : "props"
+      }
+    },
+    "sysId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    },
+    "actionConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "headerConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "ribbonConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "viewRuleConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "highlightedValueConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "view" : {
+      "type" : "JSON_LITERAL",
+      "value" : "default view"
+    },
+    "forcedViewName" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "query" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "showActivityStreamInDetails" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "detailsContext" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "activityLogs" ],
+        "category" : "props"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"flex-flow":"row nowrap","align-items":"stretch","min-height":"400px","height":"100%"},
+    "styles" : null,
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "type" : "flex"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Tarea GO</name>
+        <props>[ {
+  "name" : "table",
+  "label" : "Table",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false
+} ]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>ecsunahata</sys_created_by>
+        <sys_created_on>2022-03-17 14:34:17</sys_created_on>
+        <sys_id>295b91a11bda851084023158cc4bcbb4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Tarea GO</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_macroponent_295b91a11bda851084023158cc4bcbb4</sys_update_name>
+        <sys_updated_by>ecsunahata</sys_updated_by>
+        <sys_updated_on>2022-03-17 20:45:36</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

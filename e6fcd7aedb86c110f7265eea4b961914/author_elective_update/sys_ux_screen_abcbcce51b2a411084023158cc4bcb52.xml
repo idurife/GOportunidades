@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Gestión de Oportunidades Demo Config">940c07e759024110057e95adda8195df</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Agent assist">efcbcce51b2a411084023158cc4bcb4f</macroponent>
+        <macroponent_config>{
+  "isNewRecord" : "@data.gform.nowRecordFormBlob.isNewRecord",
+  "fields" : "@data.gform.nowRecordFormBlob.fields",
+  "sysId" : "@data.gform.nowRecordFormBlob.sysId",
+  "table" : "@data.gform.nowRecordFormBlob.table",
+  "cxsTableConfig" : "e15061a4b30303002bf182c136a8dc34",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : true
+}</macroponent_config>
+        <name>Agent Assist</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">7a4bc4a51b2a411084023158cc4bcb03</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Agent assist">71cb8ce51b2a411084023158cc4bcb51</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-29 19:02:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>abcbcce51b2a411084023158cc4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent Assist</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_screen_abcbcce51b2a411084023158cc4bcb52</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-29 19:02:31</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=abcbcce51b2a411084023158cc4bcb52"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_ux_screen_abcbcce51b2a411084023158cc4bcb52</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Gestión de Oportunidades Demo Config">940c07e759024110057e95adda8195df</app_config><description/><event_mappings/><macroponent display_value="Agent assist">efcbcce51b2a411084023158cc4bcb4f</macroponent><macroponent_config>{
+  "isNewRecord" : "@data.gform.nowRecordFormBlob.isNewRecord",
+  "fields" : "@data.gform.nowRecordFormBlob.fields",
+  "sysId" : "@data.gform.nowRecordFormBlob.sysId",
+  "table" : "@data.gform.nowRecordFormBlob.table",
+  "cxsTableConfig" : "e15061a4b30303002bf182c136a8dc34",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : true
+}</macroponent_config><name>Agent Assist</name><order>0</order><parent_macroponent display_value="Record">7a4bc4a51b2a411084023158cc4bcb03</parent_macroponent><required_translations>[ ]</required_translations><screen_condition/><screen_type display_value="Agent assist">71cb8ce51b2a411084023158cc4bcb51</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>idramirez</sys_created_by><sys_created_on>2022-03-29 19:02:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>abcbcce51b2a411084023158cc4bcb52</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Agent Assist</sys_name><sys_overrides/><sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package><sys_policy/><sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope><sys_update_name>sys_ux_screen_abcbcce51b2a411084023158cc4bcb52</sys_update_name><sys_updated_by>idramirez</sys_updated_by><sys_updated_on>2022-03-29 19:02:31</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=abcbcce51b2a411084023158cc4bcb52"/></record_update>]]></payload>
+        <payload_hash>357602822</payload_hash>
+        <record_name>Agent Assist</record_name>
+        <reverted_from/>
+        <source>1fb4f97c1bc7451084023158cc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-29 19:02:31</sys_created_on>
+        <sys_id>6fcbcce51b2a411084023158cc4bcb54</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>17fd70ee3690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 15:17:16</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>67cbcce59e2a411005b83f943c145854</update_guid>
+        <update_guid_history>67cbcce59e2a411005b83f943c145854:357602822</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-29 19:09:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>4371c01b00b246d4ab00419c18858a24</sys_id>
+        <sys_metadata>abcbcce51b2a411084023158cc4bcb52</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent Assist</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_abcbcce51b2a411084023158cc4bcb52</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_abcbcce51b2a411084023158cc4bcb52">6fcbcce51b2a411084023158cc4bcb54</sys_update_version>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-29 19:09:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

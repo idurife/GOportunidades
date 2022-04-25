@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Proyecto" max_length="40" name="x_issas_gesti_n_0_proyecto" sizeclass="3" type="collection">
+        <element label="Clientes" max_length="4000" name="clientes" reference="x_issas_gesti_n_0_cliente" type="glide_list"/>
+        <element choice="3" default="act" label="Estado" max_length="40" name="estado" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Activo" sequence="10" value="act"/>
+                <element inactive_on_update="false" label="Compleado" sequence="20" value="comp"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Profesionales" max_length="4000" name="profesionales" reference="x_issas_gesti_n_0_profesional" type="glide_list"/>
+        <element label="Titulo" max_length="200" name="titulo" type="string"/>
+    </element>
+</database>

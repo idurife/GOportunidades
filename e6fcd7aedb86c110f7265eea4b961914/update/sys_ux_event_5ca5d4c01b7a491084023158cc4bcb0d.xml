@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>RECORD_PAGE_TABS#EXECUTE_UI_ACTION_RELAY_RELAY_798590041b7a491084023158cc4bcb5a</event_name>
+        <interfaces/>
+        <label>Execute UI Action (Record Page Tabs Relay) Relay (Record Related Items Tab Default Copy)</label>
+        <props>[{"name":"actionSysId","fieldType":"string","interfaceApiName":null,"label":"Action Sys Id"}]</props>
+        <required_translations>[ {
+  "message" : "Action Sys Id",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-06 14:10:15</sys_created_on>
+        <sys_id>5ca5d4c01b7a491084023158cc4bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Execute UI Action (Record Page Tabs Relay) Relay (Record Related Items Tab Default Copy)</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_event_5ca5d4c01b7a491084023158cc4bcb0d</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-06 14:10:15</sys_updated_on>
+    </sys_ux_event>
+</record_update>

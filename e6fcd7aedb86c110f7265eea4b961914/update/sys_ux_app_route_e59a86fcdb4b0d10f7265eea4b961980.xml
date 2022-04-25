@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Gestión de Oportunidades  Config">940c07e759024110057e95adda8195df</app_config>
+        <description/>
+        <fields>listTitle,table,parentTable,parentRecordSysId,relatedListName,query,actionConfigId,view</fields>
+        <icon/>
+        <name>Related List Tab</name>
+        <optional_parameters/>
+        <order>200</order>
+        <parent_macroponent display_value="Record">1db6a3d11b56851084023158cc4bcbf2</parent_macroponent>
+        <parent_macroponent_composition_element_id>record_page_tabs_1_ckiiwfdnffoaaaabbbbddghhdamgvmbbbba</parent_macroponent_composition_element_id>
+        <route_type>related_list</route_type>
+        <screen_type display_value="Related List Tab">a59a86fcdb4b0d10f7265eea4b961958</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-21 16:52:23</sys_created_on>
+        <sys_id>e59a86fcdb4b0d10f7265eea4b961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Related List Tab</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_app_route_e59a86fcdb4b0d10f7265eea4b961980</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:52:23</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=e59a86fcdb4b0d10f7265eea4b961980"/>
+</record_update>

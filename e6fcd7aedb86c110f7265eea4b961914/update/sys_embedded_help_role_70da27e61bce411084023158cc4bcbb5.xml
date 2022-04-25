@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="sn_dd_gestindeoportunidades_upgradeapp" name="sn_dd_gestindeoportunidades_upgradeapp">e4da27e61bce411084023158cc4bcbb2</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-08 17:19:24</sys_created_on>
+        <sys_id>70da27e61bce411084023158cc4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e4da27e61bce411084023158cc4bcbb2</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_embedded_help_role_70da27e61bce411084023158cc4bcbb5</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-08 17:19:24</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

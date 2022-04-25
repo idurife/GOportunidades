@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Gestión de Oportunidades  Config">940c07e759024110057e95adda8195df</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Knowledge View">3094297373311010b29f2e46fbf6a7a1</macroponent>
+        <macroponent_config>{&#13;
+  "label" : "",&#13;
+  "bare" : true,&#13;
+  "scrollable" : "y",&#13;
+  "headerLevel" : "1",&#13;
+  "interceptNotifications" : false,&#13;
+  "propagateNotifications" : false,&#13;
+  "views" : "",&#13;
+  "selectedTabIndex" : 0,&#13;
+  "table" : "",&#13;
+  "sysId" : ""&#13;
+}</macroponent_config>
+        <name>KB default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="KB">5c0c07e7b0024110ac6a7314b35c55e0</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-11 17:38:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d00c07e7100241109b1699413054b0e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_screen_d00c07e7100241109b1699413054b0e2</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-11 17:38:42</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=d00c07e7100241109b1699413054b0e2"/>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Nombre Certificacion" max_length="40" name="x_issas_gesti_n_0_nombre_certificacion" sizeclass="4" type="collection">
+        <element label="Fabricante" max_length="32" name="fabricante" reference="core_company" type="reference"/>
+        <element display="true" label="Nombre" max_length="100" name="nombre" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="fabricante"/>
+        </index>
+    </element>
+</database>

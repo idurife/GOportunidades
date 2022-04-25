@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Simple List">0321db2fdb024110f7265eea4b9619e7</macroponent>
+        <name>New client script 1</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-21 23:13:39</sys_created_on>
+        <sys_id>a098b77adb1e0d10f7265eea4b9619b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_client_script_a098b77adb1e0d10f7265eea4b9619b5</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-30 21:10:38</sys_updated_on>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_ux_client_script_a098b77adb1e0d10f7265eea4b9619b5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Simple List"&gt;0321db2fdb024110f7265eea4b9619e7&lt;/macroponent&gt;&lt;name&gt;New client script 1&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;idramirez&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-21 23:13:39&lt;/sys_created_on&gt;&lt;sys_id&gt;a098b77adb1e0d10f7265eea4b9619b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;New client script 1&lt;/sys_name&gt;&lt;sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gestión de Oportunidades"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_a098b77adb1e0d10f7265eea4b9619b5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;idramirez&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-30 21:10:38&lt;/sys_updated_on&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-912150906</payload_hash>
+        <record_name>New client script 1</record_name>
+        <reverted_from/>
+        <source>1fb4f97c1bc7451084023158cc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-30 21:10:38</sys_created_on>
+        <sys_id>1ab2b5791baa811084023158cc4bcb1d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>17fdcaa8c110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 15:16:58</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>deb2b579d2aa8110a266c1787cd0bd1c</update_guid>
+        <update_guid_history>deb2b579d2aa8110a266c1787cd0bd1c:-912150906,e098b77a611e0d10e9defe5d1d6e5abc:-349036512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-21 17:11:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>1a9097551265410285572153c2d0a451</sys_id>
+        <sys_metadata>a098b77adb1e0d10f7265eea4b9619b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_a098b77adb1e0d10f7265eea4b9619b5</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_a098b77adb1e0d10f7265eea4b9619b5">1ab2b5791baa811084023158cc4bcb1d</sys_update_version>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 17:11:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

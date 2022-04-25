@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config/>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Record">fb57ba021beac11084023158cc4bcbb1</macroponent>
+        <macroponent_config>{
+  "views" : "",
+  "selectedTabIndex" : 0,
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Record Default Copy</name>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Record">1bb4b28e37aac1103fc740c5cc93bcd0</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-31 20:49:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4c67ba021beac11084023158cc4bcbb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Default Copy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_screen_4c67ba021beac11084023158cc4bcbb4</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-31 20:49:04</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=4c67ba021beac11084023158cc4bcbb4"/>
+</record_update>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>L1 Configuration	</description>
+        <name>chrome_toolbar</name>
+        <page display_value="">dfb4b28eb9aac110d3a363380c4df8d1</page>
+        <required_translations>[{"message":"List","comment":""},{"message":"Home","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-31 20:37:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>97b4b28edfaac1105fdea32b37e8d2d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_page_property_97b4b28edfaac1105fdea32b37e8d2d2</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-31 20:37:34</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_issas_gesti_n_0.dfb4b28eb9aac110d3a363380c4df8d1.root.chrome_toolbar</unique_name>
+        <value>[
+   {
+      "id":"home",
+      "label":"Home",
+      "icon":"home-outline",
+      "viewportInfo":{
+         
+      },
+      "routeInfo":{
+         "route":"home"
+      },
+      "group":"top",
+      "badge":{
+         
+      },
+      "presence":{
+         
+      },
+      "availability":{
+         
+      }
+   },
+   {
+      "id":"list",
+      "label":"List",
+      "icon":"list-outline",
+      "viewportInfo":{
+         
+      },
+      "routeInfo":{
+         "route":"list"
+      },
+      "group":"top",
+      "badge":{
+         
+      },
+      "presence":{
+         
+      },
+      "availability":{
+         
+      }
+   }
+]</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_ux_page_property_97b4b28edfaac1105fdea32b37e8d2d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>L1 Configuration	</description><name>chrome_toolbar</name><page display_value="">dfb4b28eb9aac110d3a363380c4df8d1</page><required_translations>[{"message":"List","comment":""},{"message":"Home","comment":""}]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>idramirez</sys_created_by><sys_created_on>2022-03-31 20:37:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>97b4b28edfaac1105fdea32b37e8d2d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_toolbar</sys_name><sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package><sys_policy/><sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope><sys_update_name>sys_ux_page_property_97b4b28edfaac1105fdea32b37e8d2d2</sys_update_name><sys_updated_by>idramirez</sys_updated_by><sys_updated_on>2022-03-31 20:37:34</sys_updated_on><type>json</type><unique_name>x_issas_gesti_n_0.dfb4b28eb9aac110d3a363380c4df8d1.root.chrome_toolbar</unique_name><value>[
+   {
+      "id":"home",
+      "label":"Home",
+      "icon":"home-outline",
+      "viewportInfo":{
+         
+      },
+      "routeInfo":{
+         "route":"home"
+      },
+      "group":"top",
+      "badge":{
+         
+      },
+      "presence":{
+         
+      },
+      "availability":{
+         
+      }
+   },
+   {
+      "id":"list",
+      "label":"List",
+      "icon":"list-outline",
+      "viewportInfo":{
+         
+      },
+      "routeInfo":{
+         "route":"list"
+      },
+      "group":"top",
+      "badge":{
+         
+      },
+      "presence":{
+         
+      },
+      "availability":{
+         
+      }
+   }
+]</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>522916438</payload_hash>
+        <record_name>chrome_toolbar</record_name>
+        <reverted_from/>
+        <source>3f8ab713db020110f7265eea4b9619b8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-03-11 02:23:36</sys_created_on>
+        <sys_id>1b960ab8db4b0d10f7265eea4b961923</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17f76c9e0400000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>d7960ab81f4b0d1075bfaba62e347923</update_guid>
+        <update_guid_history>d7960ab81f4b0d1075bfaba62e347923:522916438</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-21 16:35:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>275c80a9e08e44e99104a81b2b2ba409</sys_id>
+        <sys_metadata>97b4b28edfaac1105fdea32b37e8d2d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_97b4b28edfaac1105fdea32b37e8d2d2</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_97b4b28edfaac1105fdea32b37e8d2d2">1b960ab8db4b0d10f7265eea4b961923</sys_update_version>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:35:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

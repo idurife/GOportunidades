@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-31 20:25:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f2e1f6ca1baac11084023158cc4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>m2m_app_config_theme_f2e1f6ca1baac11084023158cc4bcb0c</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-31 20:25:14</sys_updated_on>
+        <theme display_value="Theme Base">bab1f6ca1baac11084023158cc4bcb38</theme>
+        <ux_app_configuration display_value="Gestión de Oportunidades Demo Config">940c07e759024110057e95adda8195df</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>m2m_app_config_theme_f2e1f6ca1baac11084023158cc4bcb0c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>idramirez</sys_created_by><sys_created_on>2022-03-31 20:25:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f2e1f6ca1baac11084023158cc4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package><sys_policy/><sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope><sys_update_name>m2m_app_config_theme_f2e1f6ca1baac11084023158cc4bcb0c</sys_update_name><sys_updated_by>idramirez</sys_updated_by><sys_updated_on>2022-03-31 20:25:14</sys_updated_on><theme display_value="Theme Base">bab1f6ca1baac11084023158cc4bcb38</theme><ux_app_configuration display_value="Gestión de Oportunidades Demo Config">940c07e759024110057e95adda8195df</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>1341266899</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1fb4f97c1bc7451084023158cc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-31 20:25:14</sys_created_on>
+        <sys_id>c7e1f6ca1baac11084023158cc4bcb0e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>17fe1a757c40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 15:17:05</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>cfe1f6ca23aac11053413c6b8a2ca70d</update_guid>
+        <update_guid_history>cfe1f6ca23aac11053413c6b8a2ca70d:1341266899</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">da6e56da1ba6051084023158cc4bcb81</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-01 13:38:29</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>1542dca422ad429abeb9c6ddacb8efd1</sys_id>
+        <sys_metadata>f2e1f6ca1baac11084023158cc4bcb0c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_f2e1f6ca1baac11084023158cc4bcb0c</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_f2e1f6ca1baac11084023158cc4bcb0c">c7e1f6ca1baac11084023158cc4bcb0e</sys_update_version>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-01 13:38:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

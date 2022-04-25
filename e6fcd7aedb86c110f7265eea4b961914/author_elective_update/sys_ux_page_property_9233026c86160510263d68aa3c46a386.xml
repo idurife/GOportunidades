@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Contains references to global search configurations to be consumed by search components</description>
+        <name>global_search_configurations</name>
+        <page display_value="">9a33026c8f160510a34ef2232a844f85</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>semartinez</sys_created_by>
+        <sys_created_on>2022-03-14 14:54:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>9233026c86160510263d68aa3c46a386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_page_property_9233026c86160510263d68aa3c46a386</sys_update_name>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-03-14 14:54:39</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_issas_gesti_n_0.9a33026c8f160510a34ef2232a844f85.root.global_search_configurations</unique_name>
+        <value>{&#13;
+    "globalSearchViewConfigId": "97a574ea53c0130084acddeeff7b12a6",&#13;
+"globalSearchRoute": "search"&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_ux_page_property_9233026c86160510263d68aa3c46a386</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Contains references to global search configurations to be consumed by search components</description><name>global_search_configurations</name><page display_value="">9a33026c8f160510a34ef2232a844f85</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>semartinez</sys_created_by><sys_created_on>2022-03-14 14:54:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>9233026c86160510263d68aa3c46a386</sys_id><sys_mod_count>0</sys_mod_count><sys_name>global_search_configurations</sys_name><sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package><sys_policy/><sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope><sys_update_name>sys_ux_page_property_9233026c86160510263d68aa3c46a386</sys_update_name><sys_updated_by>semartinez</sys_updated_by><sys_updated_on>2022-03-14 14:54:39</sys_updated_on><type>json</type><unique_name>x_issas_gesti_n_0.9a33026c8f160510a34ef2232a844f85.root.global_search_configurations</unique_name><value>{&#13;
+    "globalSearchViewConfigId": "97a574ea53c0130084acddeeff7b12a6",&#13;
+"globalSearchRoute": "search"&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-416685442</payload_hash>
+        <record_name>global_search_configurations</record_name>
+        <reverted_from/>
+        <source>3f8ab713db020110f7265eea4b9619b8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-03-11 02:23:36</sys_created_on>
+        <sys_id>a0b64ab8db4b0d10f7265eea4b9619c5</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17f76c9e0400000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>60b64ab8254b0d1048af23f62e594cc5</update_guid>
+        <update_guid_history>60b64ab8254b0d1048af23f62e594cc5:-416685442</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-21 16:35:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>739f7ed9c6ae472d87193fc8e94591e9</sys_id>
+        <sys_metadata>9233026c86160510263d68aa3c46a386</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_9233026c86160510263d68aa3c46a386</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_9233026c86160510263d68aa3c46a386">a0b64ab8db4b0d10f7265eea4b9619c5</sys_update_version>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:35:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

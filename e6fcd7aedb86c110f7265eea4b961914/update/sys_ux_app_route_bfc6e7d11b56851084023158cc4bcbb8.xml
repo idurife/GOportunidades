@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Gestión de Oportunidades  Config">940c07e759024110057e95adda8195df</app_config>
+        <description/>
+        <fields/>
+        <icon>paperclip-outline</icon>
+        <name>Attachment</name>
+        <optional_parameters/>
+        <order>1</order>
+        <parent_macroponent display_value="Record">1db6a3d11b56851084023158cc4bcbf2</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id>
+        <route_type>attachmenttab</route_type>
+        <screen_type display_value="Attachment">02c6a7d11b56851084023158cc4bcb7f</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>ecsunahata</sys_created_by>
+        <sys_created_on>2022-03-17 06:05:11</sys_created_on>
+        <sys_id>bfc6e7d11b56851084023158cc4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachment</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_app_route_bfc6e7d11b56851084023158cc4bcbb8</sys_update_name>
+        <sys_updated_by>ecsunahata</sys_updated_by>
+        <sys_updated_on>2022-03-17 06:05:11</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=bfc6e7d11b56851084023158cc4bcbb8"/>
+</record_update>

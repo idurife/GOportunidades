@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>RECORD_PAGE_TABS#LIST_PAGE_UPDATED_RELAY_RELAY_2638637adbda0d10f7265eea4b96197e</event_name>
+        <interfaces/>
+        <label>List Page Updated (Record Page Tabs Relay) Relay (Record Related List Tab Default Copy)</label>
+        <props>[{"name":"page","fieldType":"string","interfaceApiName":null,"label":"Page"},{"name":"prevPage","fieldType":"string","interfaceApiName":null,"label":"Previous page"},{"name":"table","fieldType":"string","interfaceApiName":null,"label":"Table"}]</props>
+        <required_translations>[ {
+  "message" : "Page",
+  "comment" : ""
+}, {
+  "message" : "Previous page",
+  "comment" : ""
+}, {
+  "message" : "Table",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-29 19:33:20</sys_created_on>
+        <sys_id>53d2506d1b2a411084023158cc4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List Page Updated (Record Page Tabs Relay) Relay (Record Related List Tab Default Copy)</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_event_53d2506d1b2a411084023158cc4bcb53</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-29 19:33:20</sys_updated_on>
+    </sys_ux_event>
+</record_update>

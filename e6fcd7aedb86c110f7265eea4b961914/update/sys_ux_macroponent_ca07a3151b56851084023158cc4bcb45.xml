@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "367f89e30b102010a8b1c96237673a85",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "dynamic_routing_agent_assist",
+  "elementLabel" : "Dynamic Routing Agent Assist",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "routeConfigId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "routeConfigId" ],
+        "category" : "app"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events>49fe7d575f983bb3f8eea3fa8d40694c,d4ebd5a1b32710102bf182c136a8dcb4,b24bd5a1b32710102bf182c136a8dcc2,5fde3fde0f3210107d20409dc4767e0e</dispatched_events>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"default-slot","rules":{"grid-area":"default-slot"},"styles":{"height":"100%"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"1fr","grid-template-columns":"1fr","grid-template-areas":"'default-slot'"},
+    "styles" : {},
+    "templateId" : null,
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Agent assist</name>
+        <props>[ {
+  "name" : "isNewRecord",
+  "label" : "isNewRecord",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "fields",
+  "label" : "fields",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "table",
+  "label" : "Table",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "cxsTableConfig",
+  "label" : "cxsTableConfig",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false
+} ]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{
+  "bare" : true
+}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>ecsunahata</sys_created_by>
+        <sys_created_on>2022-03-17 06:06:09</sys_created_on>
+        <sys_id>ca07a3151b56851084023158cc4bcb45</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Agent assist</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_macroponent_ca07a3151b56851084023158cc4bcb45</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-21 21:35:41</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

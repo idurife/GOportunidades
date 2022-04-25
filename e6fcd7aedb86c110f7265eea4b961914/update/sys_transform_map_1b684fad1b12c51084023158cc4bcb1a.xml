@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Data de Ofertas Transform Map</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_issas_gesti_n_0_data_de_ofertas</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>ecsunahata</sys_created_by>
+        <sys_created_on>2022-03-17 22:31:21</sys_created_on>
+        <sys_id>1b684fad1b12c51084023158cc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data de Ofertas Transform Map</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_transform_map_1b684fad1b12c51084023158cc4bcb1a</sys_update_name>
+        <sys_updated_by>ecsunahata</sys_updated_by>
+        <sys_updated_on>2022-03-17 22:31:21</sys_updated_on>
+        <target_table>x_issas_gesti_n_0_oferta</target_table>
+    </sys_transform_map>
+</record_update>

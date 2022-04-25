@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config/>
+        <description/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <name>Taxonomy Topic Selection Modal</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record">fb57ba021beac11084023158cc4bcbb1</parent_macroponent>
+        <parent_macroponent_composition_element_id>modalContainerViewport</parent_macroponent_composition_element_id>
+        <route_type>taxonomy-topic-selection</route_type>
+        <screen_type display_value="Taxonomy Topic Selection Modal">cb673e021beac11084023158cc4bcbb7</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-31 20:49:19</sys_created_on>
+        <sys_id>b7677e021beac11084023158cc4bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Taxonomy Topic Selection Modal</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_app_route_b7677e021beac11084023158cc4bcb43</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-31 20:49:19</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=b7677e021beac11084023158cc4bcb43"/>
+</record_update>

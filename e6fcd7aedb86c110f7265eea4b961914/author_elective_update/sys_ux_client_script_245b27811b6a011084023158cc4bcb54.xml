@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Simple List Oferta">43c576e9db520910f7265eea4b96196b</macroponent>
+        <name>Cambiar Visualización Campo Adjunto</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>semartinez</sys_created_by>
+        <sys_created_on>2022-03-28 22:02:07</sys_created_on>
+        <sys_id>245b27811b6a011084023158cc4bcb54</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Cambiar Visualización Campo Adjunto</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_client_script_245b27811b6a011084023158cc4bcb54</sys_update_name>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-03-28 22:03:10</sys_updated_on>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_ux_client_script_245b27811b6a011084023158cc4bcb54</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Simple List Oferta"&gt;43c576e9db520910f7265eea4b96196b&lt;/macroponent&gt;&lt;name&gt;Cambiar Visualización Campo Adjunto&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+    
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;semartinez&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-28 22:02:07&lt;/sys_created_on&gt;&lt;sys_id&gt;245b27811b6a011084023158cc4bcb54&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Cambiar Visualización Campo Adjunto&lt;/sys_name&gt;&lt;sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gestión de Oportunidades"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_245b27811b6a011084023158cc4bcb54&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;semartinez&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-28 22:03:10&lt;/sys_updated_on&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2130197012</payload_hash>
+        <record_name>Cambiar Visualización Campo Adjunto</record_name>
+        <reverted_from/>
+        <source>1fb4f97c1bc7451084023158cc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>semartinez</sys_created_by>
+        <sys_created_on>2022-03-28 22:03:10</sys_created_on>
+        <sys_id>009b27811b6a011084023158cc4bcb4a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>17fd28deb440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 15:17:14</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>c49b2781976a01103d627bfa9f44bb49</update_guid>
+        <update_guid_history>c49b2781976a01103d627bfa9f44bb49:-2130197012,b85b2781056a0110dd3f252d42bfab8b:-2032411594</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>semartinez</sys_created_by>
+        <sys_created_on>2022-03-31 00:22:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0c65e5de7d484ea680ddb184872454a9</sys_id>
+        <sys_metadata>245b27811b6a011084023158cc4bcb54</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cambiar Visualización Campo Adjunto</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_245b27811b6a011084023158cc4bcb54</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_245b27811b6a011084023158cc4bcb54">009b27811b6a011084023158cc4bcb4a</sys_update_version>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-03-31 00:22:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

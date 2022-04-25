@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_asset">
+    <sys_ux_theme_asset action="DELETE">
+        <category>image</category>
+        <name>indra_logo_sm</name>
+        <sys_class_name>sys_ux_theme_asset</sys_class_name>
+        <sys_created_by>ecsunahata</sys_created_by>
+        <sys_created_on>2022-04-04 16:25:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e41261b1b6ac51084023158cc4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>indra_logo_sm</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_theme_asset_3e41261b1b6ac51084023158cc4bcbbc</sys_update_name>
+        <sys_updated_by>ecsunahata</sys_updated_by>
+        <sys_updated_on>2022-04-04 16:25:00</sys_updated_on>
+    </sys_ux_theme_asset>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_ux_theme_asset_3e41261b1b6ac51084023158cc4bcbbc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_asset"><sys_ux_theme_asset action="INSERT_OR_UPDATE"><category>image</category><name>indra_logo_sm</name><sys_class_name>sys_ux_theme_asset</sys_class_name><sys_created_by>ecsunahata</sys_created_by><sys_created_on>2022-04-04 16:25:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3e41261b1b6ac51084023158cc4bcbbc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>indra_logo_sm</sys_name><sys_overrides/><sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package><sys_policy/><sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope><sys_update_name>sys_ux_theme_asset_3e41261b1b6ac51084023158cc4bcbbc</sys_update_name><sys_updated_by>ecsunahata</sys_updated_by><sys_updated_on>2022-04-04 16:25:00</sys_updated_on></sys_ux_theme_asset></record_update>]]></payload>
+        <payload_hash>410594614</payload_hash>
+        <record_name>indra_logo_sm</record_name>
+        <reverted_from/>
+        <source>1fb4f97c1bc7451084023158cc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ecsunahata</sys_created_by>
+        <sys_created_on>2022-04-04 16:25:00</sys_created_on>
+        <sys_id>b241261b1b6ac51084023158cc4bcbbf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>17ff564d4ac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 15:17:05</sys_updated_on>
+        <type>UX Theme Asset</type>
+        <update_guid>ba41261b176ac5100972f454dbf7c0be</update_guid>
+        <update_guid_history>ba41261b176ac5100972f454dbf7c0be:410594614</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ecsunahata</sys_created_by>
+        <sys_created_on>2022-04-04 16:25:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_theme_asset">sys_ux_theme_asset</sys_db_object>
+        <sys_id>0ef716ba3e9e4698907513419ad209c4</sys_id>
+        <sys_metadata>3e41261b1b6ac51084023158cc4bcbbc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>indra_logo_sm</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_ux_theme_asset_3e41261b1b6ac51084023158cc4bcbbc</sys_update_name>
+        <sys_update_version display_value="sys_ux_theme_asset_3e41261b1b6ac51084023158cc4bcbbc">b241261b1b6ac51084023158cc4bcbbf</sys_update_version>
+        <sys_updated_by>ecsunahata</sys_updated_by>
+        <sys_updated_on>2022-04-04 16:25:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

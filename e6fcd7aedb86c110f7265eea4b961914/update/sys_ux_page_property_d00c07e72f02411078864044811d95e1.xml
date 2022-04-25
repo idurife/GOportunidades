@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Gestión de Oportunidades">140c07e7cc02411082bff475e17ab7e1</page>
+        <required_translations>[{"message":"New Incident","comment":""},{"message":"New Interaction","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-11 17:38:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>d00c07e72f02411078864044811d95e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_page_property_d00c07e72f02411078864044811d95e1</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-11 17:38:43</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_issas_gesti_n_0.140c07e7cc02411082bff475e17ab7e1.root.chrome_tab</unique_name>
+        <value>{&#13;
+   "contextual":[&#13;
+      "record"&#13;
+   ],&#13;
+   "newTabMenu":[&#13;
+      {&#13;
+         "label":{&#13;
+            "translatable":true,&#13;
+            "message":"New Interaction"&#13;
+         },&#13;
+         "routeInfo":{&#13;
+            "route":"record",&#13;
+            "fields":{&#13;
+               "table":"interaction",&#13;
+               "sysId":"-1"&#13;
+            },&#13;
+            "multiInstField":"sysId"&#13;
+         },&#13;
+         "condition":{&#13;
+            "tableDescription":{&#13;
+               "table":"interaction",&#13;
+               "canCreate":true&#13;
+            }&#13;
+         }&#13;
+      },&#13;
+      {&#13;
+         "label":{&#13;
+            "translatable":true,&#13;
+            "message":"New Incident"&#13;
+         },&#13;
+         "routeInfo":{&#13;
+            "route":"record",&#13;
+            "fields":{&#13;
+               "table":"incident",&#13;
+               "sysId":"-1"&#13;
+            },&#13;
+            "multiInstField":"sysId"&#13;
+         }&#13;
+      }&#13;
+   ],&#13;
+   "maxMainTabLimit":10,&#13;
+   "maxTotalSubTabLimit":30&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=d00c07e72f02411078864044811d95e1"/>
+</record_update>

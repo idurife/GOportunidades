@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Simple List Oferta">43c576e9db520910f7265eea4b96196b</macroponent>
+        <name>Filtros navigation</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+ 
+const {
+        context,
+        data,
+        state,
+        setState,
+        emit
+    } = api;
+const {
+        snHttp
+    } = helpers;
+   // let dataFiltro=data.look_up_records_1.results;
+   snHttp('/api/x_issas_gesti_n_0/gestion_oportunidades_api/getMenuFiltrosOferta',{
+//  snHttp('/api/x_issas_gesti_n_0/gestion_oportunidades_api/go_getParametros',{
+     method:"GET",
+     batch:false,
+ }).then(response=>{
+
+setState('ofertasNavigator',response.response.result);
+
+ }).catch(error => {
+        console.log('Error:' + error);
+        const message = `Error: ${error.data.error.message}`;
+        api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+            id: 'alert5',
+            status: 'high',
+            icon: 'info-circle-outline',
+            content: message,
+            action: {
+                type: 'dismiss'
+            }
+        });
+    });
+    // const {
+    //     getFiltro
+    // } = imports["x_issas_gesti_n_0.ObtenerFiltrosInclude"]();
+
+    // const defaultRoutePayload = getFiltro();
+
+    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-17 21:09:32</sys_created_on>
+        <sys_id>5bc576e9db520910f7265eea4b96197b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Filtros navigation</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_client_script_5bc576e9db520910f7265eea4b96197b</sys_update_name>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-04-07 17:19:50</sys_updated_on>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_ux_client_script_5bc576e9db520910f7265eea4b96197b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Simple List Oferta"&gt;43c576e9db520910f7265eea4b96196b&lt;/macroponent&gt;&lt;name&gt;Filtros navigation&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+ 
+const {
+        context,
+        data,
+        state,
+        setState,
+        emit
+    } = api;
+const {
+        snHttp
+    } = helpers;
+   // let dataFiltro=data.look_up_records_1.results;
+   snHttp('/api/x_issas_gesti_n_0/gestion_oportunidades_api/getMenuFiltrosOferta',{
+//  snHttp('/api/x_issas_gesti_n_0/gestion_oportunidades_api/go_getParametros',{
+     method:"GET",
+     batch:false,
+ }).then(response=&gt;{
+
+setState('ofertasNavigator',response.response.result);
+
+ }).catch(error =&gt; {
+        console.log('Error:' + error);
+        const message = `Error: ${error.data.error.message}`;
+        api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+            id: 'alert5',
+            status: 'high',
+            icon: 'info-circle-outline',
+            content: message,
+            action: {
+                type: 'dismiss'
+            }
+        });
+    });
+    // const {
+    //     getFiltro
+    // } = imports["x_issas_gesti_n_0.ObtenerFiltrosInclude"]();
+
+    // const defaultRoutePayload = getFiltro();
+
+    
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;idramirez&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-17 21:09:32&lt;/sys_created_on&gt;&lt;sys_id&gt;5bc576e9db520910f7265eea4b96197b&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Filtros navigation&lt;/sys_name&gt;&lt;sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gestión de Oportunidades"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_5bc576e9db520910f7265eea4b96197b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;semartinez&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-07 17:19:50&lt;/sys_updated_on&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>114673743</payload_hash>
+        <record_name>Filtros navigation</record_name>
+        <reverted_from/>
+        <source>eefcd7aedb86c110f7265eea4b961916</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>semartinez</sys_created_by>
+        <sys_created_on>2022-04-07 17:19:50</sys_created_on>
+        <sys_id>d79a46d01b3e891084023158cc4bcb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180050a1c960000001</sys_recorded_at>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-04-07 17:19:50</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>9f9a46d0333e89101a219972cae7fa2f</update_guid>
+        <update_guid_history>9f9a46d0333e89101a219972cae7fa2f:114673743,a8ff118ba3924d1013210ad84734ce75:1175112079,3e8b60cbc6de0d10e29cba325fb1ecb4:-1513317195,e9aae08b07de0d107066549c159329d2:1340624522,d3af0c43b29e0d103fca93bb409becc2:1914011652,6816bae9fa520910dc22c994d71e162c:-613846325,13c576e9bf520910263ec9d9dcc9917e:721788581</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-21 17:10:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0eac8999f4ef4ed2b9bac67f746d9e69</sys_id>
+        <sys_metadata>5bc576e9db520910f7265eea4b96197b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Filtros navigation</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_5bc576e9db520910f7265eea4b96197b</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_5bc576e9db520910f7265eea4b96197b">d79a46d01b3e891084023158cc4bcb30</sys_update_version>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 17:10:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

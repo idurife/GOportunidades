@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_workspace_declarative_action_exclusion">
+    <sys_workspace_declarative_action_exclusion action="INSERT_OR_UPDATE">
+        <action_assignment/>
+        <exclude_all_child_tables>true</exclude_all_child_tables>
+        <exclude_self>true</exclude_self>
+        <sys_class_name>sys_workspace_declarative_action_exclusion</sys_class_name>
+        <sys_created_by>ecsunahata</sys_created_by>
+        <sys_created_on>2022-03-17 14:46:04</sys_created_on>
+        <sys_id>e6fd9d251bda851084023158cc4bcb02</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_issas_gesti_n_0_profesional</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_workspace_declarative_action_exclusion_e6fd9d251bda851084023158cc4bcb02</sys_update_name>
+        <sys_updated_by>ecsunahata</sys_updated_by>
+        <sys_updated_on>2022-03-17 14:49:50</sys_updated_on>
+        <table>x_issas_gesti_n_0_profesional</table>
+    </sys_workspace_declarative_action_exclusion>
+</record_update>

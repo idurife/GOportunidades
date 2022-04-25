@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Profesional" max_length="40" name="x_issas_gesti_n_0_profesional" sizeclass="10" type="collection">
+        <element label="Apellidos" max_length="40" name="apellidos" type="string"/>
+        <element label="Activo" max_length="40" name="estado" type="boolean"/>
+        <element choice="1" label="Interno/Externo" max_length="40" name="interno_externo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="External" value="externo"/>
+                <element inactive_on_update="false" label="Externo" language="es" value="externo"/>
+                <element inactive_on_update="false" label="Internal" value="interno"/>
+                <element inactive_on_update="false" label="Interno" language="es" value="interno"/>
+            </choice>
+        </element>
+        <element active="false" label="Link Perfil People+" max_length="1024" name="link_perfil_people" type="url"/>
+        <element calculation="if (current.nombres.nil() &amp;&amp; current.apellidos.nil() &amp;&amp; !current.nombre.nil()) {&#13;&#10;  var nombresContacto = current.nombre.toString().split(&quot; &quot;);&#13;&#10;  if (nombresContacto.length &gt; 1) {&#13;&#10;    current.nombres = nombresContacto[0];&#13;&#10;    nombres.shift();&#13;&#10;    current.apellidos = nombresContacto.join(&quot; &quot;);&#13;&#10;  } else &#13;&#10;    current.apellidos = nombresContacto[0];&#13;&#10;}  &#13;&#10;&#13;&#10;if(current.nombres.nil()) { &#13;&#10;    current.apellidos; &#13;&#10;  } else { &#13;&#10;    current.nombres + ' ' + current.apellidos;&#13;&#10;  }" display="true" function_definition="glidefunction:concat(nombre, ',' apellidos)" label="Nombre" max_length="40" name="nombre" type="string" virtual="true"/>
+        <element label="Nombres" max_length="40" name="nombres" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Numero Empleado" max_length="40" name="numero_empleado" type="integer"/>
+        <element label="Tasa" max_length="20" name="tasa" type="decimal"/>
+        <element choice="1" label="Tipo" max_length="40" name="tipo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AATT" language="es" value="ttaa"/>
+                <element inactive_on_update="false" label="Deals" language="es" value="deals"/>
+                <element inactive_on_update="false" label="DS" language="es" value="ds"/>
+                <element inactive_on_update="false" label="DS" value="ds"/>
+                <element inactive_on_update="false" label="Market" language="es" value="market"/>
+                <element inactive_on_update="false" label="Technician" language="es" value="technician"/>
+                <element inactive_on_update="false" label="AATT" sequence="0" value="ttaa"/>
+                <element inactive="true" inactive_on_update="true" label="DS" sequence="0" value="ds"/>
+                <element inactive_on_update="false" label="Deals" sequence="1" value="deals"/>
+                <element inactive_on_update="false" label="Market" sequence="3" value="market"/>
+                <element inactive_on_update="false" label="Technician" sequence="4" value="technician"/>
+            </choice>
+        </element>
+    </element>
+</database>

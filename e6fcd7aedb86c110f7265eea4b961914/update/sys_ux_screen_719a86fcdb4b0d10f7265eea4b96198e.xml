@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Gestión de Oportunidades  Config">940c07e759024110057e95adda8195df</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "clbbnndkhhmaaaahhuddiiiiccchhnrwcjja",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#REFRESH_REQUESTED_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#REFRESH_REQUESTED_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#REFRESH_REQUESTED_RELAY",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : "7b5ee76c53b710108135ddeeff7b12f5"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndkhhmaaaahhtddiiiicczggvbbpkdp",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "clbbnndkffbaaaahhsddiiiiccjddccjskz",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#EXECUTE_UI_ACTION_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#EXECUTE_UI_ACTION_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#EXECUTE_UI_ACTION_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "actionSysId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "actionSysId" ]
+            }
+          }
+        }
+      },
+      "sysId" : "5ebbefa853b710108135ddeeff7b1210"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndkffbaaaahhrddiiiiccnxfvvefbb",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "clbbnndkccoaaaahhqddiiiiccaalbbffssaao",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#WRAPPED_ACTION_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#WRAPPED_ACTION_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#WRAPPED_ACTION_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "wrappedAction" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "wrappedAction" ]
+            }
+          },
+          "wrappedPayload" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "wrappedPayload" ]
+            }
+          }
+        }
+      },
+      "sysId" : "cfc83f2053f710108135ddeeff7b121b"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndkccoaaaahhpddiiiiccccmccggmwqjj",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "clbbnndkbbbbaaaahhoddiiiiccslbuggsffw",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#REMOVE_NOTIFICATIONS_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#REMOVE_NOTIFICATIONS_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#REMOVE_NOTIFICATIONS_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "items" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "items" ]
+            }
+          }
+        }
+      },
+      "sysId" : "a0b83f2053f710108135ddeeff7b1228"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndkbbbbaaaahhnddiiiiccfecnbbiew",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "clbbnndjpyaaaahhmddiiiicchhbbzcecrr",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#SCREEN_STATUS_CHANGED_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#SCREEN_STATUS_CHANGED_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#SCREEN_STATUS_CHANGED_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "screenKey" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "screenKey" ]
+            }
+          },
+          "status" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "status" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "icon" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "icon" ]
+            }
+          },
+          "message" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "message" ]
+            }
+          },
+          "isDirty" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "isDirty" ]
+            }
+          },
+          "hasError" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "hasError" ]
+            }
+          },
+          "hasUpdate" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "hasUpdate" ]
+            }
+          },
+          "dirtyModalId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "dirtyModalId" ]
+            }
+          },
+          "tooltipPreview" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "tooltipPreview" ]
+            }
+          }
+        }
+      },
+      "sysId" : "c4c8b3a053f710108135ddeeff7b128e"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndjpxaaaahhlddiiiiccebdteeqgdd",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "clbbnndjoggaaaahhkddiiiiccnaeeeenlhhw",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#ADD_NOTIFICATIONS_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#ADD_NOTIFICATIONS_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#ADD_NOTIFICATIONS_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "items" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "items" ]
+            }
+          }
+        }
+      },
+      "sysId" : "02e8afa853b710108135ddeeff7b1298"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndjoggaaaahhjddiiiicceevhiircim",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "clbbnndjmggaaaahhiddiiiiccjjravtsujj",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#PREVIEW_RECORD_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#PREVIEW_RECORD_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#PREVIEW_RECORD_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "table" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "table" ]
+            }
+          },
+          "sys_id" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "sys_id" ]
+            }
+          },
+          "query" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "query" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          }
+        }
+      },
+      "sysId" : "6a7d636c53b710108135ddeeff7b12ac"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndjmffaaaahhhddiiiiccfsijfhlr",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "clbbnndjkqaaaahhgddiiiiccrvfvxdqhh",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#CLEAR_NOTIFICATIONS_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#CLEAR_NOTIFICATIONS_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#CLEAR_NOTIFICATIONS_RELAY",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : "b15aafa853b710108135ddeeff7b12a1"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndjkqaaaahhfddiiiiccihnyvhhuee",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "clbbnndjhhaaaaahheddiiiicciajrqucee",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#ITEM_SELECTED_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_issas_gesti_n_0.RECORD_PAGE_TABS#ITEM_SELECTED_RELAY_RELAY_798590041b7a491084023158cc4bcb5a",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#ITEM_SELECTED_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "table" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "table" ]
+            }
+          },
+          "sys_id" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "sys_id" ]
+            }
+          },
+          "parent_table" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "parent_table" ]
+            }
+          },
+          "parent_sys_id" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "parent_sys_id" ]
+            }
+          },
+          "renderer_type" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "renderer_type" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "path" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "path" ]
+            }
+          }
+        }
+      },
+      "sysId" : "994c2b2c53b710108135ddeeff7b1232"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndjhhaaaaahhdddiiiicclpxbkity",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckebbaahxdeaaaaaaiddhhheeqjdffnjjy1",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_now_record_form.RECORD_PAGE_TABS#ITEM_SELECTED_RELAY",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#ITEM_SELECTED_RELAY",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#ITEM_SELECTED_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "table" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "table" ]
+            }
+          },
+          "sys_id" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "sys_id" ]
+            }
+          },
+          "parent_table" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "parent_table" ]
+            }
+          },
+          "parent_sys_id" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "parent_sys_id" ]
+            }
+          },
+          "renderer_type" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "renderer_type" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "path" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "path" ]
+            }
+          }
+        }
+      },
+      "sysId" : "994c2b2c53b710108135ddeeff7b1232"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndaeezaaaagglddiiiiccmddgpsjjfm",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckebbaahxdeaaaaaaiddhhheeqjdffnjjy2",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_now_record_form.RECORD_PAGE_TABS#PREVIEW_RECORD_RELAY",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#PREVIEW_RECORD_RELAY",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#PREVIEW_RECORD_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "table" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "table" ]
+            }
+          },
+          "sys_id" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "sys_id" ]
+            }
+          },
+          "query" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "query" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          }
+        }
+      },
+      "sysId" : "6a7d636c53b710108135ddeeff7b12ac"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndaffaaaaaaggmddiiiiccbbkydrbbbj",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckebbaahxdeaaaaaaiddhhheeqjdffnjjy3",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_now_record_form.RECORD_PAGE_TABS#SCREEN_STATUS_CHANGED_RELAY",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#SCREEN_STATUS_CHANGED_RELAY",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#SCREEN_STATUS_CHANGED_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "screenKey" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "screenKey" ]
+            }
+          },
+          "status" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "status" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "icon" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "icon" ]
+            }
+          },
+          "message" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "message" ]
+            }
+          },
+          "isDirty" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "isDirty" ]
+            }
+          },
+          "hasError" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "hasError" ]
+            }
+          },
+          "hasUpdate" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "hasUpdate" ]
+            }
+          },
+          "dirtyModalId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "dirtyModalId" ]
+            }
+          },
+          "tooltipPreview" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "tooltipPreview" ]
+            }
+          }
+        }
+      },
+      "sysId" : "c4c8b3a053f710108135ddeeff7b128e"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndaffaaaaaaggnddiiiiccnaahgggsjjr",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckebbaahxdeaaaaaaiddhhheeqjdffnjjy4",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_now_record_form.RECORD_PAGE_TABS#ADD_NOTIFICATIONS_RELAY",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#ADD_NOTIFICATIONS_RELAY",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#ADD_NOTIFICATIONS_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "items" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "items" ]
+            }
+          }
+        }
+      },
+      "sysId" : "02e8afa853b710108135ddeeff7b1298"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndaffaaaaaaggoddiiiiccpiiffeeptge",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckebbaahxdeaaaaaaiddhhheeqjdffnjjy5",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_now_record_form.RECORD_PAGE_TABS#CLEAR_NOTIFICATIONS_RELAY",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#CLEAR_NOTIFICATIONS_RELAY",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#CLEAR_NOTIFICATIONS_RELAY",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : "b15aafa853b710108135ddeeff7b12a1"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndaffaaaaaaggpddiiiiccjaahhbrffuo",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckebbaahxdeaaaaaaiddhhheeqjdffnjjy6",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_now_record_form.RECORD_PAGE_TABS#REMOVE_NOTIFICATIONS_RELAY",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#REMOVE_NOTIFICATIONS_RELAY",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#REMOVE_NOTIFICATIONS_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "items" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "items" ]
+            }
+          }
+        }
+      },
+      "sysId" : "a0b83f2053f710108135ddeeff7b1228"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndaffaaaaaaggqddiiiiccvbblhhphbb",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckebbaahxdeaaaaaaiddhhheeqjdffnjjy7",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_now_record_form.RECORD_PAGE_TABS#WRAPPED_ACTION_RELAY",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#WRAPPED_ACTION_RELAY",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#WRAPPED_ACTION_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "wrappedAction" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "wrappedAction" ]
+            }
+          },
+          "wrappedPayload" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "wrappedPayload" ]
+            }
+          }
+        }
+      },
+      "sysId" : "cfc83f2053f710108135ddeeff7b121b"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndaffaaaaaaggrddiiiicctdpccebibb",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckebbaahxdeaaaaaaiddhhheeqjdffnjjy8",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_now_record_form.RECORD_PAGE_TABS#EXECUTE_UI_ACTION_RELAY",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#EXECUTE_UI_ACTION_RELAY",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#EXECUTE_UI_ACTION_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "actionSysId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "actionSysId" ]
+            }
+          }
+        }
+      },
+      "sysId" : "5ebbefa853b710108135ddeeff7b1210"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndaffaaaaaaggsddiiiiccsuaurudx",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckebbaahxdeaaaaaaiddhhheeqjdffnjjy9",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_now_record_form.RECORD_PAGE_TABS#REFRESH_REQUESTED_RELAY",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#REFRESH_REQUESTED_RELAY",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#REFRESH_REQUESTED_RELAY",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : "7b5ee76c53b710108135ddeeff7b12f5"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndaffaaaaaaggtddiiiiccgvbbwkphf",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckebbaahxdeaaaaaaiddhhheeqjdffnjjy14",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "sn_now_record_form.RECORD_PAGE_TABS#GFORM_SET_VALUE_RELAY",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#GFORM_SET_VALUE_RELAY",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_now_record_form.RECORD_PAGE_TABS#GFORM_SET_VALUE_RELAY",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "fieldName" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fieldName" ]
+            }
+          },
+          "value" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "value" ]
+            }
+          },
+          "displayValue" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "displayValue" ]
+            }
+          }
+        }
+      },
+      "sysId" : "62a19335c7b22010c230337bf4c26097"
+    },
+    "operation" : null,
+    "targetId" : "clbbnndaffaaaaaagguddiiiiccbeeykhhcca",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Record Related Items Tab Default">798590041b7a491084023158cc4bcb5a</macroponent>
+        <macroponent_config>{
+  "formModel" : "",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Record Related Items Tab Default Copy</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">1db6a3d11b56851084023158cc4bcbf2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Record Related Items Tab">e59a86fcdb4b0d10f7265eea4b961982</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-21 16:52:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>719a86fcdb4b0d10f7265eea4b96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Related Items Tab Default Copy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_screen_719a86fcdb4b0d10f7265eea4b96198e</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:52:23</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=719a86fcdb4b0d10f7265eea4b96198e"/>
+</record_update>

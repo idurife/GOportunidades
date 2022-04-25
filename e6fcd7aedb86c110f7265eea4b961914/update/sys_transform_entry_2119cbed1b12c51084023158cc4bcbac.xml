@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Data de Ofertas Transform Map">1b684fad1b12c51084023158cc4bcb1a</map>
+        <reference_value_field/>
+        <source_field>u_contactos_ds_ttaa_ga</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_issas_gesti_n_0_data_de_ofertas</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>ecsunahata</sys_created_by>
+        <sys_created_on>2022-03-17 22:33:47</sys_created_on>
+        <sys_id>2119cbed1b12c51084023158cc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_contactos_ds_ttaa_ga</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_transform_entry_2119cbed1b12c51084023158cc4bcbac</sys_update_name>
+        <sys_updated_by>ecsunahata</sys_updated_by>
+        <sys_updated_on>2022-03-17 22:33:47</sys_updated_on>
+        <target_field>contactos_ds_ttaa_ga</target_field>
+        <target_table>x_issas_gesti_n_0_oferta</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

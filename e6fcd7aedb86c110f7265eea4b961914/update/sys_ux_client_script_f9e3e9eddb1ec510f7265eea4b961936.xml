@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="RecordGODetalle">bde3e9eddb1ec510f7265eea4b961922</macroponent>
+        <name>Set Related Item Content</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+  debugger;
+    var resultTabContent = {
+  ...api.state.relatedTabContent,
+  ...event.payload.relatedTabContent,
+};
+    api.setState('relatedTabContent', resultTabContent);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-17 15:11:43</sys_created_on>
+        <sys_id>f9e3e9eddb1ec510f7265eea4b961936</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Related Item Content</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_client_script_f9e3e9eddb1ec510f7265eea4b961936</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-21 14:00:58</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

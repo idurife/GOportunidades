@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="DELETE">
+        <alt/>
+        <element>tiene_adjunto</element>
+        <name>x_issas_gesti_n_0_oferta</name>
+        <style>background-color:red;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-22 05:56:57</sys_created_on>
+        <sys_id>e5c419cfdb524d10f7265eea4b9619d5</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>x_issas_gesti_n_0_oferta</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ui_style_e5c419cfdb524d10f7265eea4b9619d5</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-22 06:15:21</sys_updated_on>
+        <value>javascript:current.tiene_adjunto== false;</value>
+    </sys_ui_style>
+    <sys_translated_text action="DELETE" query="documentkey=e5c419cfdb524d10f7265eea4b9619d5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_ui_style_e5c419cfdb524d10f7265eea4b9619d5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>tiene_adjunto</element><name>x_issas_gesti_n_0_oferta</name><style>background-color:red;</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>idramirez</sys_created_by><sys_created_on>2022-03-22 05:56:57</sys_created_on><sys_id>e5c419cfdb524d10f7265eea4b9619d5</sys_id><sys_mod_count>8</sys_mod_count><sys_name>x_issas_gesti_n_0_oferta</sys_name><sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package><sys_policy/><sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope><sys_update_name>sys_ui_style_e5c419cfdb524d10f7265eea4b9619d5</sys_update_name><sys_updated_by>idramirez</sys_updated_by><sys_updated_on>2022-03-22 06:15:21</sys_updated_on><value>javascript:current.tiene_adjunto== false;</value></sys_ui_style><sys_translated_text action="delete_multiple" query="documentkey=e5c419cfdb524d10f7265eea4b9619d5"/></record_update>]]></payload>
+        <payload_hash>-1291315419</payload_hash>
+        <record_name>x_issas_gesti_n_0_oferta</record_name>
+        <reverted_from/>
+        <source>1fb4f97c1bc7451084023158cc4bcba0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-22 06:15:21</sys_created_on>
+        <sys_id>311999c3db924d10f7265eea4b961910</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>17fb04403250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-21 15:17:29</sys_updated_on>
+        <type>Style</type>
+        <update_guid>f51999c3fe924d10162f7f749d57250f</update_guid>
+        <update_guid_history>f51999c3fe924d10162f7f749d57250f:-1291315419,c168d1c3b2924d10a5703a056bd78ba1:-83611599,1328dd8386924d1054ee4b03c3d3e3fe:-1291315419,16085d83b0924d101150e44815b2b4e5:-575309382,5d37518303924d1038c87700faf68e87:-187946727,7526dd0329924d10fbd75a3851081c61:1899232303,8f05d9cf87524d1052e03fa2c71dfd63:-187946727,f1e419cfeb524d102a04f3c20972ffc3:1393512755,88e419cf01524d10824242da24ec56dd:-2128993866</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-22 06:16:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_style">sys_ui_style</sys_db_object>
+        <sys_id>98184010ed7644b0a62a9ae5c7d9c100</sys_id>
+        <sys_metadata>e5c419cfdb524d10f7265eea4b9619d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_issas_gesti_n_0_oferta</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent display_value="Oferta">f73adcba1b42811084023158cc4bcbc7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_ui_style_e5c419cfdb524d10f7265eea4b9619d5</sys_update_name>
+        <sys_update_version display_value="sys_ui_style_e5c419cfdb524d10f7265eea4b9619d5">311999c3db924d10f7265eea4b961910</sys_update_version>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-22 06:16:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

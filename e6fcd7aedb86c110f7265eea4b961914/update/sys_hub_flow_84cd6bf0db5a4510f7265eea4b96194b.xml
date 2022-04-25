@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-rome-06-23-2021__patch7-02-09-2022_02-23-2022_0935.zip</compiler_build>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>prueba_comentario</internal_name>
+        <label_cache>[{"name":"e2752cbd-4a7c-46b4-a3c9-9dffba5ecc6e.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2752cbd-4a7c-46b4-a3c9-9dffba5ecc6e.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2752cbd-4a7c-46b4-a3c9-9dffba5ecc6e.table_name","label":"2➛Oferta Table","reference":"x_issas_gesti_n_0_oferta","reference_display":"Oferta","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2752cbd-4a7c-46b4-a3c9-9dffba5ecc6e.record","label":"2➛Oferta Record","reference":"x_issas_gesti_n_0_oferta","reference_display":"Oferta","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Oferta Record","reference":"x_issas_gesti_n_0_oferta","reference_display":"Oferta","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.comentario","label":"Trigger➛Oferta Record➛Comentario","reference":"","reference_display":"Comentario","type":"string","base_type":"string","parent_table_name":"x_issas_gesti_n_0_oferta","column_name":"comentario"},{"name":"993b6019-b94f-41f0-9c08-cd6507b5fff9.record","label":"1➛Diario Record","reference":"x_issas_gesti_n_0_diario","reference_display":"Diario","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"993b6019-b94f-41f0-9c08-cd6507b5fff9.table_name","label":"1➛Diario Table","reference":"x_issas_gesti_n_0_diario","reference_display":"Diario","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"993b6019-b94f-41f0-9c08-cd6507b5fff9.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"993b6019-b94f-41f0-9c08-cd6507b5fff9.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"993b6019-b94f-41f0-9c08-cd6507b5fff9.record.ofertas.comentario","label":"1➛Diario Record➛Ofertas➛Comentario","reference":"","reference_display":"Comentario","type":"string","base_type":"string","parent_table_name":"x_issas_gesti_n_0_oferta","column_name":"comentario"},{"name":"4426f101-591d-446e-a757-d1b8e11255fc.record","label":"3➛Oferta Record","reference":"x_issas_gesti_n_0_oferta","reference_display":"Oferta","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4426f101-591d-446e-a757-d1b8e11255fc.table_name","label":"3➛Oferta Table","reference":"x_issas_gesti_n_0_oferta","reference_display":"Oferta","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4426f101-591d-446e-a757-d1b8e11255fc.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4426f101-591d-446e-a757-d1b8e11255fc.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>53ef6f74db5a4510f7265eea4b9619a1</master_snapshot>
+        <name>Comentario de diario</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>d1584e3cdb4b0d10f7265eea4b96190a</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:18:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>84cd6bf0db5a4510f7265eea4b96194b</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>Comentario de diario</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_hub_flow_84cd6bf0db5a4510f7265eea4b96194b</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:32</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=84cd6bf0db5a4510f7265eea4b96194b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=84cd6bf0db5a4510f7265eea4b96194b"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_issas_gesti_n_0_oferta">comentarioISNOTEMPTY<item endquery="false" field="comentario" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-21 16:42:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d1584e3cdb4b0d10f7265eea4b96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:31</sys_updated_on>
+        <table>x_issas_gesti_n_0_oferta</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"9d584e3cdb4b0d10f7265eea4b96190a","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>84cd6bf0db5a4510f7265eea4b96194b</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-21 16:42:31</sys_created_on>
+        <sys_id>9d584e3cdb4b0d10f7265eea4b96190a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:31</sys_updated_on>
+        <trigger display_value="">d1584e3cdb4b0d10f7265eea4b96190a</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>9d584e3cdb4b0d10f7265eea4b96190a</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-21 16:42:31</sys_created_on>
+        <sys_id>95584e3cdb4b0d10f7265eea4b96190b</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=84cd6bf0db5a4510f7265eea4b96194b^sys_idNOT IN9d584e3cdb4b0d10f7265eea4b96190a"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=84cd6bf0db5a4510f7265eea4b96194b^sys_idNOT IN8e4f6374db5a4510f7265eea4b96196a"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Comentario de diario">84cd6bf0db5a4510f7265eea4b96194b</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:25:13</sys_created_on>
+        <sys_id>8e4f6374db5a4510f7265eea4b96196a</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:32</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8e4f6374db5a4510f7265eea4b96196a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>8e4f6374db5a4510f7265eea4b96196a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:07:22</sys_created_on>
+        <sys_id>299b48d1db5a8510f7265eea4b9619f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:07:47</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>8e4f6374db5a4510f7265eea4b96196a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:25:13</sys_created_on>
+        <sys_id>424f6374db5a4510f7265eea4b96196c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:43:56</sys_updated_on>
+        <value>comentarioISNOTEMPTY</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>8e4f6374db5a4510f7265eea4b96196a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:25:13</sys_created_on>
+        <sys_id>ca4f6374db5a4510f7265eea4b96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:25:13</sys_updated_on>
+        <value>x_issas_gesti_n_0_oferta</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=8e4f6374db5a4510f7265eea4b96196a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=84cd6bf0db5a4510f7265eea4b96194b^sys_idNOT IN80cd6bf0db5a4510f7265eea4b96194e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>84cd6bf0db5a4510f7265eea4b96194b</id>
+        <name>Prueba comentario</name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:18:32</sys_created_on>
+        <sys_id>80cd6bf0db5a4510f7265eea4b96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:18:32</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=84cd6bf0db5a4510f7265eea4b96194b^sys_idNOT IN024f6374db5a4510f7265eea4b961963,b14f6374db5a4510f7265eea4b96193c,ca4f6374db5a4510f7265eea4b961943"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Comentario de diario">84cd6bf0db5a4510f7265eea4b96194b</model>
+        <model_id>84cd6bf0db5a4510f7265eea4b96194b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_84cd6bf0db5a4510f7265eea4b96194b</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:25:13</sys_created_on>
+        <sys_id>024f6374db5a4510f7265eea4b961963</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Comentario de diario">84cd6bf0db5a4510f7265eea4b96194b</model>
+        <model_id>84cd6bf0db5a4510f7265eea4b96194b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_84cd6bf0db5a4510f7265eea4b96194b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:25:13</sys_created_on>
+        <sys_id>b14f6374db5a4510f7265eea4b96193c</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD7c580e3c4f4b0d102641ac4758af96a7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Comentario de diario">84cd6bf0db5a4510f7265eea4b96194b</model>
+        <model_id>84cd6bf0db5a4510f7265eea4b96194b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_84cd6bf0db5a4510f7265eea4b96194b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:25:13</sys_created_on>
+        <sys_id>ca4f6374db5a4510f7265eea4b961943</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=84cd6bf0db5a4510f7265eea4b96194b^sys_idNOT IN4a4f6374db5a4510f7265eea4b961971,cc6d8455db5a8510f7265eea4b96190a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Comentario de diario">84cd6bf0db5a4510f7265eea4b96194b</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:25:13</sys_created_on>
+        <sys_id>4a4f6374db5a4510f7265eea4b961971</sys_id>
+        <sys_mod_count>68</sys_mod_count>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:32</sys_updated_on>
+        <ui_id>993b6019-b94f-41f0-9c08-cd6507b5fff9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4a4f6374db5a4510f7265eea4b961971"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4a4f6374db5a4510f7265eea4b961971</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:25:13</sys_created_on>
+        <sys_id>424f6374db5a4510f7265eea4b961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:25:13</sys_updated_on>
+        <value>x_issas_gesti_n_0_diario</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4a4f6374db5a4510f7265eea4b961971</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:25:13</sys_created_on>
+        <sys_id>8e4f6374db5a4510f7265eea4b961973</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:27:48</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4a4f6374db5a4510f7265eea4b961971"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4a4f6374db5a4510f7265eea4b961971</id>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:25:13</sys_created_on>
+        <sys_id>c24f6374db5a4510f7265eea4b961973</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:25:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>4a4f6374db5a4510f7265eea4b961971</id>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:25:13</sys_created_on>
+        <sys_id>0e4f6374db5a4510f7265eea4b961973</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:33:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>comentarios={{Created or Updated_1.current.comentario}}^ofertas={{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Comentario de diario">84cd6bf0db5a4510f7265eea4b96194b</flow>
+        <order>3</order>
+        <parent_ui_id>650e5717-8652-4faa-9bcd-6abc10506cf6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:11</sys_created_on>
+        <sys_id>cc6d8455db5a8510f7265eea4b96190a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:32</sys_updated_on>
+        <ui_id>4426f101-591d-446e-a757-d1b8e11255fc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cc6d8455db5a8510f7265eea4b96190a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cc6d8455db5a8510f7265eea4b96190a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:11</sys_created_on>
+        <sys_id>046d8455db5a8510f7265eea4b96190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:11</sys_updated_on>
+        <value>x_issas_gesti_n_0_oferta</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cc6d8455db5a8510f7265eea4b96190a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:11</sys_created_on>
+        <sys_id>406d8455db5a8510f7265eea4b96190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:11</sys_updated_on>
+        <value>comentario=</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cc6d8455db5a8510f7265eea4b96190a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>cc6d8455db5a8510f7265eea4b96190a</id>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:11</sys_created_on>
+        <sys_id>0c6d8455db5a8510f7265eea4b96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>cc6d8455db5a8510f7265eea4b96190a</id>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:11</sys_created_on>
+        <sys_id>486d8455db5a8510f7265eea4b96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>cc6d8455db5a8510f7265eea4b96190a</id>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:11</sys_created_on>
+        <sys_id>cc6d8455db5a8510f7265eea4b96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=84cd6bf0db5a4510f7265eea4b96194b^sys_idNOT IN4c6d8455db5a8510f7265eea4b961901"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c46d4455db5a8510f7265eea4b9619f4</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Comentario de diario">84cd6bf0db5a4510f7265eea4b96194b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:11</sys_created_on>
+        <sys_id>4c6d8455db5a8510f7265eea4b961901</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:32</sys_updated_on>
+        <ui_id>650e5717-8652-4faa-9bcd-6abc10506cf6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4c6d8455db5a8510f7265eea4b961901"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4c6d8455db5a8510f7265eea4b961901</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:11</sys_created_on>
+        <sys_id>086d8455db5a8510f7265eea4b961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:11</sys_updated_on>
+        <value>actualizar comentario</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4c6d8455db5a8510f7265eea4b961901"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>4c6d8455db5a8510f7265eea4b961901</id>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:11</sys_created_on>
+        <sys_id>846d8455db5a8510f7265eea4b961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:11</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{993b6019-b94f-41f0-9c08-cd6507b5fff9.record.ofertas.comentario}}!=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>4c6d8455db5a8510f7265eea4b961901</id>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:11</sys_created_on>
+        <sys_id>cc6d8455db5a8510f7265eea4b961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:11</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_84cd6bf0db5a4510f7265eea4b96194b^sys_idNOT IN4a4f6374db5a4510f7265eea4b961961,c24f6374db5a4510f7265eea4b961942,ca4f6374db5a4510f7265eea4b961967"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_84cd6bf0db5a4510f7265eea4b96194b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:25:13</sys_created_on>
+        <sys_id>4a4f6374db5a4510f7265eea4b961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:25:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_84cd6bf0db5a4510f7265eea4b96194b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:25:13</sys_created_on>
+        <sys_id>c24f6374db5a4510f7265eea4b961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:25:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_84cd6bf0db5a4510f7265eea4b96194b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:25:13</sys_created_on>
+        <sys_id>ca4f6374db5a4510f7265eea4b961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:25:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=84cd6bf0db5a4510f7265eea4b96194b^sys_idNOT IN80ff23b4db5a4510f7265eea4b961953"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"80ff23b4db5a4510f7265eea4b961953","name":"plan","plan_signature":null}}</plan>
+        <plan_id>84cd6bf0db5a4510f7265eea4b96194b</plan_id>
+        <snapshot>53ef6f74db5a4510f7265eea4b9619a1</snapshot>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80ff23b4db5a4510f7265eea4b961953</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:31</sys_updated_on>
+        <trigger display_value="">d1584e3cdb4b0d10f7265eea4b96190a</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>prueba_comentario</internal_name>
+        <label_cache>[{"name":"e2752cbd-4a7c-46b4-a3c9-9dffba5ecc6e.__dont_treat_as_error__","label":"2➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2752cbd-4a7c-46b4-a3c9-9dffba5ecc6e.__action_status__","label":"2➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2752cbd-4a7c-46b4-a3c9-9dffba5ecc6e.table_name","label":"2➛Oferta Table","reference":"x_issas_gesti_n_0_oferta","reference_display":"Oferta","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2752cbd-4a7c-46b4-a3c9-9dffba5ecc6e.record","label":"2➛Oferta Record","reference":"x_issas_gesti_n_0_oferta","reference_display":"Oferta","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Oferta Record","reference":"x_issas_gesti_n_0_oferta","reference_display":"Oferta","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.comentario","label":"Trigger➛Oferta Record➛Comentario","reference":"","reference_display":"Comentario","type":"string","base_type":"string","parent_table_name":"x_issas_gesti_n_0_oferta","column_name":"comentario"},{"name":"993b6019-b94f-41f0-9c08-cd6507b5fff9.record","label":"1➛Diario Record","reference":"x_issas_gesti_n_0_diario","reference_display":"Diario","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"993b6019-b94f-41f0-9c08-cd6507b5fff9.table_name","label":"1➛Diario Table","reference":"x_issas_gesti_n_0_diario","reference_display":"Diario","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"993b6019-b94f-41f0-9c08-cd6507b5fff9.__action_status__","label":"1➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"993b6019-b94f-41f0-9c08-cd6507b5fff9.__dont_treat_as_error__","label":"1➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"993b6019-b94f-41f0-9c08-cd6507b5fff9.record.ofertas.comentario","label":"1➛Diario Record➛Ofertas➛Comentario","reference":"","reference_display":"Comentario","type":"string","base_type":"string","parent_table_name":"x_issas_gesti_n_0_oferta","column_name":"comentario"},{"name":"4426f101-591d-446e-a757-d1b8e11255fc.record","label":"3➛Oferta Record","reference":"x_issas_gesti_n_0_oferta","reference_display":"Oferta","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4426f101-591d-446e-a757-d1b8e11255fc.table_name","label":"3➛Oferta Table","reference":"x_issas_gesti_n_0_oferta","reference_display":"Oferta","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4426f101-591d-446e-a757-d1b8e11255fc.__action_status__","label":"3➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4426f101-591d-446e-a757-d1b8e11255fc.__dont_treat_as_error__","label":"3➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Comentario de diario</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Comentario de diario">84cd6bf0db5a4510f7265eea4b96194b</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>53ef6f74db5a4510f7265eea4b9619a1</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:30</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=53ef6f74db5a4510f7265eea4b9619a1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=53ef6f74db5a4510f7265eea4b9619a1"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=53ef6f74db5a4510f7265eea4b9619a1^sys_idNOT IN88ff23b4db5a4510f7265eea4b961940"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Comentario de diario">53ef6f74db5a4510f7265eea4b9619a1</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:05</sys_created_on>
+        <sys_id>88ff23b4db5a4510f7265eea4b961940</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:32</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=88ff23b4db5a4510f7265eea4b961940"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>88ff23b4db5a4510f7265eea4b961940</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:05</sys_created_on>
+        <sys_id>80ff23b4db5a4510f7265eea4b961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:28:05</sys_updated_on>
+        <value>x_issas_gesti_n_0_oferta</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>88ff23b4db5a4510f7265eea4b961940</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:05</sys_created_on>
+        <sys_id>ccff23b4db5a4510f7265eea4b961941</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:44:08</sys_updated_on>
+        <value>comentarioISNOTEMPTY</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>88ff23b4db5a4510f7265eea4b961940</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:07:55</sys_created_on>
+        <sys_id>e5bb0cd1db5a8510f7265eea4b9619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:07:55</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=88ff23b4db5a4510f7265eea4b961940"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=53ef6f74db5a4510f7265eea4b9619a1^sys_idNOT IN5bef6f74db5a4510f7265eea4b9619a2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>53ef6f74db5a4510f7265eea4b9619a1</id>
+        <name>Prueba comentario</name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:02</sys_created_on>
+        <sys_id>5bef6f74db5a4510f7265eea4b9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:28:02</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=53ef6f74db5a4510f7265eea4b9619a1^sys_idNOT IN73efef74db5a4510f7265eea4b9619fc,77ef23b4db5a4510f7265eea4b96192c,9fef6f74db5a4510f7265eea4b9619a5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD7c580e3c4f4b0d102641ac4758af96a7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Comentario de diario">53ef6f74db5a4510f7265eea4b9619a1</model>
+        <model_id>53ef6f74db5a4510f7265eea4b9619a1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_53ef6f74db5a4510f7265eea4b9619a1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:04</sys_created_on>
+        <sys_id>73efef74db5a4510f7265eea4b9619fc</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Comentario de diario">53ef6f74db5a4510f7265eea4b9619a1</model>
+        <model_id>53ef6f74db5a4510f7265eea4b9619a1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_53ef6f74db5a4510f7265eea4b9619a1</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:05</sys_created_on>
+        <sys_id>77ef23b4db5a4510f7265eea4b96192c</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Comentario de diario">53ef6f74db5a4510f7265eea4b9619a1</model>
+        <model_id>53ef6f74db5a4510f7265eea4b9619a1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_53ef6f74db5a4510f7265eea4b9619a1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:02</sys_created_on>
+        <sys_id>9fef6f74db5a4510f7265eea4b9619a5</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=53ef6f74db5a4510f7265eea4b9619a1^sys_idNOT IN0f6dc455db5a8510f7265eea4b9619eb,80ff23b4db5a4510f7265eea4b96193f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Comentario de diario">53ef6f74db5a4510f7265eea4b9619a1</flow>
+        <order>3</order>
+        <parent_ui_id>650e5717-8652-4faa-9bcd-6abc10506cf6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:23</sys_created_on>
+        <sys_id>0f6dc455db5a8510f7265eea4b9619eb</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:30</sys_updated_on>
+        <ui_id>4426f101-591d-446e-a757-d1b8e11255fc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0f6dc455db5a8510f7265eea4b9619eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0f6dc455db5a8510f7265eea4b9619eb</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:23</sys_created_on>
+        <sys_id>0b6dc455db5a8510f7265eea4b9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:23</sys_updated_on>
+        <value>x_issas_gesti_n_0_oferta</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0f6dc455db5a8510f7265eea4b9619eb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:23</sys_created_on>
+        <sys_id>476dc455db5a8510f7265eea4b9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:23</sys_updated_on>
+        <value>comentario=</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0f6dc455db5a8510f7265eea4b9619eb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>0f6dc455db5a8510f7265eea4b9619eb</id>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:23</sys_created_on>
+        <sys_id>036dc455db5a8510f7265eea4b9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>0f6dc455db5a8510f7265eea4b9619eb</id>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:23</sys_created_on>
+        <sys_id>4f6dc455db5a8510f7265eea4b9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>0f6dc455db5a8510f7265eea4b9619eb</id>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:23</sys_created_on>
+        <sys_id>c36dc455db5a8510f7265eea4b9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Comentario de diario">53ef6f74db5a4510f7265eea4b9619a1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:05</sys_created_on>
+        <sys_id>80ff23b4db5a4510f7265eea4b96193f</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:30</sys_updated_on>
+        <ui_id>993b6019-b94f-41f0-9c08-cd6507b5fff9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=80ff23b4db5a4510f7265eea4b96193f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>80ff23b4db5a4510f7265eea4b96193f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:05</sys_created_on>
+        <sys_id>84ff23b4db5a4510f7265eea4b961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:28:05</sys_updated_on>
+        <value>x_issas_gesti_n_0_diario</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=80ff23b4db5a4510f7265eea4b96193f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>80ff23b4db5a4510f7265eea4b96193f</id>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:05</sys_created_on>
+        <sys_id>40ff23b4db5a4510f7265eea4b961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:28:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>80ff23b4db5a4510f7265eea4b96193f</id>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:05</sys_created_on>
+        <sys_id>04ff23b4db5a4510f7265eea4b961940</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:34:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>comentarios={{Created or Updated_1.current.comentario}}^ofertas={{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=53ef6f74db5a4510f7265eea4b9619a1^sys_idNOT IN076dc455db5a8510f7265eea4b9619ee"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c46d4455db5a8510f7265eea4b9619f4</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Comentario de diario">53ef6f74db5a4510f7265eea4b9619a1</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:23</sys_created_on>
+        <sys_id>076dc455db5a8510f7265eea4b9619ee</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:42:30</sys_updated_on>
+        <ui_id>650e5717-8652-4faa-9bcd-6abc10506cf6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=076dc455db5a8510f7265eea4b9619ee"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>076dc455db5a8510f7265eea4b9619ee</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:23</sys_created_on>
+        <sys_id>8f6dc455db5a8510f7265eea4b9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:23</sys_updated_on>
+        <value>actualizar comentario</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=076dc455db5a8510f7265eea4b9619ee"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>076dc455db5a8510f7265eea4b9619ee</id>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:23</sys_created_on>
+        <sys_id>0f6dc455db5a8510f7265eea4b9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:23</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{993b6019-b94f-41f0-9c08-cd6507b5fff9.record.ofertas.comentario}}!=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>076dc455db5a8510f7265eea4b9619ee</id>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 14:15:23</sys_created_on>
+        <sys_id>4b6dc455db5a8510f7265eea4b9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-16 14:15:23</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_53ef6f74db5a4510f7265eea4b9619a1^sys_idNOT IN33efef74db5a4510f7265eea4b9619f8,37ef23b4db5a4510f7265eea4b961928,ffef23b4db5a4510f7265eea4b961932"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_53ef6f74db5a4510f7265eea4b9619a1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:04</sys_created_on>
+        <sys_id>33efef74db5a4510f7265eea4b9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:28:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_53ef6f74db5a4510f7265eea4b9619a1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:05</sys_created_on>
+        <sys_id>37ef23b4db5a4510f7265eea4b961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:28:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_53ef6f74db5a4510f7265eea4b9619a1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 17:28:05</sys_created_on>
+        <sys_id>ffef23b4db5a4510f7265eea4b961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-15 17:28:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>84cd6bf0db5a4510f7265eea4b96194b</sys_id>
+        <latest_snapshot>53ef6f74db5a4510f7265eea4b9619a1</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

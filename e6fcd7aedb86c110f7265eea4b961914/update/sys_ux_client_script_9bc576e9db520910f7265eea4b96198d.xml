@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>58d17acf0b531010a8b1c96237673a68</includes>
+        <macroponent display_value="Simple List Oferta">43c576e9db520910f7265eea4b96196b</macroponent>
+        <name>Open record from simple list page</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    helpers,
+    event,
+    imports
+}) {
+    const {
+        routeMapping,
+        buildDefaultRoutePayload
+    } = imports["global.recordRoutesMapping"]();
+
+   // var route = 'ofertadetalle';
+     var route = 'record';
+   // route = 'record';
+    var targetRoute = '';
+    const defaultRoutePayload = buildDefaultRoutePayload(route, targetRoute, event);
+    
+    const routeMap = api.data.dynamic_routing_list.routeMap;
+    const payload = routeMapping(routeMap, defaultRoutePayload, event);
+
+    // If a table name passed into trueupTable matches the existing table
+    // refresh trueup DR to get real table name; otherwise use existing.
+    if(api.state.routeParentTables && api.state.routeParentTables.split(',').find(table => table === payload.fields.table)) {
+        api.setState('navigationPayload', payload); 
+        api.data.resolve_route_parent_tables.refresh(); 
+    } else { 
+        api.emit('NAV_ITEM_SELECTED', payload); 
+    } 
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-17 21:09:32</sys_created_on>
+        <sys_id>9bc576e9db520910f7265eea4b96198d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Open record from simple list page</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_client_script_9bc576e9db520910f7265eea4b96198d</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-05 23:42:21</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

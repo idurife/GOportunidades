@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_asset">
+    <sys_ux_theme_asset action="INSERT_OR_UPDATE">
+        <category>image</category>
+        <name>indra_logo</name>
+        <sys_class_name>sys_ux_theme_asset</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-31 20:29:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3e23a0e1baac11084023158cc4bcb5a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>indra_logo</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_theme_asset_e3e23a0e1baac11084023158cc4bcb5a</sys_update_name>
+        <sys_updated_by>ecsunahata</sys_updated_by>
+        <sys_updated_on>2022-04-04 16:26:14</sys_updated_on>
+    </sys_ux_theme_asset>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ffffff</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>logoindra.png</file_name>
+        <hash>7527f9b4428127100cb7014b3a342f1b16e1f229c3cbb5ecc23b5ca6667f8989</hash>
+        <image_height>63</image_height>
+        <image_width>180</image_width>
+        <size_bytes>1473</size_bytes>
+        <size_compressed>1496</size_compressed>
+        <state>available</state>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-04 16:29:49</sys_created_on>
+        <sys_id>a5622a5b1b6ac51084023158cc4bcbfd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-04 16:29:50</sys_updated_on>
+        <table_name>sys_ux_theme_asset</table_name>
+        <table_sys_id>e3e23a0e1baac11084023158cc4bcb5a</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logoindra.png" sys_id="a5622a5b1b6ac51084023158cc4bcbfd">a5622a5b1b6ac51084023158cc4bcbfd</sys_attachment>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-04 16:29:49</sys_created_on>
+        <sys_id>e5622a5b1b6ac51084023158cc4bcbfd</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AcEFPvqJUE5HDQoaCgAAAA1JSERSAAAAtAAAAD8IBgAAAEm64ikAAAAGYktHRAD/AP8A/6C9p5MAAAAJcEhZcwAAFxEAABcRAcom8z8AAAAHdElNRQfjBAQQBSfivRBFAAAAHWlUWHRDb21tZW50AAAAAABDcmVhdGVkIHdpdGggR0lNUGQuZQcAAAUlSURBVHja7ZxdaFxFFMd/J7vJJvGjSQyKpRTBYqugqGj9QKRapApqlYoPvlmwCH3RUkQJKEVRwSoBi4ovgvoi+CK21i9aH1RKFKyIiigWFEvV+lUrNR+b48NOsIRkd2azN7l39/973D13Zu6Z/z1zZubeASGEEEIIIYQQQgghhBBCCCGEEKLQmFyw+Lj7MuDPSPMhM/tDXoujSy5YGk0Dkwm2QoIWErQQErQQErQQErQQErSQoIUoKuUUY3cH6CZubXTKzOqVU87wvqpmtmjrt+F+SsRvVJWzbMvJfnd3C22rx7SZTS+knvBbV0ZBMrp9qY5dBvwO/NVIUMCqOnaDwHdkt1NZdfdDwGvALjMbb7VY3P0m4HbgauCs0JFdkQ+7hcCQiZjdfQi4H9gEnBkEPV+7eoDtwAspdYR6VgF3AdcDa4KeWi3oMvAsMJKFoC00eLBRdG4g1pkystx6HwYuB3a6+xjwiJm9PVdkSeBOd78PuCqnI+4Wd98GrE68rpLwMK9w96eBGyJ00Cr6Mkk5CsxaYK+7vwjc6+6eImp3Hwb2hHJyh7tXgP1ZPmghIo8Aj7VNDt0GbAHOM7PrEsRyDnAop0Keyd2PAAMZ1lMCPgEu0SpH/ljn7jtixBIi37d5vZEwyjyfpZgDu4sg5k4VNMCD7t4bIly9fPH1PI9i7r4SuCfjOtYDNxalYztV0D3ABfPl0SFfLAM35/w+ti9CHY8XqWM7eWNla4P/dxTgHjKdpIbJ8NoidWoRJoUj1F+26QKWAxuAsxPKbRR9705s50/APuAwjV/erwDbaLzh0YiVifZfAh8Cv/D/kmkJGJvH/o4m2rQnzDuON7CbBjYDK5YyZxvwOCbdfaBOOWe4+3RMQYnt2+AJ1Cmn4u7HIov5292vTGxnn7uPR5Zfz48TkWWMu/v5ESsms397OcGdI03o6aPIsp/pyJTDzN4BdqUIa56/ukOeHcMocCCxqd20ZlMpdrfxYTP7OmLFZDbLI8v/DXgiMf5ABhtr7ZhD702w7auTisWmA68u0WiZkq6MNlnNUKTdW2Y2vYAdWAm6DkdbEOFKsYI2s2+WqCNPTxi5xpuIngCnRNp9rFWO7DiRYFuqMxTm/YiH2L77t05K0YhKpN0PEnR2VFuRjreRPyYWIUc/IUHnW9CxTBVhrkwHoS9W5D91iOgY/1WL5gcJem50/FaN2OPKhiXo/EemqG/Y3P20NvbDP5F2ayTo/As6dsK3rsk13iJwLNJukwSd/6E2VtAPnPThbLv5IXaTanV4M2/JfVCWdudkAhgH+iNsr3H3z4HbgKPuHpOq9OfdAUGYXwEbI8x7gF/dfSOwP9IHU1kEVAl6Dsys6u5fANdGXnIR8H2I7NWISWUmxxi02Ae4+7vAQwmXvRHmHpORc5CKBL14PAq8l3hNd96FmijqD5pIIbqyEKpy6AUOt2b2PrXXIjud0SI1VoKef7gF2NnpDzbwlATdPsJ+Enipkx9sMzsMXCFBt0mUNrPNwHMdnn6NAbdETvQk6AKIeitwK7WVjE5Nv3ZTO6xzH/Fb4hJ0Hjs08KaZnUvtO7tXqK2jOh3w3sfMaaPAcTNbD/RSO93057z5IOld2fAd22U0fgvLgYNmVp2nnDJwcUSVZTM7kNjGXuBC4taCD5rZZELZs89eHqT2KVQ/taWqVi+DloBP5/Jj8OGlEWlA1cw+yzAl6ad2FNmpQeitPlLXgCNm9qPCqxBCCCGEEEIIIYQQQgghhBBibv4DWUroEWYXcHwAAAAASUVORK5CYIKYp09ewQUAAA==</data>
+        <length>1984</length>
+        <position>1</position>
+        <sys_attachment display_value="logoindra.png" sys_id="a5622a5b1b6ac51084023158cc4bcbfd">a5622a5b1b6ac51084023158cc4bcbfd</sys_attachment>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-04 16:29:49</sys_created_on>
+        <sys_id>69622a5b1b6ac51084023158cc4bcbfd</sys_id>
+    </sys_attachment_doc>
+</record_update>

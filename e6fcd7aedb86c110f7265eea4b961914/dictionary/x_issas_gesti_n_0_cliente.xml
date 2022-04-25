@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Cliente" max_length="40" name="x_issas_gesti_n_0_cliente" sizeclass="4" type="collection">
+        <element attributes="encode_utf8=false,ref_ac_columns=nombre,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter" label="Mercado" max_length="40" name="mercado" reference="x_issas_gesti_n_0_mercado" type="reference"/>
+        <element display="true" label="Nombre" max_length="100" name="nombre" type="string"/>
+    </element>
+</database>

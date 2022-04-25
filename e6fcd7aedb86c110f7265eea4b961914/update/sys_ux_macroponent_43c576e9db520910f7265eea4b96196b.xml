@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "content_tree_1",
+  "elementLabel" : "Content tree 1",
+  "propertyValues" : {
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "select" : {
+      "type" : "JSON_LITERAL",
+      "value" : "multi"
+    },
+    "overflow" : {
+      "type" : "JSON_LITERAL",
+      "value" : "truncate"
+    },
+    "triggerIcon" : {
+      "type" : "JSON_LITERAL",
+      "value" : "chevron"
+    },
+    "highlightSelectedParent" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "showActionsOnHover" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "showDividers" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "showPresencePattern" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "items" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "ofertasMenuFiltros" ]
+      }
+    },
+    "expandedItems" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ [ "go" ] ]
+    },
+    "selectedItems" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ ]
+    },
+    "loadingItems" : {
+      "type" : "LIST_CONTAINER",
+      "container" : [ ]
+    },
+    "searchTerm" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "activeRoute" : {
+      "type" : "JSON_LITERAL",
+      "value" : {
+        "0" : "@",
+        "routeType" : ""
+      }
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "claaroieesffaaaaffmddiiiiccbbaahosfngg",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_content_tree.NOW_CONTENT_TREE#SELECTED_ITEMS_SET",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_content_tree.NOW_CONTENT_TREE#SELECTED_ITEMS_SET",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "2fc576e9db520910f7265eea4b9619aa"
+      },
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "claaroieesffaaaaffnddiiiicceeelgzneq",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "slot" : "Navigator",
+  "definition" : {
+    "id" : "71baad1870878aa2e853a2d9a3373f84",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "padding-top" : "20px",
+    "box-shadow" : "0px 2px 11px #ababab"
+  }
+}, {
+  "elementId" : "list_1",
+  "elementLabel" : "List 1",
+  "propertyValues" : {
+    "listTitle" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Lista de Ofertas",
+        "comment" : ""
+      }
+    },
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_issas_gesti_n_0_oferta"
+    },
+    "selectedListId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "menuSelection" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "query" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "ofertasMenuFiltrosSeleccionados" ]
+      }
+    },
+    "columns" : {
+      "type" : "JSON_LITERAL",
+      "value" : "number,estado,titulo,cliente,area_funcional,mercado,herramienta.fabricante,herramienta,pais,contactos_ds_ttaa_ga,fecha_de_fin,adjunto"
+    },
+    "limit" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "maxColumns" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "page" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "actionConfigId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "actionConfigId" ],
+        "category" : "app"
+      }
+    },
+    "hideDeclarativeActions" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "highlightedValueConfigId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "highlightedValueConfigId" ],
+        "category" : "app"
+      }
+    },
+    "hideHighlightedValues" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "wordWrap" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "maxCharLimit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "4000"
+    },
+    "recordSelectedTable" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "recordSelectedSysId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "recordSelectedQuery" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "recordSelectedView" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "listMenuOpen" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "view" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "listView" ],
+        "category" : "props"
+      }
+    },
+    "groupByField" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "hideHeader" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "headerSize" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "headingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : 1
+    },
+    "hideTitle" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideTitleRowCount" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideRefreshButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideLastRefreshedText" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideMenuButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideListSharing" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideFilterPanel" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideQuickEdit" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideRowSelector" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideColumnGrouping" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideColumnResizing" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideColumnFiltering" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideColumnSorting" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideDragDrop" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideCellFilter" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideInlineEditing" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideLinks" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "isRefList" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideEmptyStateImage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePagination" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePages" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideRange" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideRowCount" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideFirstPage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideLastPage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideLimitSelector" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "tiny" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "error" : {
+      "type" : "JSON_LITERAL",
+      "value" : { }
+    },
+    "selectedRecords" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ ]
+    },
+    "refreshRequested" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "daClientActionContract" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "clbbmpqaahhjjaaaahhnddiiiiccaafqggjnrl",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#REFRESH_REQUESTED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#REFRESH_REQUESTED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "fbeec34fdb1a4d10f7265eea4b9619b0"
+      },
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "clbbmpqaahhaaaaahhoddiiiiccbbfeeccjgguy",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  }, {
+    "eventMappingId" : "clbbbjjamfxaaaaeewddiiiidrmeexgffqg",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DATA_FETCH_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DATA_FETCH_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "245b27811b6a011084023158cc4bcb54"
+      },
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "clbbbjjamfxaaaaeexddiiiidzdzaaofdl",
+      "type" : "CLIENT_SCRIPT"
+    }, {
+      "broker" : null,
+      "clientScript" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : null,
+        "payload" : {
+          "type" : "JSON_LITERAL",
+          "value" : { }
+        },
+        "sysId" : null
+      },
+      "operation" : null,
+      "targetId" : "clbbmpejjbggaaaaffhhddiiiiccujjjqhsvv",
+      "type" : "EVENT"
+    }, {
+      "broker" : null,
+      "clientScript" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : null,
+        "payload" : {
+          "type" : "JSON_LITERAL",
+          "value" : { }
+        },
+        "sysId" : null
+      },
+      "operation" : null,
+      "targetId" : "clbbmpecejjaaaaffiiddiiiiccwnutfwue",
+      "type" : "EVENT"
+    } ]
+  }, {
+    "eventMappingId" : "clbbbbfzwbbcaaaaeehddiiiiduycckcxat",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CREATE_NEW_RECORD",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CREATE_NEW_RECORD",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "9bc576e9db520910f7265eea4b96198d"
+      },
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "clbbbbfzwbbcaaaaeeiddiiiidjeexiicccccaa",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  }, {
+    "eventMappingId" : "ckekiijddtfaaaabbeeddhhhggxwbukdaan",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "9bc576e9db520910f7265eea4b96198d"
+      },
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckekiijhhgeeaaaabbffddhhhggnddxxhmgo",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  }, {
+    "eventMappingId" : "cknffhhtriicaaaabbaaddhiibbiddaqiigjtpreview",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#FORM_EDIT_PREVIEW_RECORD_CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#FORM_EDIT_PREVIEW_RECORD_CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "9bc576e9db520910f7265eea4b96198d"
+      },
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "cknffhhtriicaaaabbbbddhiibbfaafihumjjpreview",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  }, {
+    "eventMappingId" : "ckekiihbrhhaaaabbccddhhhgghotflrjjd",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DA_ITEM_SELECTED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DA_ITEM_SELECTED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "x_issas_gesti_n_0.NAV_ITEM_SELECTED_RELAY_43c576e9db520910f7265eea4b96196b",
+        "payload" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "route" : {
+              "type" : "JSON_LITERAL",
+              "value" : "record"
+            },
+            "fields" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "table" : {
+                  "type" : "EVENT_PAYLOAD_BINDING",
+                  "binding" : {
+                    "address" : [ "table" ]
+                  }
+                },
+                "sysId" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "-1"
+                }
+              }
+            },
+            "params" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "redirect" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "passiveNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "title" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "multiInstField" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "targetRoute" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "external" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            }
+          }
+        },
+        "sysId" : "55d6b2e9db520910f7265eea4b9619cb"
+      },
+      "operation" : null,
+      "targetId" : "ckekiihtaiaaaabbddddhhhggodrtclhf",
+      "type" : "EVENT"
+    } ]
+  } ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "66ee7d86e81f696c9f9be19d8424cc0d",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%",
+    "font-size" : "1.5rem!important"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "b997a84053021010cbc2ddeeff7b1228",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "look_up_records_1",
+  "elementLabel" : "Look Up Records 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_issas_gesti_n_0_oferta"
+    },
+    "encodedQuery" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "ofertasPayload" ]
+      }
+    },
+    "returnFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : "number,estado,tiene_adjunto"
+    },
+    "orderBy" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "sortType" : {
+      "type" : "JSON_LITERAL",
+      "value" : "asc"
+    },
+    "limit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1000"
+    },
+    "offset" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "queryCategory" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "returnFieldMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "54e9c8d25310101024e5ddeeff7b12db",
+    "type" : "GRAPHQL"
+  },
+  "elementId" : "gliderecord_query_1",
+  "elementLabel" : "GlideRecord Query 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_issas_gesti_n_0_oferta"
+    },
+    "recordId" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "ofertasPayload" ]
+      }
+    },
+    "returnFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "returnTableMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "returnFieldMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events>55d6b2e9db520910f7265eea4b9619cb,46c1576fdb024110f7265eea4b96198d,4515f3e853031010ffa5ddeeff7b12a7,1515f3e853031010ffa5ddeeff7b12ad,9515f3e853031010ffa5ddeeff7b12de</dispatched_events>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events>a3b05c2f9868a010f877170d6e7d656a</handled_events>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+  "MACROPONENT_PROPERTY_CHANGED" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "9bc576e9db520910f7265eea4b961980"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "ckiggybubbffaaaabbuddgiihhrzquyjhhf",
+    "type" : "CLIENT_SCRIPT"
+  } ],
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "9bc576e9db520910f7265eea4b961980"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "ckiggybjjtcaaaabbhddgiihhbzltaaafff",
+    "type" : "CLIENT_SCRIPT"
+  }, {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "dbc576e9db520910f7265eea4b961986"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "cklcqqjucaaaaggtddhhhrlxiiaaiggddbb",
+    "type" : "CLIENT_SCRIPT"
+  }, {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "fbeec34fdb1a4d10f7265eea4b9619b0"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "clbbccjjaccjjxaaaacceeddiihhyletoaawqi",
+    "type" : "CLIENT_SCRIPT"
+  } ],
+  "sn_uib_base_aw.SIMPLE_LIST#NAV_ITEM_SELECTED" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "x_issas_gesti_n_0.NAV_ITEM_SELECTED_RELAY_43c576e9db520910f7265eea4b96196b",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "55d6b2e9db520910f7265eea4b9619cb"
+    },
+    "operation" : null,
+    "targetId" : "ckgcbbbvpjaaaaaagddghhanwwsqhsk",
+    "type" : "EVENT"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : {
+          "route" : null,
+          "fields" : null,
+          "params" : null,
+          "redirect" : null,
+          "passiveNavigation" : null,
+          "title" : null,
+          "multiInstField" : null,
+          "targetRoute" : null,
+          "external" : null
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "clbbbbfyzccxaaaadduddiiiidutisccwow",
+    "type" : "EVENT"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : null,
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : null
+    },
+    "operation" : null,
+    "targetId" : "clbbbbfzaagggaaaaddvddiiiidiihycihhzs",
+    "type" : "EVENT"
+  } ]
+}</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Navigator","rules":{"grid-area":"navigator"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","background-color":"white","padding":"0px"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"auto","grid-template-columns":"2fr 10fr","grid-template-areas":"\"navigator main\"","grid-gap":"0px 0.15rem"},
+    "styles" : {},
+    "templateId" : "436ea14d53c31010e6bcddeeff7b1231",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Simple List Oferta</name>
+        <props>[ {
+  "name" : "disableInlineEditing",
+  "label" : "disableInlineEditing",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "listTitle",
+  "label" : "listTitle",
+  "fieldType" : null,
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "",
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "query",
+  "label" : "query",
+  "fieldType" : null,
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "userPrefs",
+  "label" : "user preferences",
+  "fieldType" : "json",
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "List of all user preferences",
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "table",
+  "label" : "Table",
+  "fieldType" : null,
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : true,
+  "defaultValue" : null,
+  "description" : "",
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "listView",
+  "label" : "listView",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+} ]</props>
+        <required_translations>[ {
+  "message" : "Lista de Ofertas",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{
+  "bare" : true
+}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "wrapListText",
+  "label" : "wrapListText",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}, {
+  "name" : "navigationPayload ",
+  "label" : "navigationPayload ",
+  "fieldType" : "json",
+  "valueType" : "json",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "routeParentTables",
+  "label" : "routeParentTables",
+  "fieldType" : "string",
+  "valueType" : "string",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "CONTEXT_BINDING",
+    "binding" : {
+      "address" : [ "routeParentTables" ],
+      "category" : "app"
+    }
+  }
+}, {
+  "name" : "nameTable",
+  "label" : "nameTable",
+  "fieldType" : "string",
+  "valueType" : "string",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : "x_issas_gesti_n_0_oferta"
+  }
+}, {
+  "name" : "ofertasMenuFiltros",
+  "label" : "ofertasMenuFiltros",
+  "fieldType" : "json",
+  "valueType" : "json",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "ofertasMenuFiltrosSeleccionados",
+  "label" : "ofertasMenuFiltrosSeleccionados",
+  "fieldType" : "json",
+  "valueType" : "json",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-17 21:09:31</sys_created_on>
+        <sys_id>43c576e9db520910f7265eea4b96196b</sys_id>
+        <sys_mod_count>72</sys_mod_count>
+        <sys_name>Simple List Oferta</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_macroponent_43c576e9db520910f7265eea4b96196b</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-20 19:54:31</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>PUT</http_method>
+        <name>putMenuFiltrosOferta</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	
+	function existsId(array, id) {
+		for (j = 0; j < array.length; j++) {
+			if (array[j].id == id) return true;
+		}
+		return false;
+	}
+
+	function inArray(array, value) {
+		var length = array.length;
+		for (var i = 0; i < length; i++) {
+			if (array[i] == value) return true;
+		}
+		return false;
+	}
+
+	function addSymbol(tipo, label) {
+		if (columna_primer_filtro == tipo) {
+			return label + " \u2460";
+		} else {
+			return label;
+		}
+	}
+	
+	function orderArrayByValues(array_order, values_array) {
+		array_order.sort(function compareFn(a, b) {
+			if (inArray(values_array, a.id)) {
+				return -1;
+			}
+			return 1;
+		});
+	}
+	
+    try {
+        var filtros = request.body.data.filtros;
+
+        var menu = [{
+            "id": "go",
+            "label": "Filtros",
+            "disabled": "true",
+            "children": []
+        }];
+
+        var ofertas = [];
+        var oferta = {};
+
+        var areas_funcionales = [];
+        var area_funcional = {};
+        var areas_funcionales_ids = "";
+		var areas_funcionales_ids_arr = [];
+
+        var mercados = [];
+        var mercado = {};
+        var mercados_ids = "";
+		var mercados_ids_arr = [];
+
+        var clientes = [];
+        var cliente = {};
+        var clientes_ids = "";
+		var clientes_ids_arr = [];
+
+        var fabricantes = [];
+        var fabricante = {};
+        var fabricantes_ids = "";
+        var fabricantes_ids_arr = [];
+		
+		var herramientas = [];
+        var herramienta = {};
+        var herramientas_ids = "";
+		var herramientas_ids_arr = [];
+
+        var anios = [];
+        var anio = {};
+        var anios_ids = "";
+		var anios_ids_arr = [];
+
+        var estados = [];
+        var estado = {};
+        var estados_ids = "";
+		var estados_ids_arr = [];
+
+		var columna_primer_filtro = "";
+
+        var row = {};
+        var ids = "";
+        var labels = "";
+        var exists = false;
+        var valids = [];
+        var valid = false;
+        var i, j = 0;
+
+
+        var obtenerFitros = new ObtenerFiltrosContentTreeComponent();
+		columna_primer_filtro = obtenerFitros.getTipoPrimerFiltro(filtros);
+        areas_funcionales_ids = obtenerFitros.getFiltrosByTipo(filtros, 'area_funcional');
+		areas_funcionales_ids_arr = areas_funcionales_ids.split(",");
+        mercados_ids = obtenerFitros.getFiltrosByTipo(filtros, 'mercado');
+		mercados_ids_arr = mercados_ids.split(",");
+        clientes_ids = obtenerFitros.getFiltrosByTipo(filtros, 'cliente');
+		clientes_ids_arr = clientes_ids.split(",");
+		anios_ids = obtenerFitros.getFiltrosByTipo(filtros, 'anio_oferta');
+		anios_ids_arr = anios_ids.split(",");
+        fabricantes_ids = obtenerFitros.getFiltrosByTipo(filtros, 'fabricante');
+		fabricantes_ids_arr = fabricantes_ids.split(",");
+		herramientas_ids = obtenerFitros.getFiltrosByTipo(filtros, 'herramienta');
+		herramientas_ids_arr = herramientas_ids.split(",");
+        estados_ids = obtenerFitros.getFiltrosByTipo(filtros, 'estado');
+		estados_ids_arr = estados_ids.split(",");
+		
+		
+        // consultar tabla ofertas
+
+        var record_oferta_area_funcional = new GlideAggregate('x_issas_gesti_n_0_oferta');
+        record_oferta_area_funcional.groupBy('area_funcional');
+
+        if (columna_primer_filtro !== "area_funcional") {
+            if (mercados_ids !== "") record_oferta_area_funcional.addQuery('mercado', 'IN', mercados_ids);
+            if (clientes_ids !== "") record_oferta_area_funcional.addQuery('cliente', 'IN', clientes_ids);
+			if (anios_ids !== "") record_oferta_area_funcional.addQuery('anio_oferta', 'IN', anios_ids);
+			if (fabricantes_ids !== "") record_oferta_area_funcional.addQuery('herramienta.fabricante', 'IN', fabricantes_ids);
+            if (herramientas_ids !== "") record_oferta_area_funcional.addQuery('herramienta', 'IN', herramientas_ids);
+            if (estados_ids !== "") record_oferta_area_funcional.addQuery('estado', 'IN', estados_ids);
+        }
+
+        if (!record_oferta_area_funcional.isValid()) {
+            response.setError(new sn_ws_err.BadRequestError('Table is invalid'));
+            return;
+        }
+        record_oferta_area_funcional.query();
+
+
+        // obtener areas funcionales distintas
+
+        while (record_oferta_area_funcional.next()) {
+            row = {};
+            valids = [];
+            ids = (record_oferta_area_funcional.getValue('area_funcional')).split(",");
+            for (i = 0; i < ids.length; i++) {
+                exists = false;
+                exists = existsId(areas_funcionales, ids[i]);
+                if (exists == false) {
+                    row.id = ids[i];
+                    valids.push(i);
+                }
+            }
+            if (exists == false) {
+                labels = (record_oferta_area_funcional.getDisplayValue('area_funcional')).split(", ");
+                for (i = 0; i < labels.length; i++) {
+                    valid = false;
+                    valid = inArray(valids, i);
+                    if (valid == true) {
+                        row.label = labels[i];
+                    }
+                }
+                areas_funcionales.push(row);
+            }
+        }
+		
+		orderArrayByValues(areas_funcionales, areas_funcionales_ids_arr);
+
+        // guardar areas funcionales
+
+        area_funcional.id = "area_funcional";
+        area_funcional.label = addSymbol("area_funcional", "Area Funcional");
+        area_funcional.disabled = "true";
+        area_funcional.children = areas_funcionales;
+
+        menu[0].children.push(area_funcional);
+
+        var record_oferta_mercado = new GlideAggregate('x_issas_gesti_n_0_oferta');
+        //record_oferta_mercado = record_oferta;
+        record_oferta_mercado.groupBy('mercado');
+		
+		if (columna_primer_filtro !== "mercado") {
+			if (areas_funcionales_ids !== "") record_oferta_mercado.addQuery('area_funcional', 'CONTAINS', areas_funcionales_ids);
+			if (clientes_ids !== "") record_oferta_mercado.addQuery('cliente', 'IN', clientes_ids);
+			if (anios_ids !== "") record_oferta_mercado.addQuery('anio_oferta', 'IN', anios_ids);
+			if (fabricantes_ids !== "") record_oferta_mercado.addQuery('herramienta.fabricante', 'IN', fabricantes_ids);
+            if (herramientas_ids !== "") record_oferta_mercado.addQuery('herramienta', 'IN', herramientas_ids);
+			if (estados_ids !== "") record_oferta_mercado.addQuery('estado', 'IN', estados_ids);
+		}
+
+        if (!record_oferta_mercado.isValid()) {
+            response.setError(new sn_ws_err.BadRequestError('Table is invalid'));
+            return;
+        }
+        record_oferta_mercado.query();
+
+        while (record_oferta_mercado.next()) {
+            row = {};
+            row.id = record_oferta_mercado.getValue('mercado');
+            row.label = record_oferta_mercado.getDisplayValue('mercado');
+            mercados.push(row);
+        }
+		
+		orderArrayByValues(mercados, mercados_ids_arr);
+
+        // guardar mercados
+
+        mercado.id = 'mercado';
+        mercado.label = addSymbol("mercado", "Mercado");
+        mercado.disabled = "true";
+        mercado.children = mercados;
+
+        menu[0].children.push(mercado);
+
+        // obtener clientes distintos
+
+        var record_oferta_cliente = new GlideAggregate('x_issas_gesti_n_0_oferta');
+        //record_oferta_cliente = record_oferta;
+        record_oferta_cliente.groupBy('cliente');
+
+		if (columna_primer_filtro !== "cliente") {
+			if (areas_funcionales_ids !== "") record_oferta_cliente.addQuery('area_funcional', 'CONTAINS', areas_funcionales_ids);
+			if (mercados_ids !== "") record_oferta_cliente.addQuery('mercado', 'IN', mercados_ids);
+			if (anios_ids !== "") record_oferta_cliente.addQuery('anio_oferta', 'IN', anios_ids);
+			if (fabricantes_ids !== "") record_oferta_cliente.addQuery('herramienta.fabricante', 'IN', fabricantes_ids);
+            if (herramientas_ids !== "") record_oferta_cliente.addQuery('herramienta', 'IN', herramientas_ids);
+			if (estados_ids !== "") record_oferta_cliente.addQuery('estado', 'IN', estados_ids);
+		}
+
+        if (!record_oferta_cliente.isValid()) {
+            response.setError(new sn_ws_err.BadRequestError('Table is invalid'));
+            return;
+        }
+        record_oferta_cliente.query();
+
+        while (record_oferta_cliente.next()) {
+            row = {};
+            row.id = record_oferta_cliente.getValue('cliente');
+            row.label = record_oferta_cliente.getDisplayValue('cliente');
+            clientes.push(row);
+        }
+		
+		orderArrayByValues(clientes, clientes_ids_arr);
+
+        // guardar clientes 
+
+        cliente.id = 'cliente';
+        cliente.label = addSymbol("cliente", "Cliente");
+        cliente.disabled = "true";
+        cliente.children = clientes;
+
+        menu[0].children.push(cliente);
+		
+
+		// obtener anios distintos
+
+        var record_oferta_anio = new GlideAggregate('x_issas_gesti_n_0_oferta');
+        record_oferta_anio.groupBy('anio_oferta');
+		
+		if (columna_primer_filtro !== "anio_oferta") {
+			if (areas_funcionales_ids !== "") record_oferta_anio.addQuery('area_funcional', 'CONTAINS', areas_funcionales_ids);
+			if (mercados_ids !== "") record_oferta_anio.addQuery('mercado', 'IN', mercados_ids);
+			if (clientes_ids !== "") record_oferta_anio.addQuery('cliente', 'IN', clientes_ids);
+			if (fabricantes_ids !== "") record_oferta_anio.addQuery('herramienta.fabricante', 'IN', fabricantes_ids);
+            if (herramientas_ids !== "") record_oferta_anio.addQuery('herramienta', 'IN', herramientas_ids);
+			if (estados_ids !== "") record_oferta_anio.addQuery('estado', 'IN', estados_ids);
+		}
+
+        if (!record_oferta_anio.isValid()) {
+            response.setError(new sn_ws_err.BadRequestError('Table is invalid'));
+            return;
+        }
+        record_oferta_anio.query();
+
+        while (record_oferta_anio.next()) {
+            row = {};
+            row.id = record_oferta_anio.getValue('anio_oferta');
+            row.label = record_oferta_anio.getDisplayValue('anio_oferta');
+            anios.push(row);
+        }
+		
+		orderArrayByValues(anios, anios_ids_arr);
+
+        // guardar clientes 
+
+        anio.id = 'anio_oferta';
+        anio.label = addSymbol("anio_oferta", "Años");
+        anio.disabled = "true";
+        anio.children = anios;
+
+        menu[0].children.push(anio);
+		
+
+        // obtener fabricantes distintos
+
+        var record_oferta_fabricante = new GlideAggregate('x_issas_gesti_n_0_oferta');
+		record_oferta_fabricante.groupBy('herramienta.fabricante');
+				
+		if (columna_primer_filtro !== "fabricante") {
+			if (areas_funcionales_ids !== "") record_oferta_fabricante.addQuery('area_funcional', 'CONTAINS', areas_funcionales_ids);
+			if (mercados_ids !== "") record_oferta_fabricante.addQuery('mercado', 'IN', mercados_ids);
+			if (clientes_ids !== "") record_oferta_fabricante.addQuery('cliente', 'IN', clientes_ids);
+			if (anios_ids !== "") record_oferta_fabricante.addQuery('anio_oferta', 'IN', anios_ids);
+			if (herramientas_ids !== "") record_oferta_fabricante.addQuery('herramienta', 'IN', herramientas_ids);
+			if (estados_ids !== "") record_oferta_fabricante.addQuery('estado', 'IN', estados_ids);
+		}
+
+        if (!record_oferta_fabricante.isValid()) {
+            response.setError(new sn_ws_err.BadRequestError('Table is invalid'));
+            return;
+        }
+        record_oferta_fabricante.query();
+
+        while (record_oferta_fabricante.next()) {
+            row = {};
+            row.id = record_oferta_fabricante.getValue('herramienta.fabricante');
+            row.label = record_oferta_fabricante.getDisplayValue('herramienta.fabricante');
+            fabricantes.push(row);
+        }
+		
+		orderArrayByValues(fabricantes, fabricantes_ids_arr);
+
+        // guardar fabricantes 
+
+        fabricante.id = 'fabricante';
+        fabricante.label = addSymbol("fabricante", "Fabricante");
+        fabricante.disabled = "true";
+        fabricante.children = fabricantes;
+
+        menu[0].children.push(fabricante);
+
+
+		// obtener herramientas distintas
+
+        var record_oferta_herramienta = new GlideAggregate('x_issas_gesti_n_0_oferta');
+		record_oferta_herramienta.groupBy('herramienta');
+		
+		if (columna_primer_filtro !== "herramienta") {
+			if (areas_funcionales_ids !== "") record_oferta_herramienta.addQuery('area_funcional', 'CONTAINS', areas_funcionales_ids);
+			if (mercados_ids !== "") record_oferta_herramienta.addQuery('mercado', 'IN', mercados_ids);
+			if (clientes_ids !== "") record_oferta_herramienta.addQuery('cliente', 'IN', clientes_ids);
+			if (anios_ids !== "") record_oferta_herramienta.addQuery('anio_oferta', 'IN', anios_ids);
+			if (fabricantes_ids !== "") record_oferta_herramienta.addQuery('herramienta.fabricante', 'IN', fabricantes_ids);
+			if (estados_ids !== "") record_oferta_herramienta.addQuery('estado', 'IN', estados_ids);
+		}
+
+        if (!record_oferta_herramienta.isValid()) {
+            response.setError(new sn_ws_err.BadRequestError('Table is invalid'));
+            return;
+        }
+        record_oferta_herramienta.query();
+
+        while (record_oferta_herramienta.next()) {
+            row = {};
+            row.id = record_oferta_herramienta.getValue('herramienta');
+            row.label = record_oferta_herramienta.getDisplayValue('herramienta');
+            herramientas.push(row);
+        }
+		
+		orderArrayByValues(herramientas, herramientas_ids_arr);
+
+        // guardar fabricantes 
+
+        herramienta.id = 'herramienta';
+        herramienta.label = addSymbol("herramienta", "Herramienta");
+        herramienta.disabled = "true";
+        herramienta.children = herramientas;
+
+        menu[0].children.push(herramienta);
+		
+		
+        // obtener estados distintos
+
+        var record_oferta_estado = new GlideAggregate('x_issas_gesti_n_0_oferta');
+        //record_oferta_cliente = record_oferta;
+        record_oferta_estado.groupBy('estado');
+		
+		if (columna_primer_filtro !== "estado") {
+			if (areas_funcionales_ids !== "") record_oferta_estado.addQuery('area_funcional', 'CONTAINS', areas_funcionales_ids);
+			if (mercados_ids !== "") record_oferta_estado.addQuery('mercado', 'IN', mercados_ids);
+			if (clientes_ids !== "") record_oferta_estado.addQuery('cliente', 'IN', clientes_ids);
+			if (anios_ids !== "") record_oferta_estado.addQuery('anio_oferta', 'IN', anios_ids);
+			if (fabricantes_ids !== "") record_oferta_estado.addQuery('herramienta.fabricante', 'IN', fabricantes_ids);
+            if (herramientas_ids !== "") record_oferta_estado.addQuery('herramienta', 'IN', herramientas_ids);
+		}
+        
+        if (!record_oferta_estado.isValid()) {
+            response.setError(new sn_ws_err.BadRequestError('Table is invalid'));
+            return;
+        }
+        record_oferta_estado.query();
+
+        while (record_oferta_estado.next()) {
+            row = {};
+            row.id = record_oferta_estado.getValue('estado');
+            row.label = record_oferta_estado.getDisplayValue('estado');
+            estados.push(row);
+        }
+		
+		orderArrayByValues(estados, estados_ids_arr);
+
+        estado.id = 'estado';
+        estado.label = addSymbol("estado", "Estado");
+        estado.disabled = "true";
+        estado.children = estados;
+
+        menu[0].children.push(estado);
+
+        response.setBody(menu);
+        response.setStatus(200);
+    } catch (e) {
+        gs.error('Error en putMenuFiltrosOferta:' + e.message);
+    }
+
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_issas_gesti_n_0/gestion_oportunidades_api/putMenuFiltrosOferta</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/putMenuFiltrosOferta</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>semartinez</sys_created_by>
+        <sys_created_on>2022-03-21 15:07:06</sys_created_on>
+        <sys_id>71190afedb560d10f7265eea4b96197f</sys_id>
+        <sys_mod_count>108</sys_mod_count>
+        <sys_name>putMenuFiltrosOferta</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ws_operation_71190afedb560d10f7265eea4b96197f</sys_update_name>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-04-04 19:50:06</sys_updated_on>
+        <web_service_definition display_value="Gestion Oportunidades API">3963ac7cdb5e0510f7265eea4b96197c</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

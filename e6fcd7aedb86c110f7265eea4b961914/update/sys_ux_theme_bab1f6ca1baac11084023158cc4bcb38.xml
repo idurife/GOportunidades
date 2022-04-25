@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Theme Base Minsait</name>
+        <parent/>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-31 20:25:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bab1f6ca1baac11084023158cc4bcb38</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Theme Base Minsait</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_theme_bab1f6ca1baac11084023158cc4bcb38</sys_update_name>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-04-07 17:29:53</sys_updated_on>
+        <theme>{ &#13;
+     "--primary-0" :  "209,217,223" , &#13;
+     "--primary-1" :  " 247,172,111" , &#13;
+     "--primary-2" :  " 255,201,74" , &#13;
+     "--primary-3" :  " 251,187,33" , &#13;
+     "--secundary-0" :  "255,255,255" , &#13;
+     "--secundary-1" :  "23,118,139" , &#13;
+     "--secundary-2" :  "177,207,229" , &#13;
+     "--secundary-3" :  "0,73,90" , &#13;
+     "--now-color_brand--primary":"99,159,203"&#13;
+ }</theme>
+    </sys_ux_theme>
+</record_update>

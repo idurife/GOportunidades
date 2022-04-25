@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Gestión de Oportunidades  Config">940c07e759024110057e95adda8195df</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Attachment">ca8b80e51b2a411084023158cc4bcbfd</macroponent>
+        <macroponent_config>{
+  "table" : "@data.gform.nowRecordFormBlob.table",
+  "sysId" : "@data.gform.nowRecordFormBlob.sysId",
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Attachment</name>
+        <order>0</order>
+        <parent_macroponent display_value="GORecordOfertaDetalle">7a4bc4a51b2a411084023158cc4bcb03</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Attachment">188b40e51b2a411084023158cc4bcb7c</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-29 19:01:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>568bc0e51b2a411084023158cc4bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_screen_568bc0e51b2a411084023158cc4bcb00</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-29 19:01:19</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=568bc0e51b2a411084023158cc4bcb00"/>
+</record_update>

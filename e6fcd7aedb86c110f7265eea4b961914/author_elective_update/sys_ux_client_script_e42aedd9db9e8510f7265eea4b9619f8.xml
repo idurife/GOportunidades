@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Simple List">0321db2fdb024110f7265eea4b9619e7</macroponent>
+        <name>Iniciar Menu Filtro Ofertas</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var menuFiltroObj = {};
+    var menuFiltroJson = [];
+    helpers.snHttp('/api/x_issas_gesti_n_0/gestion_oportunidades_api/getMenuFiltrosOferta', {
+            method: 'GET',
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(({
+            response
+        }) => {
+            menuFiltroObj = response.result[0];
+            menuFiltroJson = [menuFiltroObj];
+            api.setState('ofertasMenuFiltrosInicial', menuFiltroJson);
+            api.setState('ofertasMenuFiltros', menuFiltroJson);
+        })
+        .catch(({
+            error
+        }) => {
+            const message = `Error: ${error.data.error.message}`;
+            console.error(message);
+            api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+                id: 'alert5',
+                status: 'high',
+                icon: 'info-circle-outline',
+                content: message,
+                action: {
+                    type: 'dismiss'
+                }
+            });
+        });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-16 21:00:27</sys_created_on>
+        <sys_id>e42aedd9db9e8510f7265eea4b9619f8</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>Iniciar Menu Filtro Ofertas</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_client_script_e42aedd9db9e8510f7265eea4b9619f8</sys_update_name>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-03-21 15:02:43</sys_updated_on>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_ux_client_script_e42aedd9db9e8510f7265eea4b9619f8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Simple List"&gt;0321db2fdb024110f7265eea4b9619e7&lt;/macroponent&gt;&lt;name&gt;Iniciar Menu Filtro Ofertas&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var menuFiltroObj = {};
+    var menuFiltroJson = [];
+    helpers.snHttp('/api/x_issas_gesti_n_0/gestion_oportunidades_api/getMenuFiltrosOferta', {
+            method: 'GET',
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(({
+            response
+        }) =&gt; {
+            menuFiltroObj = response.result[0];
+            menuFiltroJson = [menuFiltroObj];
+            api.setState('ofertasMenuFiltrosInicial', menuFiltroJson);
+            api.setState('ofertasMenuFiltros', menuFiltroJson);
+        })
+        .catch(({
+            error
+        }) =&gt; {
+            const message = `Error: ${error.data.error.message}`;
+            console.error(message);
+            api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+                id: 'alert5',
+                status: 'high',
+                icon: 'info-circle-outline',
+                content: message,
+                action: {
+                    type: 'dismiss'
+                }
+            });
+        });
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;idramirez&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-16 21:00:27&lt;/sys_created_on&gt;&lt;sys_id&gt;e42aedd9db9e8510f7265eea4b9619f8&lt;/sys_id&gt;&lt;sys_mod_count&gt;40&lt;/sys_mod_count&gt;&lt;sys_name&gt;Iniciar Menu Filtro Ofertas&lt;/sys_name&gt;&lt;sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gestión de Oportunidades"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_e42aedd9db9e8510f7265eea4b9619f8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;semartinez&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-21 15:02:43&lt;/sys_updated_on&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>492080082</payload_hash>
+        <record_name>Iniciar Menu Filtro Ofertas</record_name>
+        <reverted_from/>
+        <source>eefcd7aedb86c110f7265eea4b961916</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>semartinez</sys_created_by>
+        <sys_created_on>2022-03-21 15:02:43</sys_created_on>
+        <sys_id>11388abedb560d10f7265eea4b9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fad007a110000001</sys_recorded_at>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-03-21 15:02:43</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>d5388abe65560d10a1207899f0ac5ae3</update_guid>
+        <update_guid_history>d5388abe65560d10a1207899f0ac5ae3:492080082,67288abe14560d10559acb3603893e24:1096291782,896e3c0effd20910f6b8e71b28697dda:1406087513,02e964ca0c9209105ce42c496a38f9d9:1251350746,38c9e0caf0920910b2a344c97b76decc:-1293574950,2e9960caf8920910bf99acee13415859:-453076030,b149288ad9920910d069d81881fc2b2d:-2139444894,5378a08a68920910056505372ac171cf:-1251102,d568608aec9209100aa968138471d71e:1770984445,3687644a309209105b550f3f21f27514:30178482,3087244a199209107bf2ff262c5848d9:84055691,7a17ec0a019209104da52374ef53e96e:-987652345,4316200a00920910ee11e2415600ccb5:-2147400327,db55e4c6dd920910f301d3695f42f718:-1146389023,c83524c6849209103c1e1f7590200178:-1924269620,c3f460c68b920910c9a870ade6b89568:956585117,d01f1482c492091048b44ed63aa7ef36:-1605870242,12ee5082fa9209108d04d8e1dfe2c3f8:630824224,13ae9c4291920910d0f643c300b40d35:-1032879039,5b7ed842ce920910aa6536ae3d0dd463:539806465,0eed904249920910c63a083709841d8f:2138770316,efcd5c0244920910bc04c746e2792b7a:539806465,a64d54026e920910739d3aa86aed2b9c:367424854,931a9cca8c564910f13ac22b7d613848:-1795879608,fbe0c44a73120910d825d938afe14c97:-1735748553,47c0044a95120910f715c40f1fa7f6d9:-401528969,0ac0044a5612091052ed421319355095:1778981235,9db0c04a23120910ecc5ce15c005d24f:-401528969,f20ffbf577120910be850126df485f0c:453991165,9a6ad3b97d9ec510472343882dc8a06f:-1795879608,1e2adf79fc9ec510e41460a6d42a38cf:2098684899,f6799779269ec51067da7dc57f096201:-1398251603,fc3a4bb1bc524910ed6ca650f4183a3b:848471511,f1064b797c5ec5109958e230a3759828:742332852,bdf283f51c5ec5109ee758c8bb994627:-1869665834,1bd243f5ac5ec510e47b4e823a75ad0b:-2075289837,3cb007756f5ec510a2abe04487aeb0b0:-1869665834,b67043750c5ec5106c5644fca3fa198f:-794198131,6fefba35835ec5108b6464dcf0ce8308:-1242416265,d83a211d679e8510c4663902c73fadf0:848471511,342a211dd99e8510d4c6f3097bb04e00:-349036512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-21 22:42:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>005849701ce644e980005759f6918c31</sys_id>
+        <sys_metadata>e42aedd9db9e8510f7265eea4b9619f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Iniciar Menu Filtro Ofertas</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_e42aedd9db9e8510f7265eea4b9619f8</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_e42aedd9db9e8510f7265eea4b9619f8">11388abedb560d10f7265eea4b9619e4</sys_update_version>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-21 22:42:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

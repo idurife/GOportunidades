@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Simple List">0321db2fdb024110f7265eea4b9619e7</macroponent>
+        <name>Actualizar Menu Filtro Ofertas</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var menuFiltroObj = {};
+    var menuFiltroJson = [];
+    var menuFiltroInicial = [];
+
+    //JSON.stringify(request.body.data.menu)
+
+    helpers.snHttp('/api/x_issas_gesti_n_0/gestion_oportunidades_api/putMenuFiltrosOferta', {
+            method: 'PUT',
+            body: {
+                menu: api.state.ofertasMenuFiltrosInicial
+            },
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(({
+            response
+        }) => {
+            menuFiltroObj = response.result[0];
+            menuFiltroJson = [menuFiltroObj];
+            api.setState('ofertasMenuFiltros', menuFiltroJson);
+        })
+        .catch(({
+            error
+        }) => {
+            const message = `Error: ${error.data.error.message}`;
+            console.error(message);
+            api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+                id: 'alert5',
+                status: 'high',
+                icon: 'info-circle-outline',
+                content: message,
+                action: {
+                    type: 'dismiss'
+                }
+            });
+        });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>semartinez</sys_created_by>
+        <sys_created_on>2022-03-21 15:03:42</sys_created_on>
+        <sys_id>13688ebedb560d10f7265eea4b961909</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Actualizar Menu Filtro Ofertas</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_client_script_13688ebedb560d10f7265eea4b961909</sys_update_name>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-03-21 15:37:40</sys_updated_on>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_ux_client_script_13688ebedb560d10f7265eea4b961909</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Simple List"&gt;0321db2fdb024110f7265eea4b9619e7&lt;/macroponent&gt;&lt;name&gt;Actualizar Menu Filtro Ofertas&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var menuFiltroObj = {};
+    var menuFiltroJson = [];
+    var menuFiltroInicial = [];
+
+    //JSON.stringify(request.body.data.menu)
+
+    helpers.snHttp('/api/x_issas_gesti_n_0/gestion_oportunidades_api/putMenuFiltrosOferta', {
+            method: 'PUT',
+            body: {
+                menu: api.state.ofertasMenuFiltrosInicial
+            },
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        .then(({
+            response
+        }) =&gt; {
+            menuFiltroObj = response.result[0];
+            menuFiltroJson = [menuFiltroObj];
+            api.setState('ofertasMenuFiltros', menuFiltroJson);
+        })
+        .catch(({
+            error
+        }) =&gt; {
+            const message = `Error: ${error.data.error.message}`;
+            console.error(message);
+            api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+                id: 'alert5',
+                status: 'high',
+                icon: 'info-circle-outline',
+                content: message,
+                action: {
+                    type: 'dismiss'
+                }
+            });
+        });
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;semartinez&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-21 15:03:42&lt;/sys_created_on&gt;&lt;sys_id&gt;13688ebedb560d10f7265eea4b961909&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Actualizar Menu Filtro Ofertas&lt;/sys_name&gt;&lt;sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gestión de Oportunidades"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_13688ebedb560d10f7265eea4b961909&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;semartinez&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-21 15:37:40&lt;/sys_updated_on&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1842736491</payload_hash>
+        <record_name>Actualizar Menu Filtro Ofertas</record_name>
+        <reverted_from/>
+        <source>eefcd7aedb86c110f7265eea4b961916</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>semartinez</sys_created_by>
+        <sys_created_on>2022-03-21 15:37:40</sys_created_on>
+        <sys_id>853092b6db960d10f7265eea4b9619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fad2078e80000001</sys_recorded_at>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-03-21 15:37:40</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>4d3092b6d8960d10b881fd378bd4c0c6</update_guid>
+        <update_guid_history>4d3092b6d8960d10b881fd378bd4c0c6:1842736491,187f4e76b7960d1005ff2fffd1f8f2ab:672438424,8f5f8e769b960d10433e3f01d5d8dea7:-1781622725,376eca36f1960d10af24507a96a3aeee:-684430101,324e8636f5960d10b99ec1552d4e2642:-675029741,4e1a0232dc960d10ef6d03c7c3249b0d:-1781622725,7769cefe9e560d10068f5d8f780e87d3:-1232316155,86d8c2fec2560d10ee9ba3d92f3704cc:1658916691,5f784ebefa560d101ee70ff9d24bd72f:-630458810,6b688ebed6560d101d03ebe5bea40f0d:-349036512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-21 22:43:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>ba95b11638b44013a5e1b3229aa40f21</sys_id>
+        <sys_metadata>13688ebedb560d10f7265eea4b961909</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Actualizar Menu Filtro Ofertas</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_13688ebedb560d10f7265eea4b961909</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_13688ebedb560d10f7265eea4b961909">853092b6db960d10f7265eea4b9619c7</sys_update_version>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-21 22:43:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script_include">
+    <sys_ux_client_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <api_name>x_issas_gesti_n_0.ObtenerFiltrosInclude</api_name>
+        <includes/>
+        <name>ObtenerFiltrosInclude</name>
+        <required_translations/>
+        <script><![CDATA[function include() {
+	return {
+		getFiltro:function(payload,tipo){
+			var idsCliente = "";
+            var inicio = false;
+			const result = payload.value.filter(x => x).forEach(function(y) {
+				if (y[1] == tipo) {
+                    if (y[2]) {
+                        if (inicio == true) {
+                            idsCliente += ",";
+                        } 
+                        idsCliente += y[2];
+                        inicio = true;
+                    }
+                }
+			});
+			  return idsCliente;
+		},
+	
+	};
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script_include</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 01:39:00</sys_created_on>
+        <sys_id>59b6dc70db5e0510f7265eea4b96195a</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>ObtenerFiltrosInclude</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_client_script_include_59b6dc70db5e0510f7265eea4b96195a</sys_update_name>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-03-28 17:08:45</sys_updated_on>
+    </sys_ux_client_script_include>
+</record_update>

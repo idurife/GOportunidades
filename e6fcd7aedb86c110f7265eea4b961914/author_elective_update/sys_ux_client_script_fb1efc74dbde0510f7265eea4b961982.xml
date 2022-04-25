@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes>59b6dc70db5e0510f7265eea4b96195a</includes>
+        <macroponent display_value="Simple List">0321db2fdb024110f7265eea4b9619e7</macroponent>
+        <name>Actualizar Filtro Tabla Ofertas</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    //debugger;
+    try {
+        const {
+            context,
+            data,
+            state,
+            setState,
+            emit
+        } = api;
+        //     let itemCliente;
+        //     if(event.payload.item.tabla='cliente'){
+        // itemCliente+=itemCliente+event.payload.item.id;
+        //     }
+        const {
+            payload
+        } = event;
+
+        let queryURL = "";
+        
+        var idsAreas = "";
+        var idsClientes = "";
+        var idsMercados = "";
+        var idsEstados = "";
+        var idsPaises = "";
+
+        const {
+            getFiltro
+        } = imports['x_issas_gesti_n_0.ObtenerFiltrosInclude']();
+
+
+        if (payload) {
+            console.log("payload", payload);
+            idsAreas = getFiltro(payload, 'area_funcional');
+            console.log("idsAreas", idsAreas);
+            queryURL += idsAreas !== "" ? "area_funcional.sys_idIN" + idsAreas + "^" : "";
+            idsClientes = getFiltro(payload, 'cliente');
+            queryURL += idsClientes !== "" ? "cliente.sys_idIN" + idsClientes + "^" : "";
+            idsMercados = getFiltro(payload, 'mercado');
+            queryURL += idsMercados !== "" ? "mercado.sys_idIN" + idsMercados + "^" : "";
+            idsEstados = getFiltro(payload, 'estado');
+            queryURL += idsEstados !== "" ? "estado.IN" + idsEstados + "^" : "";
+            idsPaises = getFiltro(payload, 'pais');
+            queryURL += idsPaises !== "" ? "pais.sys_idIN" + idsPaises + "" : "";
+        }
+
+        //cliente=8dcc07ecdb1a0510f7265eea4b961995^area_funcional=e67072a4dbd60510f7265eea4b961930,8d8072a4dbd60510f7265eea4b9619a8
+        if (queryURL) {
+            console.log('queryURL', queryURL);
+            setState('ofertasPayload', queryURL);
+        } else {
+            setState('ofertasPayload', '');
+        }
+    } catch (e) {
+        debugger;
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-15 04:31:12</sys_created_on>
+        <sys_id>fb1efc74dbde0510f7265eea4b961982</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_name>Actualizar Filtro Tabla Ofertas</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_client_script_fb1efc74dbde0510f7265eea4b961982</sys_update_name>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-03-21 15:05:10</sys_updated_on>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_ux_client_script_fb1efc74dbde0510f7265eea4b961982</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes&gt;59b6dc70db5e0510f7265eea4b96195a&lt;/includes&gt;&lt;macroponent display_value="Simple List"&gt;0321db2fdb024110f7265eea4b9619e7&lt;/macroponent&gt;&lt;name&gt;Actualizar Filtro Tabla Ofertas&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    //debugger;
+    try {
+        const {
+            context,
+            data,
+            state,
+            setState,
+            emit
+        } = api;
+        //     let itemCliente;
+        //     if(event.payload.item.tabla='cliente'){
+        // itemCliente+=itemCliente+event.payload.item.id;
+        //     }
+        const {
+            payload
+        } = event;
+
+        let queryURL = "";
+        
+        var idsAreas = "";
+        var idsClientes = "";
+        var idsMercados = "";
+        var idsEstados = "";
+        var idsPaises = "";
+
+        const {
+            getFiltro
+        } = imports['x_issas_gesti_n_0.ObtenerFiltrosInclude']();
+
+
+        if (payload) {
+            console.log("payload", payload);
+            idsAreas = getFiltro(payload, 'area_funcional');
+            console.log("idsAreas", idsAreas);
+            queryURL += idsAreas !== "" ? "area_funcional.sys_idIN" + idsAreas + "^" : "";
+            idsClientes = getFiltro(payload, 'cliente');
+            queryURL += idsClientes !== "" ? "cliente.sys_idIN" + idsClientes + "^" : "";
+            idsMercados = getFiltro(payload, 'mercado');
+            queryURL += idsMercados !== "" ? "mercado.sys_idIN" + idsMercados + "^" : "";
+            idsEstados = getFiltro(payload, 'estado');
+            queryURL += idsEstados !== "" ? "estado.IN" + idsEstados + "^" : "";
+            idsPaises = getFiltro(payload, 'pais');
+            queryURL += idsPaises !== "" ? "pais.sys_idIN" + idsPaises + "" : "";
+        }
+
+        //cliente=8dcc07ecdb1a0510f7265eea4b961995^area_funcional=e67072a4dbd60510f7265eea4b961930,8d8072a4dbd60510f7265eea4b9619a8
+        if (queryURL) {
+            console.log('queryURL', queryURL);
+            setState('ofertasPayload', queryURL);
+        } else {
+            setState('ofertasPayload', '');
+        }
+    } catch (e) {
+        debugger;
+    }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;idramirez&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-15 04:31:12&lt;/sys_created_on&gt;&lt;sys_id&gt;fb1efc74dbde0510f7265eea4b961982&lt;/sys_id&gt;&lt;sys_mod_count&gt;55&lt;/sys_mod_count&gt;&lt;sys_name&gt;Actualizar Filtro Tabla Ofertas&lt;/sys_name&gt;&lt;sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gestión de Oportunidades"&gt;e6fcd7aedb86c110f7265eea4b961914&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_fb1efc74dbde0510f7265eea4b961982&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;semartinez&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-21 15:05:10&lt;/sys_updated_on&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1546700518</payload_hash>
+        <record_name>Actualizar Filtro Tabla Ofertas</record_name>
+        <reverted_from/>
+        <source>eefcd7aedb86c110f7265eea4b961916</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>semartinez</sys_created_by>
+        <sys_created_on>2022-03-21 15:05:11</sys_created_on>
+        <sys_id>0dc8c2fedb560d10f7265eea4b961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17fad02b8e30000001</sys_recorded_at>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-03-21 15:05:11</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>c1c8c2feaf560d10fcdd6a1fc27d5d81</update_guid>
+        <update_guid_history>c1c8c2feaf560d10fcdd6a1fc27d5d81:1546700518,75b882fe21560d10fa77dfa50754c877:643785606,1ea842feaa560d10f2bac272449e865c:-799795542,27288abe96560d100fad17908962ec49:-2014057667,6e5a2cca9c920910d27585e48d2162c0:1886184422,171a9cca37564910b7e97a0fefcab654:-1395930474,594ffff5cd120910009a40d73a2825e7:-215756530,7a3ffff5dc120910a64d660c1dee805b:-816288362,ec879bf57a9ec510cb14cdbbf7c1fbc9:-1395930474,3617f671211249101ef32487509e94a0:1510159785,2ab27e79471ec510265cf70ab927bab3:-1395930474,3fd45c1d585a8510aa88b8f05de6ea8f:1510159785,2934501dc35a8510b04ebcafa18cf641:-1581353591,45f3d8d9135a85109decf40207a59fbc:-1136031760,23b398d9f05a85109a1348df0c2b344a:844116158,5d63d0d9a65a85100be918b5dbe908b8:1781816341,4a1310d9c45a85105b4f6e50618e1925:853935002,8f829499a55a8510df1d11bda5925ef9:-1320338420,18621499515a85107b330d3469a7e815:-39663057,b0e11c59095a8510f54b826682789192:1338060769,bea05819fb5a851048b2dbc56e89b1e3:1072850134,f8c88011845a851034ef10461380bcdf:1850120626,9fa7c8dde41a8510a61bb917c1de6b68:1906552696,777708dd281a8510a8c8f20c4afbf4a3:2105334398,ec77c4ddc91a8510b8461555cb7ff48b:334017541,55f20859341a85109d7d549de6efb86f:423587877,0cf20859bf1a8510612a5d036e886833:-2146099931,849084d5df1a8510601448b7d82aa2a6:1248759599,c2cb1fb01d1a4510c496321a1b8e991b:-2135050785,e12b93b05f1a451049af5b5e4157a1da:624763595,d91a93709b1a45102d8d20d39169474a:-1015303149,f8679bbcf1d645101a476d4822473722:-889719791,17b6df7c10d64510758908ea089a9a85:538815346,fa06177cacd64510d5b678cfe193ff6a:-1681514066,b9245bf814d645109e2ae7d17ae3b212:-28580782,08241bf899d64510452a94edddf3ae86:1185953538,bfb313f825d6451026cd5c06d0e17d6b:459970691,5f7dc774fad6451015d9cada96a47d71:-596250157,03d8253c72524510e7198ee70b1ba145:-1670321857,e5c569789e5245100c694f82daed2b7c:1560178078,123561786a5245103521e4964aefc916:616068008,d7c36df4a2524510e155edd2aaab6e7d:667844952,651361f4a7524510163dce86c3783b85:1253219640,6b91e9743e524510d32c30f23dc48312:-544924556,368f1134b75245109f818b6d909f4a65:-1790851540,548f11344f52451092e4995aa9bb0151:1291023283,27b6d13c6d124510422f9b63fb65f480:797390252,13a6513c8d124510e186a109ed97d78b:-1700779252,c5b515f8b6124510a1e5e9103b69909d:2092337721,1ce15df442124510f5814d0848d31fd0:1059800291,d7d199f4e112451084b4734259be5e6b:1902660675,859f4d7401124510e874bfdefbac7872:324113815,b58f0d74911245102822dafddad2699b:1936063963,aa06817c9fde05105afd3b017ee3b2af:-386979950,af6e34b4e3de05109934bbbafd8a1956:-1729226223,902efc7452de0510cd1a8eb100d89d98:-349036512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-21 22:42:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>1e82348e280f46d68f64f913fd46fec4</sys_id>
+        <sys_metadata>fb1efc74dbde0510f7265eea4b961982</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Actualizar Filtro Tabla Ofertas</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_fb1efc74dbde0510f7265eea4b961982</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_fb1efc74dbde0510f7265eea4b961982">0dc8c2fedb560d10f7265eea4b961981</sys_update_version>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-21 22:42:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="interno_externo" table="x_issas_gesti_n_0_profesional" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>interno_externo</element>
+            <name>x_issas_gesti_n_0_profesional</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>semartinez</sys_created_by>
+            <sys_created_on>2022-04-20 14:06:31</sys_created_on>
+            <sys_id>d60b50a41b87051084023158cc4bcb14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>interno_externo</sys_name>
+            <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+            <sys_update_name>sys_choice_x_issas_gesti_n_0_profesional_interno_externo</sys_update_name>
+            <sys_updated_by>semartinez</sys_updated_by>
+            <sys_updated_on>2022-04-20 14:06:31</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>interno_externo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>External</label>
+            <language>en</language>
+            <name>x_issas_gesti_n_0_profesional</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>semartinez</sys_created_by>
+            <sys_created_on>2022-04-20 14:06:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>931b50a41b87051084023158cc4bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>semartinez</sys_updated_by>
+            <sys_updated_on>2022-04-20 14:06:58</sys_updated_on>
+            <value>externo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>interno_externo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Externo</label>
+            <language>es</language>
+            <name>x_issas_gesti_n_0_profesional</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>semartinez</sys_created_by>
+            <sys_created_on>2022-04-20 14:07:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f12b50a41b87051084023158cc4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>semartinez</sys_updated_by>
+            <sys_updated_on>2022-04-20 14:07:08</sys_updated_on>
+            <value>externo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>interno_externo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal</label>
+            <language>en</language>
+            <name>x_issas_gesti_n_0_profesional</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>semartinez</sys_created_by>
+            <sys_created_on>2022-04-20 14:06:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6eadc641b87051084023158cc4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>semartinez</sys_updated_by>
+            <sys_updated_on>2022-04-20 14:06:31</sys_updated_on>
+            <value>interno</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>interno_externo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Interno</label>
+            <language>es</language>
+            <name>x_issas_gesti_n_0_profesional</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>semartinez</sys_created_by>
+            <sys_created_on>2022-04-20 14:06:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>401b50a41b87051084023158cc4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>semartinez</sys_updated_by>
+            <sys_updated_on>2022-04-20 14:06:48</sys_updated_on>
+            <value>interno</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

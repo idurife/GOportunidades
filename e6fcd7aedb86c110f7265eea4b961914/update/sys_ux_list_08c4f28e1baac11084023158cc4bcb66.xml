@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Data de Ofertas">c8c4f28e1baac11084023158cc4bcb64</category>
+        <columns>sys_import_row,sys_import_set,sys_import_state,sys_target_table,sys_target_sys_id,sys_row_error</columns>
+        <condition/>
+        <configuration display_value="Gestión de Oportunidades theme_menu_config">7bb4f28e1baac11084023158cc4bcb2a</configuration>
+        <group_by_column/>
+        <groups/>
+        <list_attributes/>
+        <order>50</order>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-31 20:37:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>08c4f28e1baac11084023158cc4bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_list_08c4f28e1baac11084023158cc4bcb66</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-31 20:37:36</sys_updated_on>
+        <table>x_issas_gesti_n_0_data_de_ofertas</table>
+        <title>All</title>
+    </sys_ux_list>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Certificacion" max_length="40" name="x_issas_gesti_n_0_certificacion" sizeclass="10" type="collection">
+        <element label="Comentarios" max_length="500" name="comentarios" type="string"/>
+        <element label="Fecha Alta" max_length="40" name="fecha_alta" type="glide_date"/>
+        <element label="Fecha Caducidad" max_length="40" name="fecha_caducidad" type="glide_date"/>
+        <element attributes="encode_utf8=false,ref_ac_columns=nombre;fabricante,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter" label="Nombre" max_length="4000" name="nombre" reference="x_issas_gesti_n_0_nombre_certificacion" type="glide_list"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false,ref_ac_columns=nombre,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter" label="Profesional" max_length="32" name="profesional" reference="x_issas_gesti_n_0_profesional" type="reference"/>
+        <index name="index">
+            <element name="profesional"/>
+        </index>
+    </element>
+</database>

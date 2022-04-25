@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Gestión de Oportunidades Demo Config">940c07e759024110057e95adda8195df</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>List</name>
+        <optional_parameters>listId,configId,tinyId</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>list</route_type>
+        <screen_type display_value="List">180c07e7be024110a66520812dd2e0e0</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-11 17:38:43</sys_created_on>
+        <sys_id>580c07e7620241107d8fd2e7837044e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_app_route_580c07e7620241107d8fd2e7837044e0</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-11 17:38:43</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_ux_app_route_580c07e7620241107d8fd2e7837044e0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Gestión de Oportunidades Demo Config">940c07e759024110057e95adda8195df</app_config><description/><fields/><icon/><name>List</name><optional_parameters>listId,configId,tinyId</optional_parameters><order>0</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>list</route_type><screen_type display_value="List">180c07e7be024110a66520812dd2e0e0</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>idramirez</sys_created_by><sys_created_on>2022-03-11 17:38:43</sys_created_on><sys_id>580c07e7620241107d8fd2e7837044e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>List</sys_name><sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package><sys_policy/><sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope><sys_update_name>sys_ux_app_route_580c07e7620241107d8fd2e7837044e0</sys_update_name><sys_updated_by>idramirez</sys_updated_by><sys_updated_on>2022-03-11 17:38:43</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>-364953596</payload_hash>
+        <record_name>List</record_name>
+        <reverted_from/>
+        <source>3f8ab713db020110f7265eea4b9619b8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-03-11 02:23:36</sys_created_on>
+        <sys_id>484c8be7db024110f7265eea4b9619bb</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17f76c9e0400000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Route</type>
+        <update_guid>084c8be7be024110b45d5d23628735bb</update_guid>
+        <update_guid_history>084c8be7be024110b45d5d23628735bb:-364953596</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-11 17:39:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>80857794ff01410081c3b741ea590000</sys_id>
+        <sys_metadata>580c07e7620241107d8fd2e7837044e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_580c07e7620241107d8fd2e7837044e0</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_580c07e7620241107d8fd2e7837044e0">484c8be7db024110f7265eea4b9619bb</sys_update_version>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-11 17:39:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

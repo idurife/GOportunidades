@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>58d17acf0b531010a8b1c96237673a68</includes>
+        <macroponent display_value="Agent assist">130548d91baa011084023158cc4bcbaf</macroponent>
+        <name>agentAssistOpenRecordRouteMapping</name>
+        <required_translations/>
+        <script><![CDATA[function handler({
+    api,
+    helpers,
+    event,
+    imports
+}) {
+    const {
+        routeMapping,
+        buildDefaultRoutePayload
+    } = imports["global.recordRoutesMapping"]();
+
+    var route = 'record';
+    var targetRoute = 'current';
+    const defaultRoutePayload = buildDefaultRoutePayload(route, targetRoute, event);
+    
+    const routeMap = api.data.dynamic_routing_agent_assist.routeMap;
+    const payload = routeMapping(routeMap, defaultRoutePayload, event);
+
+    const {
+        emit
+    } = api;
+    emit('NAV_ITEM_SELECTED', payload);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-28 23:54:31</sys_created_on>
+        <sys_id>d70548d91baa011084023158cc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>agentAssistOpenRecordRouteMapping</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_client_script_d70548d91baa011084023158cc4bcbba</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-28 23:54:31</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

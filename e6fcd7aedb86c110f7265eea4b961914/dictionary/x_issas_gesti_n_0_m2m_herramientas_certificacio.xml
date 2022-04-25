@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Gesti N 0 M2m Herramientas Certificacio" max_length="40" name="x_issas_gesti_n_0_m2m_herramientas_certificacio" sizeclass="0" type="collection">
+        <element attributes="encode_utf8=false" label="Certificacion" max_length="32" name="certificacion" reference="x_issas_gesti_n_0_certificacion" type="reference"/>
+        <element attributes="encode_utf8=false" label="Herramienta" max_length="32" name="herramienta" reference="x_issas_gesti_n_0_herramienta" type="reference"/>
+        <index name="index">
+            <element name="herramienta"/>
+        </index>
+        <index name="index2">
+            <element name="certificacion"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Gestion Oportunidades Indra Theme</name>
+        <parent display_value="Theme Base Indra">b0325688dbfe8910f7265eea4b96194f</parent>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-31 20:40:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6915f68e1baac11084023158cc4bcbf6</sys_id>
+        <sys_mod_count>283</sys_mod_count>
+        <sys_name>Gestion Oportunidades Indra Theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_theme_6915f68e1baac11084023158cc4bcbf6</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 14:33:57</sys_updated_on>
+        <theme>{&#13;
+    &#13;
+"--now-dropdown--secondary--active--color": "0,0,0",&#13;
+"--now-dropdown--secondary--background-color": "0,0,0",&#13;
+    &#13;
+"--now-font-family": "arial,sans-serif",&#13;
+"--now-button--border-radius": "25px",&#13;
+"--now-color_text--primary": "0,0,0",&#13;
+  &#13;
+"--now-color_text--tertiary":"120,120,120",&#13;
+"color--text-tertiary": "99,114,116",&#13;
+"--now-content-tree--background-color--selected":"--primary-2",&#13;
+"--now-content-tree-node--background-color--selected":"--primary-3",&#13;
+"--now-canvas-toolbar-button--color--focus": "255,255,255",&#13;
+&#13;
+&#13;
+&#13;
+"--now-color_focus-ring":"0,0,0,opacity:0.9",&#13;
+    &#13;
+&#13;
+    &#13;
+"--now-color--neutral-1": "--secundary-0",&#13;
+"--now-color--neutral-3": "--primary-0",&#13;
+"--now-color--neutral-9":"255,165,0",&#13;
+     &#13;
+"--now-color--neutral-12":"--secundary-2",&#13;
+    &#13;
+"--now-color--neutral-15": "--secundary-2",&#13;
+"--now-color--neutral-18":"0,0,0",&#13;
+&#13;
+"--now-color--focus-1": "213, 230, 200",&#13;
+"--now-line-height-crop--before": "-0.2125em",&#13;
+"--now-line-height-crop--after": "-0.275em",&#13;
+&#13;
+&#13;
+&#13;
+"--now-color--primary-0": "--primary-0",&#13;
+"--now-color--primary-1": "--primary-1",&#13;
+"--now-color--primary-2": "--primary-2",&#13;
+"--now-color--primary-3": "--secundary-0",&#13;
+&#13;
+"--now-color--secondary-0": "--secundary-0",&#13;
+"--now-color--secondary-1": "--secundary-1",&#13;
+"--now-color--secondary-2": "--secundary-2",&#13;
+"--now-color--secondary-3": "--secundary-3",&#13;
+&#13;
+"--now-color--link-1": "246, 250, 243",&#13;
+"--now-button--border-width": "1px",&#13;
+"--now-button--font-weight": "500",&#13;
+"--now-button--height-scale": "1",&#13;
+&#13;
+"--now-button--primary--color": "--secundary-2", &#13;
+"--now-button--primary--color--hover": "255,255,255",&#13;
+"--now-button--primary--color--active": "--primary-3",&#13;
+"--now-button--primary--background-color": "0,0,0,0",&#13;
+"--now-button--primary--background-color--hover": "--secundary-2",&#13;
+"--now-button--primary--background-color--active": "0,0,0,0",&#13;
+"--now-button--primary--border-color": "--secundary-3",&#13;
+"--now-button--primary--border-color--hover": "--secundary-2",&#13;
+"--now-button--primary--border-color--active": "83,81,210",&#13;
+&#13;
+    &#13;
+    &#13;
+    &#13;
+&#13;
+"--now-button--secondary--color": "--secundary-0",&#13;
+"--now-button--secondary--color--hover": "--secundary-0",&#13;
+"--now-button--secondary--color--active": "--secundary-3",&#13;
+"--now-button--secondary--background-color": "--secundary-2",&#13;
+"--now-button--secondary--background-color--hover": "--primary-3",&#13;
+"--now-button--secondary--background-color--active": "--primary-3",&#13;
+"--now-button--secondary--border-color": "0,0,0,0",&#13;
+"--now-button--secondary--border-color--hover": "0,0,0,0",&#13;
+"--now-button--secondary--border-color--active": "0,0,0,0",&#13;
+&#13;
+&#13;
+"--now-button--tertiary--color": "0,0,0,0",&#13;
+"--now-button--tertiary--color--hover": "--secundary-1",&#13;
+"--now-button--tertiary--color--active": "0,0,0",&#13;
+"--now-button--tertiary--background-color": "0,0,0,0",&#13;
+"--now-button--tertiary--background-color--active": "0,0,0,0",&#13;
+"--now-button--tertiary--background-color--hover": "0,0,0,0",&#13;
+"--now-button--tertiary--border-color": "0,0,0,0",&#13;
+"--now-button--tertiary--border-color--hover": "0,0,0,0",&#13;
+"--now-button--tertiary--border-color--active": "0,0,0,0",&#13;
+&#13;
+"--now-checkbox--border-radius": "4px",&#13;
+"--now-checkbox_icon--color": "--secundary-1",&#13;
+&#13;
+"--now-badge--secondary-low--background-color":"255,255,255",&#13;
+&#13;
+&#13;
+"--now-heading--header-primary--color": "--secundary-2",&#13;
+"--now-heading--header-primary--font-weight": "500",&#13;
+"--now-heading--header-secondary--font-weight": "500",&#13;
+"--now-heading--header-tertiary--font-weight": "500",&#13;
+   &#13;
+ &#13;
+    &#13;
+&#13;
+"--now-radio-buttons--background-color--active": "255,255,255",&#13;
+"--now-radio-buttons_radio--background-color": "--primary-3",&#13;
+&#13;
+"--now-tabs--font-style": "normal",&#13;
+"--now-tabs--font-weight": "500",&#13;
+"--now-tabs--text-transform": "none",&#13;
+"--now-tabs--border-color": "0,0,0",&#13;
+"--now-tabs--color": "--primary-3",&#13;
+"--now-tabs--color--hover": "--primary-3",&#13;
+"--now-tabs--color--selected": "var(--secundary-2)",&#13;
+"--now-tabs--border-color--hover": "--primary-3",&#13;
+"--now-tabs--background-color": "255,255,255",&#13;
+"--now-tabs--background-color-alpha": "0",&#13;
+"--now-tabs--background-color--hover": "0,0,0,0",&#13;
+"--now-tabs--background-color--selected": "255,255,255",&#13;
+&#13;
+"--now-toggle_handle--border-radius": "100px",&#13;
+"--now-toggle_track--border-color": "--secundary-3",&#13;
+"--now-toggle_track--background-color": "--secundary-3",&#13;
+"--now-toggle_track--background-color--checked": "--secundary-2",&#13;
+"--now-toggle_track--border-color--checked": "--secundary-2",&#13;
+"--now-toggle_track--border-radius": "100px",&#13;
+&#13;
+"--now-canvas-header-container-ws--background-color": "--now-color_brand--primary",&#13;
+"--now-canvas-nav-item--default--color": "--now-color--neutral-4",&#13;
+"--now-canvas-nav-item--default--color--hover": "--now-color--neutral-1",&#13;
+"--now-canvas-nav-item--default--color--active": "--now-color--neutral-4",&#13;
+"--now-color_border--primary":"--secundary-2",&#13;
+"sidebar--background-color": "--primary-0",&#13;
+    &#13;
+      "--now-heading--header-primary--font-style": "normal",&#13;
+    "--now-heading--header-primary--font-size": "Open Sans",&#13;
+    "--now-heading--header-secondary--font-family":"Open Sans"&#13;
+}&#13;
+&#13;
+</theme>
+    </sys_ux_theme>
+</record_update>

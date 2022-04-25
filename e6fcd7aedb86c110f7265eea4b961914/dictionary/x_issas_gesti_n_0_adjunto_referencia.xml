@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Adjunto Referencia" max_length="40" name="x_issas_gesti_n_0_adjunto_referencia" sizeclass="5" type="collection">
+        <element label="Area Funcional" max_length="4000" name="area_funcional" reference="x_issas_gesti_n_0_area_funcional" type="glide_list"/>
+        <element label="Descripcion" max_length="200" name="descripcion" type="string"/>
+        <element choice="1" label="Estado" max_length="40" name="estado" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Valido" sequence="10" value="valido"/>
+                <element inactive_on_update="false" label="Obsoleto" sequence="20" value="obsoleto"/>
+            </choice>
+        </element>
+        <element label="Herramienta" max_length="4000" name="herramienta" reference="x_issas_gesti_n_0_herramienta" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Oferta" max_length="32" name="oferta" reference="x_issas_gesti_n_0_oferta" type="reference"/>
+        <index name="index">
+            <element name="oferta"/>
+        </index>
+    </element>
+</database>

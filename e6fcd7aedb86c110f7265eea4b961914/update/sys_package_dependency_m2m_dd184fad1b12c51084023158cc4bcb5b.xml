@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">24bbbb861b11301084023158cc4bcbc4</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>ecsunahata</sys_created_by>
+        <sys_created_on>2022-03-17 22:29:25</sys_created_on>
+        <sys_id>dd184fad1b12c51084023158cc4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_updated_by>ecsunahata</sys_updated_by>
+        <sys_updated_on>2022-03-17 22:29:25</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

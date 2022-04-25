@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Referencia" section_id="5c5c3d9bdb4a4510f7265eea4b9619b4" sys_domain="global" table="x_issas_gesti_n_0_oferta" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>situacion_previa_y_necesidades</element>
+            <position>0</position>
+            <sys_created_by>ecsunahata</sys_created_by>
+            <sys_created_on>2022-04-05 16:17:27</sys_created_on>
+            <sys_id>462923ebdbe64910f7265eea4b96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Referencia" display_value="Referencia" name="x_issas_gesti_n_0_oferta" sys_domain="global" view="Default view">5c5c3d9bdb4a4510f7265eea4b9619b4</sys_ui_section>
+            <sys_updated_by>ecsunahata</sys_updated_by>
+            <sys_updated_on>2022-04-05 16:17:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>volumetria</element>
+            <position>1</position>
+            <sys_created_by>ecsunahata</sys_created_by>
+            <sys_created_on>2022-04-05 16:17:27</sys_created_on>
+            <sys_id>ca2923ebdbe64910f7265eea4b96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Referencia" display_value="Referencia" name="x_issas_gesti_n_0_oferta" sys_domain="global" view="Default view">5c5c3d9bdb4a4510f7265eea4b9619b4</sys_ui_section>
+            <sys_updated_by>ecsunahata</sys_updated_by>
+            <sys_updated_on>2022-04-05 16:17:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ftes_y_dedicacion</element>
+            <position>2</position>
+            <sys_created_by>ecsunahata</sys_created_by>
+            <sys_created_on>2022-04-05 16:17:27</sys_created_on>
+            <sys_id>422923ebdbe64910f7265eea4b96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Referencia" display_value="Referencia" name="x_issas_gesti_n_0_oferta" sys_domain="global" view="Default view">5c5c3d9bdb4a4510f7265eea4b9619b4</sys_ui_section>
+            <sys_updated_by>ecsunahata</sys_updated_by>
+            <sys_updated_on>2022-04-05 16:17:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>ecsunahata</sys_created_by>
+            <sys_created_on>2022-04-05 16:17:27</sys_created_on>
+            <sys_id>c62923ebdbe64910f7265eea4b96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Referencia" display_value="Referencia" name="x_issas_gesti_n_0_oferta" sys_domain="global" view="Default view">5c5c3d9bdb4a4510f7265eea4b9619b4</sys_ui_section>
+            <sys_updated_by>ecsunahata</sys_updated_by>
+            <sys_updated_on>2022-04-05 16:17:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>metodologia</element>
+            <position>4</position>
+            <sys_created_by>ecsunahata</sys_created_by>
+            <sys_created_on>2022-04-05 16:17:27</sys_created_on>
+            <sys_id>4e2923ebdbe64910f7265eea4b96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Referencia" display_value="Referencia" name="x_issas_gesti_n_0_oferta" sys_domain="global" view="Default view">5c5c3d9bdb4a4510f7265eea4b9619b4</sys_ui_section>
+            <sys_updated_by>ecsunahata</sys_updated_by>
+            <sys_updated_on>2022-04-05 16:17:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>alcance</element>
+            <position>5</position>
+            <sys_created_by>ecsunahata</sys_created_by>
+            <sys_created_on>2022-04-05 16:17:27</sys_created_on>
+            <sys_id>c22923ebdbe64910f7265eea4b96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Referencia" display_value="Referencia" name="x_issas_gesti_n_0_oferta" sys_domain="global" view="Default view">5c5c3d9bdb4a4510f7265eea4b9619b4</sys_ui_section>
+            <sys_updated_by>ecsunahata</sys_updated_by>
+            <sys_updated_on>2022-04-05 16:17:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>facturacion</element>
+            <position>6</position>
+            <sys_created_by>ecsunahata</sys_created_by>
+            <sys_created_on>2022-04-05 16:17:27</sys_created_on>
+            <sys_id>4a2923ebdbe64910f7265eea4b96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Referencia" display_value="Referencia" name="x_issas_gesti_n_0_oferta" sys_domain="global" view="Default view">5c5c3d9bdb4a4510f7265eea4b9619b4</sys_ui_section>
+            <sys_updated_by>ecsunahata</sys_updated_by>
+            <sys_updated_on>2022-04-05 16:17:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Referencia</caption>
+            <header>false</header>
+            <name>x_issas_gesti_n_0_oferta</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jmmatas</sys_created_by>
+            <sys_created_on>2022-03-10 17:12:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c5c3d9bdb4a4510f7265eea4b9619b4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_issas_gesti_n_0_oferta</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+            <sys_update_name>sys_ui_section_5c5c3d9bdb4a4510f7265eea4b9619b4</sys_update_name>
+            <sys_updated_by>ecsunahata</sys_updated_by>
+            <sys_updated_on>2022-04-05 16:11:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

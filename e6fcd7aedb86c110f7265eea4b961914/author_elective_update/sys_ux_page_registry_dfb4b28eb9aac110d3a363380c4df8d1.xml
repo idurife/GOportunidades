@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>53b4b28ec9aac1107a3d93467ffe4dd0</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <path>gestin-de-oportunidades-theme</path>
+        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-31 20:37:34</sys_created_on>
+        <sys_id>dfb4b28eb9aac110d3a363380c4df8d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gestión de Oportunidades theme</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_page_registry_dfb4b28eb9aac110d3a363380c4df8d1</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-31 20:37:34</sys_updated_on>
+        <title>Gestión de Oportunidades theme</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</application>
+        <file_path/>
+        <instance_id>672e3316dbd1c4140b9d21c405961974</instance_id>
+        <instance_name>indrademo9</instance_name>
+        <name>sys_ux_page_registry_dfb4b28eb9aac110d3a363380c4df8d1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>53b4b28ec9aac1107a3d93467ffe4dd0</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><path>gestin-de-oportunidades-theme</path><root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>idramirez</sys_created_by><sys_created_on>2022-03-31 20:37:34</sys_created_on><sys_id>dfb4b28eb9aac110d3a363380c4df8d1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Gestión de Oportunidades theme</sys_name><sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package><sys_policy/><sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope><sys_update_name>sys_ux_page_registry_dfb4b28eb9aac110d3a363380c4df8d1</sys_update_name><sys_updated_by>idramirez</sys_updated_by><sys_updated_on>2022-03-31 20:37:34</sys_updated_on><title>Gestión de Oportunidades theme</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-321824098</payload_hash>
+        <record_name>Gestión de Oportunidades theme</record_name>
+        <reverted_from/>
+        <source>3f8ab713db020110f7265eea4b9619b8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-03-11 02:23:36</sys_created_on>
+        <sys_id>479646b8db4b0d10f7265eea4b96193e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17f76c9e0400000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>079646b8014b0d108f95200da3656b3e</update_guid>
+        <update_guid_history>079646b8014b0d108f95200da3656b3e:-321824098</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-04-21 16:35:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>314ad6e68c504fa894670e7c8d1e7c40</sys_id>
+        <sys_metadata>dfb4b28eb9aac110d3a363380c4df8d1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gestión de Oportunidades theme</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_scope_delete display_value="">04a147d2b8894f398130bc4cd8df1b89</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_dfb4b28eb9aac110d3a363380c4df8d1</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_dfb4b28eb9aac110d3a363380c4df8d1">479646b8db4b0d10f7265eea4b96193e</sys_update_version>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-04-21 16:35:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

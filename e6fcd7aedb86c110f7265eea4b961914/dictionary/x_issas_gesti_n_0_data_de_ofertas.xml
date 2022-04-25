@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Data de Ofertas" max_length="40" name="x_issas_gesti_n_0_data_de_ofertas" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Alcance" label="Alcance" max_length="40" name="u_alcance" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Area Funcional" label="Area Funcional" max_length="40" name="u_area_funcional" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cliente" label="Cliente" max_length="40" name="u_cliente" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Contactos DS/TTAA/GA" label="Contactos DS/TTAA/GA" max_length="40" name="u_contactos_ds_ttaa_ga" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Contactos Mercado" label="Contactos Mercado" max_length="40" name="u_contactos_mercado" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Contactos Tecnicos" label="Contactos Tecnicos" max_length="40" name="u_contactos_tecnicos" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Descripcion detallada" label="Descripcion detallada" max_length="40" name="u_descripcion_detallada" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Estado" label="Estado" max_length="40" name="u_estado" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Mercado" label="Mercado" max_length="40" name="u_mercado" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Pais" label="Pais" max_length="40" name="u_pais" type="string"/>
+    </element>
+</database>

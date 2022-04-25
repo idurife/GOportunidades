@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>SCREEN_STATUS_CHANGED_RELAY_558adc930f0210107d20409dc4767e84</event_name>
+        <interfaces/>
+        <label>Screen Status Changed Relay (Record Default)</label>
+        <props>[{"name":"screenKey","fieldType":"string","interfaceApiName":null,"label":"Id of the screen the changed occured"},{"name":"status","fieldType":"string","interfaceApiName":null,"label":"The status operation for this action"},{"name":"title","fieldType":"string","interfaceApiName":null,"label":"Display Title"},{"name":"icon","fieldType":"string","interfaceApiName":null,"label":"Icon"},{"name":"message","fieldType":"string","interfaceApiName":null,"label":"Message"},{"name":"isDirty","fieldType":"boolean","interfaceApiName":null,"label":"Screen is Dirty"},{"name":"hasError","fieldType":"boolean","interfaceApiName":null,"label":"Screen has Errors"},{"name":"hasUpdate","fieldType":"boolean","interfaceApiName":null,"label":"Screen has update"},{"name":"dirtyModalId","fieldType":"string","interfaceApiName":null,"label":"Dirty Modal Id"},{"name":"tooltipPreview","fieldType":"json","interfaceApiName":null,"label":"Tooltip Preview"},{"name":"screenParams","fieldType":"json","interfaceApiName":null,"label":"Screen Parameters"}]</props>
+        <required_translations>[ {
+  "message" : "Dirty Modal Id",
+  "comment" : ""
+}, {
+  "message" : "Display Title",
+  "comment" : ""
+}, {
+  "message" : "Icon",
+  "comment" : ""
+}, {
+  "message" : "Id of the screen the changed occured",
+  "comment" : ""
+}, {
+  "message" : "Message",
+  "comment" : ""
+}, {
+  "message" : "Screen Parameters",
+  "comment" : ""
+}, {
+  "message" : "Screen has Errors",
+  "comment" : ""
+}, {
+  "message" : "Screen has update",
+  "comment" : ""
+}, {
+  "message" : "Screen is Dirty",
+  "comment" : ""
+}, {
+  "message" : "The status operation for this action",
+  "comment" : ""
+}, {
+  "message" : "Tooltip Preview",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>ecsunahata</sys_created_by>
+        <sys_created_on>2022-03-17 15:12:32</sys_created_on>
+        <sys_id>7914e1a91bda851084023158cc4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Screen Status Changed Relay (Record Default)</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_event_7914e1a91bda851084023158cc4bcb15</sys_update_name>
+        <sys_updated_by>ecsunahata</sys_updated_by>
+        <sys_updated_on>2022-03-17 15:12:32</sys_updated_on>
+    </sys_ux_event>
+</record_update>

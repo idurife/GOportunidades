@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Row One",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "content_tree_1",
+      "elementLabel" : "Content tree 1",
+      "propertyValues" : {
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "md"
+        },
+        "select" : {
+          "type" : "JSON_LITERAL",
+          "value" : "single"
+        },
+        "overflow" : {
+          "type" : "JSON_LITERAL",
+          "value" : "scroll"
+        },
+        "triggerIcon" : {
+          "type" : "JSON_LITERAL",
+          "value" : "chevron"
+        },
+        "highlightSelectedParent" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showActionsOnHover" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showDividers" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showPresencePattern" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "items" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "id" : {
+                "type" : "JSON_LITERAL",
+                "value" : "p1"
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "Tree parent item",
+                  "comment" : ""
+                }
+              },
+              "children" : {
+                "type" : "JSON_LITERAL",
+                "value" : [ {
+                  "id" : "c1",
+                  "label" : "Tree child item 1"
+                }, {
+                  "id" : "c2",
+                  "label" : "Tree child item 2"
+                }, {
+                  "id" : "c3",
+                  "label" : "Tree child item 3"
+                } ]
+              }
+            }
+          } ]
+        },
+        "expandedItems" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ [ "p1" ] ]
+        },
+        "selectedItems" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ ]
+        },
+        "loadingItems" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ ]
+        },
+        "searchTerm" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "activeRoute" : {
+          "type" : "JSON_LITERAL",
+          "value" : {
+            "0" : "[",
+            "routeType" : ""
+          }
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Sidebar 1",
+      "definition" : {
+        "id" : "71baad1870878aa2e853a2d9a3373f84",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "list_1",
+      "elementLabel" : "List 1",
+      "propertyValues" : {
+        "menuSelection" : {
+          "type" : "JSON_LITERAL",
+          "value" : "Select menu to connect..."
+        },
+        "table" : {
+          "type" : "JSON_LITERAL",
+          "value" : "x_issas_gesti_n_0_oferta"
+        },
+        "listTitle" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "All Active Tasks",
+            "comment" : ""
+          }
+        },
+        "selectedListId" : {
+          "type" : "JSON_LITERAL",
+          "value" : "Select..."
+        },
+        "query" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "view" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "columns" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "groupByField" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "maxColumns" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "limit" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "actionConfigId" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "hideDeclarativeActions" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "highlightedValueConfigId" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "hideHighlightedValues" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideHeader" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "headerSize" : {
+          "type" : "JSON_LITERAL",
+          "value" : "lg"
+        },
+        "headingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : 1
+        },
+        "hideTitle" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideTitleRowCount" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideRefreshButton" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideLastRefreshedText" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideMenuButton" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideListSharing" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideFilterPanel" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "listMenuOpen" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideQuickEdit" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideRowSelector" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideColumnGrouping" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideColumnResizing" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideColumnFiltering" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideColumnSorting" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideDragDrop" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideCellFilter" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideInlineEditing" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideLinks" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "wordWrap" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "maxCharLimit" : {
+          "type" : "JSON_LITERAL",
+          "value" : 4000
+        },
+        "isRefList" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideEmptyStateImage" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hidePagination" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hidePages" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideRange" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideRowCount" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideFirstPage" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideLastPage" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hideLimitSelector" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "tiny" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "error" : {
+          "type" : "JSON_LITERAL",
+          "value" : { }
+        },
+        "selectedRecords" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ ]
+        },
+        "refreshRequested" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "page" : {
+          "type" : "JSON_LITERAL",
+          "value" : 1
+        },
+        "recordSelectedTable" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "recordSelectedSysId" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "recordSelectedQuery" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "recordSelectedView" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "daClientActionContract" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "66ee7d86e81f696c9f9be19d8424cc0d",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Sidebar 1","rules":{"flex":"1","margin-right":"1rem"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Main","rules":{"flex":"2"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+        "styles" : null,
+        "templateId" : "7579b58153071010e6bcddeeff7b1290",
+        "type" : "flex"
+      },
+      "version" : "2.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "53f70741b7a32010415d6c91de11a9c0",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "resolve_route_parent_tables",
+  "elementLabel" : "Resolve route parent tables",
+  "eventMappings" : [ {
+    "eventMappingId" : "cknkorqqvaaaaeeeddghhvmmyujtshh",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "d348f2c21beac11084023158cc4bcb63"
+      },
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "cknkorqqvaaaaeefddghhvhcciiddzndx",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "inputValues" : {
+    "table" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "navigationPayload", "fields", "table" ]
+      }
+    },
+    "sysId" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "navigationPayload", "fields", "sysId" ]
+      }
+    }
+  },
+  "readEvaluationMode" : "EXPLICIT"
+} ]</data>
+        <dispatched_events>a93972c21beac11084023158cc4bcb1e,4515f3e853031010ffa5ddeeff7b12a7,1515f3e853031010ffa5ddeeff7b12ad,9515f3e853031010ffa5ddeeff7b12de</dispatched_events>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events>a3b05c2f9868a010f877170d6e7d656a</handled_events>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+  "MACROPONENT_PROPERTY_CHANGED" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "8348f2c21beac11084023158cc4bcb3a"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "ckiggybubbffaaaabbuddgiihhrzquyjhhf",
+    "type" : "CLIENT_SCRIPT"
+  } ],
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "8348f2c21beac11084023158cc4bcb3a"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "ckiggybjjtcaaaabbhddgiihhbzltaaafff",
+    "type" : "CLIENT_SCRIPT"
+  }, {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "4b48f2c21beac11084023158cc4bcb3e"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "cklcqqjucaaaaggtddhhhrlxiiaaiggddbb",
+    "type" : "CLIENT_SCRIPT"
+  } ],
+  "sn_uib_base_aw.SIMPLE_LIST#NAV_ITEM_SELECTED" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "x_issas_gesti_n_0.NAV_ITEM_SELECTED_RELAY_c748b2c21beac11084023158cc4bcb9b",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "a93972c21beac11084023158cc4bcb1e"
+    },
+    "operation" : null,
+    "targetId" : "ckgcbbbvpjaaaaaagddghhanwwsqhsk",
+    "type" : "EVENT"
+  } ]
+}</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Row One","rules":{"grid-area":"row-one"},"styles":{"display":"flex"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"row-one\"","grid-gap":"1px"},
+    "styles" : {"height":"100%"},
+    "templateId" : null,
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Simple List</name>
+        <props>[ {
+  "name" : "disableInlineEditing",
+  "label" : "disableInlineEditing",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "listTitle",
+  "label" : "listTitle",
+  "fieldType" : null,
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "query",
+  "label" : "query",
+  "fieldType" : null,
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "userPrefs",
+  "label" : "user preferences",
+  "fieldType" : "json",
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "List of all user preferences",
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "table",
+  "label" : "table",
+  "fieldType" : null,
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : true,
+  "defaultValue" : null,
+  "description" : "",
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "listView",
+  "label" : "listView",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+} ]</props>
+        <required_translations>[ {
+  "message" : "All Active Tasks",
+  "comment" : ""
+}, {
+  "message" : "Tree child item 1",
+  "comment" : ""
+}, {
+  "message" : "Tree child item 2",
+  "comment" : ""
+}, {
+  "message" : "Tree child item 3",
+  "comment" : ""
+}, {
+  "message" : "Tree parent item",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{
+  "bare" : true
+}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "wrapListText",
+  "label" : "wrapListText",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}, {
+  "name" : "navigationPayload ",
+  "label" : "navigationPayload ",
+  "fieldType" : "json",
+  "valueType" : "json",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "routeParentTables",
+  "label" : "routeParentTables",
+  "fieldType" : "string",
+  "valueType" : "string",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "CONTEXT_BINDING",
+    "binding" : {
+      "address" : [ "routeParentTables" ],
+      "category" : "app"
+    }
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>idramirez</sys_created_by>
+        <sys_created_on>2022-03-31 20:53:06</sys_created_on>
+        <sys_id>c748b2c21beac11084023158cc4bcb9b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Simple List</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_ux_macroponent_c748b2c21beac11084023158cc4bcb9b</sys_update_name>
+        <sys_updated_by>idramirez</sys_updated_by>
+        <sys_updated_on>2022-03-31 20:57:31</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>
