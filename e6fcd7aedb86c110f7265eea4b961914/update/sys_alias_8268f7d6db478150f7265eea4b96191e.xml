@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_issas_gesti_n_0.INDRA_TEST_GO_12</id>
+        <multiple_connections>false</multiple_connections>
+        <name>INDRA_TEST_GO_12</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>semartinez</sys_created_by>
+        <sys_created_on>2022-04-26 16:43:33</sys_created_on>
+        <sys_id>8268f7d6db478150f7265eea4b96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_issas_gesti_n_0.INDRA_TEST_GO_12</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sys_alias_8268f7d6db478150f7265eea4b96191e</sys_update_name>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-04-26 16:43:33</sys_updated_on>
+        <type>credential</type>
+    </sys_alias>
+</record_update>

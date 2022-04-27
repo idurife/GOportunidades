@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_app_eng_studio_environment">
+    <sn_app_eng_studio_environment action="INSERT_OR_UPDATE">
+        <instance_credential display_value="x_issas_gesti_n_0.INDRA_DEV_GO_12">a90b339adb478150f7265eea4b961981</instance_credential>
+        <instance_url>https://indrademo9.service-now.com</instance_url>
+        <name>INDRA DEV GO</name>
+        <sys_class_name>sn_app_eng_studio_environment</sys_class_name>
+        <sys_created_by>semartinez</sys_created_by>
+        <sys_created_on>2022-04-26 16:55:47</sys_created_on>
+        <sys_id>d7ea339adb478150f7265eea4b961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>INDRA DEV GO</sys_name>
+        <sys_package display_value="Gestión de Oportunidades" source="x_issas_gesti_n_0">e6fcd7aedb86c110f7265eea4b961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Oportunidades">e6fcd7aedb86c110f7265eea4b961914</sys_scope>
+        <sys_update_name>sn_app_eng_studio_environment_d7ea339adb478150f7265eea4b961946</sys_update_name>
+        <sys_updated_by>semartinez</sys_updated_by>
+        <sys_updated_on>2022-04-26 16:55:47</sys_updated_on>
+    </sn_app_eng_studio_environment>
+</record_update>
